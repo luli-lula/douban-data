@@ -1,0 +1,41 @@
+name: Sync Douban Data
+
+on:
+  schedule:
+    # 每天UTC 16点 (北京时间0点) 同步
+    - cron: '0 16 * * *'
+  workflow_dispatch: # 手动触发
+
+jobs:
+  sync-and-process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Sync Douban Movies Data
+        uses: lizheming/doumark-action@master
+        with:
+          id: 59715677  # 你的豆瓣用户ID
+          type: movie
+          format: json
+          status: done  # 已看完的电影
+          dir: ./data/raw
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm install
+          
+      - name: Process and filter data
+        run: node scripts/process-data.js
+          
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '🎬 更新豆瓣电影数据 $(date -u +"%Y-%m-%d %H:%M:%S UTC")'
+          file_pattern: 'data/*.json'
+          commit_author: 'Douban Sync Bot <noreply@github.com>'

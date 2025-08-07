@@ -1,0 +1,17 @@
+{
+  "name": "douban-data",
+  "version": "1.0.0",
+  "description": "Personal Douban movies/books data sync and processing",
+  "scripts": {
+    "process": "node scripts/process-data.js",
+    "test": "node scripts/test-data.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luli-lula/douban-data.git"
+  },
+  "author": "lula",
+  "license": "MIT"
+}
