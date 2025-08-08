@@ -43,4 +43,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: '🎬 更新豆瓣电影数据'
-          add: 'data/raw/movie.csv data/movies.json data/movie-stats.json data/backup/movies-backup.json images/posters/*'
+          add: 'data/raw/movie.csv data/movies.json data/movie-stats.json data/backup/movies-backup.json images/movies/*'

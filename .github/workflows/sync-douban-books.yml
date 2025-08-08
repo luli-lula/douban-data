@@ -50,6 +50,103 @@ jobs:
         run: |
           sudo chown -R runner:docker ./data/raw/ || true
           
+      - name: Clean CSV file (remove intro field to avoid multiline issues)
+        run: |
+          if [ -f "./data/raw/book.csv" ]; then
+            echo "清理book.csv，移除intro字段避免多行解析问题..."
+            # 备份原文件
+            cp ./data/raw/book.csv ./data/raw/book.csv.backup
+            
+            # 使用Node.js脚本清理CSV，移除intro字段避免多行文本解析问题
+            node -e "
+              const fs = require('fs');
+              try {
+                const csvContent = fs.readFileSync('./data/raw/book.csv', 'utf8');
+                const lines = csvContent.split('\n');
+                
+                console.log('原始CSV行数:', lines.length);
+                
+                const cleanLines = [];
+                const header = 'id,title,poster,pubdate,url,rating,genres,star,comment,tags,star_time,card';
+                cleanLines.push(header);
+                
+                let processedBooks = 0;
+                
+                // 查找包含豆瓣URL的行（真正的书籍记录）
+                for (const line of lines) {
+                  if (line.includes('book.douban.com/subject/') && line.match(/^\d+,/)) {
+                    try {
+                      // 使用更智能的方式处理CSV行，避免intro字段中的逗号干扰
+                      const bookIdMatch = line.match(/^(\d+),/);
+                      if (!bookIdMatch) continue;
+                      
+                      const bookId = bookIdMatch[1];
+                      const urlMatch = line.match(/https:\/\/book\.douban\.com\/subject\/(\d+)\//);
+                      if (!urlMatch) continue;
+                      
+                      // 寻找各个字段的位置
+                      const parts = line.split(',');
+                      if (parts.length < 10) continue;
+                      
+                      // 从后往前提取固定字段
+                      const card = parts[parts.length - 1];
+                      const star_time = parts[parts.length - 2];
+                      const tags = parts[parts.length - 3];
+                      const comment = parts[parts.length - 4];
+                      const star = parts[parts.length - 5];
+                      
+                      // 寻找poster URL和其他字段
+                      let posterUrl = '';
+                      let doubanUrl = '';
+                      let rating = '';
+                      let genres = '';
+                      
+                      for (let i = 0; i < parts.length; i++) {
+                        if (parts[i].includes('dou.img.lithub.cc')) {
+                          posterUrl = parts[i];
+                        } else if (parts[i].includes('book.douban.com/subject/')) {
+                          doubanUrl = parts[i];
+                          if (i + 1 < parts.length) rating = parts[i + 1];
+                          if (i + 2 < parts.length) genres = parts[i + 2];
+                        }
+                      }
+                      
+                      const cleanedParts = [
+                        bookId,           // id
+                        parts[1],         // title
+                        posterUrl,        // poster
+                        '',               // pubdate (可能在card中)
+                        doubanUrl,        // url
+                        rating,           // rating
+                        genres,           // genres
+                        star,             // star
+                        comment,          // comment
+                        tags,             // tags
+                        star_time,        // star_time
+                        card              // card
+                      ];
+                      
+                      cleanLines.push(cleanedParts.join(','));
+                      processedBooks++;
+                    } catch (e) {
+                      console.log('处理书籍行失败:', e.message);
+                    }
+                  }
+                }
+                
+                fs.writeFileSync('./data/raw/book.csv', cleanLines.join('\n'));
+                console.log('清理后CSV行数:', cleanLines.length);
+                console.log('成功处理书籍数:', processedBooks);
+                console.log('CSV清理完成！');
+              } catch (error) {
+                console.error('清理CSV失败:', error.message);
+                process.exit(1);
+              }
+            "
+          else
+            echo "book.csv not found, skipping cleanup"
+          fi
+          
       - name: Process CSV data and filter 5-star books
         run: |
           if [ -f "./data/raw/book.csv" ]; then
@@ -63,4 +160,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: '📚 更新豆瓣书籍数据'
-          add: 'data/raw/book.csv data/books.json data/book-stats.json data/backup/books-backup.json images/covers/*'
+          add: 'data/raw/book.csv data/books.json data/book-stats.json data/backup/books-backup.json images/books/*'

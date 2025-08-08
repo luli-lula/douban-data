@@ -67,7 +67,7 @@ async function processCsvSimple() {
     });
     
     // 确保海报目录存在
-    const posterDir = './images/posters';
+    const posterDir = './images/movies';
     if (!fs.existsSync(posterDir)) {
       fs.mkdirSync(posterDir, { recursive: true });
     }
@@ -360,7 +360,7 @@ function sleep(ms) {
 
 // 生成 jsDelivr CDN URL
 function generateCDNUrl(movieId) {
-  return `https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/posters/${movieId}.jpg`;
+  return `https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/movies/${movieId}.jpg`;
 }
 
 // 运行处理函数
