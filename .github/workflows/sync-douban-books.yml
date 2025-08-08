@@ -43,4 +43,4 @@ jobs:
         uses: EndBug/add-and-commit@v8
         with:
           message: '📚 更新豆瓣书籍数据'
-          add: 'data/*.json data/backup/*.json images/covers/*'
+          add: 'data/books.json data/book-stats.json data/backup/books-backup.json images/covers/*'
