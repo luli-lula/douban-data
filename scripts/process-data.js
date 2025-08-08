@@ -18,10 +18,13 @@ async function processMovieData() {
     const rawData = JSON.parse(fs.readFileSync(rawDataPath, 'utf8'));
     console.log(`读取到 ${rawData.length} 部电影数据`);
     
-    // 筛选5星电影
+    // 筛选5星电影 - 适配doumark-action数据结构
     const filteredMovies = rawData
       .filter(movie => {
-        return movie.rating === '5' || movie.rating === 5;
+        // doumark-action中，rating字段是用户评分（1-5）
+        const userRating = movie.rating;
+        // 只保留用户评了5星的电影
+        return userRating === 5 || userRating === '5';
       })
       .slice(0, 100); // 先限制数量再下载图片
     
@@ -37,18 +40,22 @@ async function processMovieData() {
     const processedData = [];
     for (let i = 0; i < filteredMovies.length; i++) {
       const movie = filteredMovies[i];
-      console.log(`处理电影 ${i + 1}/${filteredMovies.length}: ${movie.title}`);
+      console.log(`处理电影 ${i + 1}/${filteredMovies.length}: ${movie.subject.title}`);
+      
+      // 适配doumark-action的数据结构
+      const subject = movie.subject;
+      const movieId = subject.id;
       
       let posterUrl = '';
-      const originalPosterUrl = movie.pic || movie.image || '';
+      const originalPosterUrl = subject.pic?.normal || subject.pic?.large || '';
       
-      if (originalPosterUrl && movie.id) {
-        const posterPath = path.join(posterDir, `${movie.id}.jpg`);
+      if (originalPosterUrl && movieId) {
+        const posterPath = path.join(posterDir, `${movieId}.jpg`);
         const downloadResult = await downloadImage(originalPosterUrl, posterPath);
         
         if (downloadResult) {
           // 如果下载成功，使用 CDN URL
-          posterUrl = generateCDNUrl(movie.id);
+          posterUrl = generateCDNUrl(movieId);
         } else {
           // 如果下载失败，保留原URL
           posterUrl = originalPosterUrl;
@@ -56,16 +63,16 @@ async function processMovieData() {
       }
       
       const processedMovie = {
-        title: movie.title,
-        year: movie.year || extractYearFromTitle(movie.title),
-        rating: movie.rating.toString(),
-        directors: movie.directors || [],
-        genres: movie.genres || [],
+        title: subject.title,
+        year: subject.year || extractYearFromTitle(subject.title),
+        rating: movie.rating ? movie.rating.toString() : '5', // 用户评分
+        directors: subject.directors?.map(d => d.name) || [],
+        genres: subject.genres || [],
         poster_url: posterUrl,
-        douban_url: movie.url || `https://movie.douban.com/subject/${movie.id}/`,
-        mark_date: movie.create_time || movie.date || new Date().toISOString().split('T')[0],
-        comment: movie.comment || movie.review || '',
-        id: movie.id
+        douban_url: subject.url || `https://movie.douban.com/subject/${movieId}/`,
+        mark_date: movie.create_time || new Date().toISOString().split('T')[0],
+        comment: movie.comment || '',
+        id: movieId
       };
       
       processedData.push(processedMovie);
