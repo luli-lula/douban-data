@@ -1,0 +1,46 @@
+name: Sync Douban Books Data
+
+on:
+  schedule:
+    # 每天UTC 17点 (北京时间1点) 同步书籍数据
+    - cron: '0 17 * * *'
+  workflow_dispatch: # 手动触发
+
+jobs:
+  sync-and-process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Sync Douban Books Data
+        uses: lizheming/doumark-action@master
+        with:
+          id: 59715677  # 你的豆瓣用户ID
+          type: book
+          format: csv
+          status: done  # 已读完的书籍
+          dir: ./data/raw
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm install
+          
+      - name: Fix file permissions
+        run: |
+          sudo chown -R runner:docker ./data/raw/ || true
+          
+      - name: Process CSV data and filter 5-star books
+        run: node scripts/process-csv-books.js
+          
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: '📚 更新豆瓣书籍数据'
+          add: 'data/*.json data/backup/*.json images/covers/*'
