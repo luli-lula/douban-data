@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Sync Douban Movies Data
-        uses: lizheming/doumark-action@v0.2.0
+        uses: lizheming/doumark-action@master
         with:
           id: 59715677  # 你的豆瓣用户ID
           type: movie

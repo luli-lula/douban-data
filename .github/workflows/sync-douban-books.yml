@@ -19,7 +19,7 @@ jobs:
         run: mkdir -p ./data/raw
         
       - name: Sync Douban Books Data
-        uses: lizheming/doumark-action@v0.2.0
+        uses: lizheming/doumark-action@master
         with:
           id: 59715677  # 你的豆瓣用户ID
           type: book
