@@ -37,5 +37,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '🎬 更新豆瓣电影数据 $(date -u +"%Y-%m-%d %H:%M:%S UTC")'
-          file_pattern: 'data/*.json'
+          file_pattern: 'data/*.json images/posters/*'
           commit_author: 'Douban Sync Bot <noreply@github.com>'

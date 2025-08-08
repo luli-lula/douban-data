@@ -6,7 +6,9 @@
     "process": "node scripts/process-data.js",
     "test": "node scripts/test-data.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "https": "^1.0.0"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
