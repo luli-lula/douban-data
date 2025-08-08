@@ -6,20 +6,13 @@ on:
 jobs:
   test-sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Test Douban CSV Sync
-        uses: lizheming/doumark-action@master
-        with:
-          id: 59715677
-          type: movie
-          format: csv
-          status: done
-          dir: ./data/raw
-          
-      - name: Test Douban JSON Sync
+      - name: Sync Douban JSON Data
         uses: lizheming/doumark-action@master
         with:
           id: 59715677
@@ -32,15 +25,12 @@ jobs:
         run: |
           echo "=== 检查生成的文件 ==="
           ls -la ./data/raw/
-          echo "=== CSV 文件内容 ==="
-          if [ -f "./data/raw/movie.csv" ]; then
-            head -5 ./data/raw/movie.csv
-          else
-            echo "CSV文件不存在"
-          fi
           echo "=== JSON 文件内容 ==="
           if [ -f "./data/raw/movie.json" ]; then
-            head -20 ./data/raw/movie.json
+            echo "JSON文件大小: $(wc -c < ./data/raw/movie.json) 字节"
+            echo "JSON数组长度: $(jq '. | length' ./data/raw/movie.json)"
+            echo "第一个电影示例:"
+            jq '.[0]' ./data/raw/movie.json
           else
             echo "JSON文件不存在"
           fi
@@ -49,5 +39,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '🧪 测试豆瓣数据同步结果'
-          file_pattern: 'data/raw/*'
+          file_pattern: 'data/raw/*.json'
           commit_author: 'Test Bot <test@example.com>'
