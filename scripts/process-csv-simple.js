@@ -1,10 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 async function processCsvSimple() {
   const csvPath = './data/raw/movie.csv';
   const outputPath = './data/movies.json';
   const statsPath = './data/stats.json';
+  const backupDir = './data/backup';
+  const allMoviesPath = './data/backup/all-movies.json';
   
   try {
     if (!fs.existsSync(csvPath)) {
@@ -63,7 +66,13 @@ async function processCsvSimple() {
       ratingStats[star] = (ratingStats[star] || 0) + 1;
     });
     
-    // 处理新增的5星电影（暂不下载图片）
+    // 确保海报目录存在
+    const posterDir = './images/posters';
+    if (!fs.existsSync(posterDir)) {
+      fs.mkdirSync(posterDir, { recursive: true });
+    }
+    
+    // 处理新增的5星电影（下载图片）
     const newProcessedMovies = [];
     console.log(`\n🎬 处理 ${newFiveStarMovies.length} 部新增5星电影:`);
     
@@ -75,8 +84,35 @@ async function processCsvSimple() {
       const directors = extractDirectorsFromCard(movie.card);
       const year = extractYearFromCard(movie.card) || movie.pubdate?.match(/\d{4}/)?.[0] || '';
       
-      // 直接使用豆瓣CDN URL，不下载到本地
-      const posterUrl = movie.poster || '';
+      let posterUrl = movie.poster || '';
+      const movieId = movie.id;
+      
+      // 尝试下载海报图片
+      if (movieId) {
+        const posterPath = path.join(posterDir, `${movieId}.jpg`);
+        console.log(`  📥 提取并下载海报: ${movieId}`);
+        
+        // 从豆瓣电影页面提取原始图片URL
+        const originalImageUrl = await extractOriginalImageUrl(`https://movie.douban.com/subject/${movieId}/`);
+        
+        if (originalImageUrl) {
+          const downloadResult = await downloadImage(originalImageUrl, posterPath);
+          
+          if (downloadResult) {
+            // 下载成功，使用 jsDelivr CDN URL
+            posterUrl = generateCDNUrl(movieId);
+            console.log(`  ✅ 下载成功，使用CDN: ${posterUrl}`);
+          } else {
+            console.log(`  ⚠️ 下载失败，保留原URL`);
+            // 保留原URL
+          }
+        } else {
+          console.log(`  ⚠️ 无法提取图片URL，保留原URL`);
+        }
+        
+        // 延迟避免请求过频
+        await sleep(2000);
+      }
       
       const processedMovie = {
         title: movie.title,
@@ -84,11 +120,11 @@ async function processCsvSimple() {
         rating: '5',
         directors: directors,
         genres: movie.genres ? movie.genres.split(',') : [],
-        poster_url: posterUrl, // 使用原始豆瓣CDN URL
+        poster_url: posterUrl,
         douban_url: movie.url,
         mark_date: movie.star_time ? movie.star_time.split(' ')[0] : new Date().toISOString().split('T')[0],
         comment: movie.comment || '',
-        id: movie.id
+        id: movieId
       };
       
       newProcessedMovies.push(processedMovie);
@@ -105,8 +141,67 @@ async function processCsvSimple() {
       fs.mkdirSync(outputDir, { recursive: true });
     }
     
-    // 写入处理后的数据
+    // 确保备份目录存在
+    if (!fs.existsSync(backupDir)) {
+      fs.mkdirSync(backupDir, { recursive: true });
+    }
+    
+    // 写入网站展示数据（最多100部5星电影）
     fs.writeFileSync(outputPath, JSON.stringify(allProcessedMovies, null, 2));
+    
+    // === 创建完整数据备份 ===
+    console.log(`\\n📦 创建完整数据备份...`);
+    
+    // 读取现有的完整备份数据
+    let existingAllMovies = [];
+    let existingAllIds = new Set();
+    if (fs.existsSync(allMoviesPath)) {
+      existingAllMovies = JSON.parse(fs.readFileSync(allMoviesPath, 'utf8'));
+      existingAllIds = new Set(existingAllMovies.map(m => m.id));
+      console.log(`已有完整备份数据 ${existingAllMovies.length} 部电影`);
+    }
+    
+    // 处理所有电影数据（不仅仅是5星）
+    const allProcessedMovies = [];
+    for (let i = 0; i < allMovies.length; i++) {
+      const movie = allMovies[i];
+      
+      // 如果已存在，跳过处理
+      if (existingAllIds.has(movie.id)) {
+        continue;
+      }
+      
+      const directors = extractDirectorsFromCard(movie.card);
+      const year = extractYearFromCard(movie.card) || movie.pubdate?.match(/\\d{4}/)?.[0] || '';
+      
+      const processedMovie = {
+        title: movie.title,
+        year: year,
+        rating: movie.star || 'unrated',
+        directors: directors,
+        genres: movie.genres ? movie.genres.split(',') : [],
+        poster_url: movie.poster || '',
+        douban_url: movie.url,
+        mark_date: movie.star_time ? movie.star_time.split(' ')[0] : new Date().toISOString().split('T')[0],
+        comment: movie.comment || '',
+        tags: movie.tags || '',
+        intro: movie.intro || '',
+        pubdate: movie.pubdate || '',
+        douban_rating: movie.rating || '',
+        id: movie.id
+      };
+      
+      allProcessedMovies.push(processedMovie);
+    }
+    
+    // 合并新旧完整数据
+    const completeAllMovies = [...allProcessedMovies, ...existingAllMovies]
+      .sort((a, b) => new Date(b.mark_date) - new Date(a.mark_date));
+    
+    // 写入完整备份数据
+    fs.writeFileSync(allMoviesPath, JSON.stringify(completeAllMovies, null, 2));
+    console.log(`完整备份包含 ${completeAllMovies.length} 部电影`);
+    console.log(`新增 ${allProcessedMovies.length} 部电影到备份`);
     
     // 生成统计信息
     const stats = {
@@ -117,7 +212,7 @@ async function processCsvSimple() {
       data_source: 'douban',
       user_id: '59715677',
       rating_distribution: ratingStats,
-      note: '使用豆瓣原始CDN URL，未下载到本地'
+      note: '下载海报到本地并使用jsDelivr CDN'
     };
     
     fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
@@ -126,7 +221,7 @@ async function processCsvSimple() {
     console.log(`- 新增5星电影: ${newProcessedMovies.length} 部`);
     console.log(`- 总5星电影: ${allProcessedMovies.length} 部`);
     console.log(`- 总电影: ${allMovies.length} 部`);
-    console.log(`- 图片: 使用豆瓣CDN，未下载到本地`);
+    console.log(`- 图片: 已下载到本地并使用jsDelivr CDN`);
     
   } catch (error) {
     console.error('❌ 数据处理失败:', error);
@@ -175,6 +270,114 @@ function extractYearFromCard(card) {
   
   const yearMatch = card.match(/^(\d{4})/);
   return yearMatch ? yearMatch[1] : '';
+}
+
+// 从豆瓣电影页面提取原始图片URL
+async function extractOriginalImageUrl(doubanUrl) {
+  return new Promise((resolve) => {
+    const options = {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+        'Cache-Control': 'no-cache'
+      }
+    };
+    
+    const req = https.get(doubanUrl, options, (response) => {
+      if (response.statusCode === 200) {
+        let html = '';
+        response.on('data', (chunk) => {
+          html += chunk;
+        });
+        response.on('end', () => {
+          // 提取图片URL，支持多种格式
+          const patterns = [
+            /https:\/\/img\d+\.doubanio\.com\/view\/photo\/s_ratio_poster\/public\/p\d+\.(jpg|webp)/,
+            /https:\/\/img\d+\.doubanio\.com\/view\/photo\/l\/public\/p\d+\.(jpg|webp)/,
+            /https:\/\/img\d+\.doubanio\.com\/view\/photo\/m\/public\/p\d+\.(jpg|webp)/,
+          ];
+          
+          for (const pattern of patterns) {
+            const match = html.match(pattern);
+            if (match) {
+              resolve(match[0]);
+              return;
+            }
+          }
+          resolve(null);
+        });
+      } else {
+        resolve(null);
+      }
+    });
+    
+    req.on('error', () => {
+      resolve(null);
+    });
+    
+    req.setTimeout(15000, () => {
+      req.destroy();
+      resolve(null);
+    });
+  });
+}
+
+// 下载图片函数
+async function downloadImage(url, filepath) {
+  if (!url || url === '' || fs.existsSync(filepath)) {
+    return fs.existsSync(filepath) ? filepath : null;
+  }
+  
+  return new Promise((resolve) => {
+    const file = fs.createWriteStream(filepath);
+    
+    const options = {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://movie.douban.com/',
+        'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8'
+      }
+    };
+    
+    https.get(url, options, (response) => {
+      if (response.statusCode === 200) {
+        response.pipe(file);
+        file.on('finish', () => {
+          file.close();
+          resolve(filepath);
+        });
+        file.on('error', (error) => {
+          file.close();
+          fs.unlink(filepath, () => {});
+          resolve(null);
+        });
+      } else {
+        file.close();
+        fs.unlink(filepath, () => {});
+        resolve(null);
+      }
+    }).on('error', (error) => {
+      file.close();
+      fs.unlink(filepath, () => {});
+      resolve(null);
+    }).setTimeout(20000, function() {
+      this.destroy();
+      file.close();
+      fs.unlink(filepath, () => {});
+      resolve(null);
+    });
+  });
+}
+
+// 睡眠函数
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// 生成 jsDelivr CDN URL
+function generateCDNUrl(movieId) {
+  return `https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/posters/${movieId}.jpg`;
 }
 
 // 运行处理函数
