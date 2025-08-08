@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Personal Douban movies/books data sync and processing",
   "scripts": {
-    "process": "node scripts/process-data.js",
-    "test": "node scripts/test-data.js"
+    "process": "node scripts/process-csv-simple.js"
   },
-  "dependencies": {
-    "https": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",

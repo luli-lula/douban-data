@@ -1,6 +1,17 @@
 {
-  "total_movies": 0,
-  "last_update": "2025-08-07T23:27:53.058Z",
+  "total_movies": 100,
+  "total_all_movies": 2454,
+  "new_movies_this_run": 196,
+  "last_update": "2025-08-08T03:32:10.992Z",
   "data_source": "douban",
-  "user_id": "59715677"
+  "user_id": "59715677",
+  "rating_distribution": {
+    "1": 31,
+    "2": 212,
+    "3": 710,
+    "4": 516,
+    "5": 296,
+    "unrated": 689
+  },
+  "note": "使用豆瓣原始CDN URL，未下载到本地"
 }
