@@ -35,9 +35,16 @@ jobs:
             echo "JSON文件不存在"
           fi
           
+      - name: Check git status
+        run: |
+          echo "=== Git状态检查 ==="
+          git status
+          git add -A
+          git status
+          
       - name: Commit test results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: '🧪 测试豆瓣数据同步结果'
-          file_pattern: 'data/raw/*.json'
-          commit_author: 'Test Bot <test@example.com>'
+          commit_message: '🧪 同步豆瓣原始数据'
+          file_pattern: 'data/raw/*'
+          commit_author: 'Douban Sync <sync@douban.local>'

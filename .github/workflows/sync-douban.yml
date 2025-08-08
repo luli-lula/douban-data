@@ -32,8 +32,8 @@ jobs:
       - name: Install dependencies
         run: npm install
           
-      - name: Process and filter data
-        run: node scripts/process-data.js
+      - name: Process and save all data
+        run: node scripts/save-all-data.js
           
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
