@@ -5,7 +5,7 @@
   "new_books_this_run": 0,
   "total_backup_books": 150,
   "new_backup_books": 0,
-  "last_update": "2025-08-08T18:55:47.602Z",
+  "last_update": "2025-08-08T19:19:03.958Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
@@ -24,5 +24,5 @@
     " to the nonprofit worker and even the professional athlete -- Jaffe reveals how all of us have been tricked into buying into a new tyranny of work.": 1,
     " Sue agrees to the plan.  Once in": 1
   },
-  "note": "网站展示数据（5星书籍，最多100本）+ 完整备份数据（已评分书籍）"
+  "note": "网站展示数据（所有5星书籍）+ 完整备份数据（已评分书籍）"
 }
