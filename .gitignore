@@ -4,8 +4,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Raw data (temporary files)
-data/raw/*.json
+# Raw data (temporary files) - keep CSV for processing
+# data/raw/*.json
 
 # OS
 .DS_Store

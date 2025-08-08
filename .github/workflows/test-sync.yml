@@ -12,12 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Sync Douban JSON Data
+      - name: Sync Douban CSV Data
         uses: lizheming/doumark-action@master
         with:
           id: 59715677
           type: movie
-          format: json
+          format: csv
           status: done
           dir: ./data/raw
           
