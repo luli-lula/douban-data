@@ -1,11 +1,11 @@
 {
   "total_books": 20,
   "total_all_books": 8792,
-  "total_read_books": 150,
+  "total_rated_books": 113,
   "new_books_this_run": 0,
   "total_backup_books": 150,
   "new_backup_books": 0,
-  "last_update": "2025-08-08T18:48:24.449Z",
+  "last_update": "2025-08-08T18:55:47.602Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
@@ -14,13 +14,15 @@
     "3": 42,
     "4": 35,
     "5": 20,
+    "unrated": 8671,
+    " reread and read again.": 1,
     " and determined to have one last decadent splurge on herself. Meanwhile": 1,
     " you should've guessed it": 1,
     " that will save you time": 1,
     " and a game begins: A legendary collaboration that will launch them to stardom. They borrow money": 1,
     " and Tomorrow is a dazzling and intricately imagined novel that examines the multifarious nature of identity": 1,
-    " Sue agrees to the plan.  Once in": 1,
-    "unrated": 31
+    " to the nonprofit worker and even the professional athlete -- Jaffe reveals how all of us have been tricked into buying into a new tyranny of work.": 1,
+    " Sue agrees to the plan.  Once in": 1
   },
-  "note": "网站展示数据（5星书籍）+ 完整备份数据（已读书籍，有评分或评论）"
+  "note": "网站展示数据（5星书籍，最多100本）+ 完整备份数据（已评分书籍）"
 }
