@@ -87,31 +87,9 @@ async function processCsvSimple() {
       let posterUrl = movie.poster || '';
       const movieId = movie.id;
       
-      // 尝试下载海报图片
-      if (movieId) {
-        const posterPath = path.join(posterDir, `${movieId}.jpg`);
-        console.log(`  📥 提取并下载海报: ${movieId}`);
-        
-        // 从豆瓣电影页面提取原始图片URL
-        const originalImageUrl = await extractOriginalImageUrl(`https://movie.douban.com/subject/${movieId}/`);
-        
-        if (originalImageUrl) {
-          const downloadResult = await downloadImage(originalImageUrl, posterPath);
-          
-          if (downloadResult) {
-            // 下载成功，使用 jsDelivr CDN URL
-            posterUrl = generateCDNUrl(movieId);
-            console.log(`  ✅ 下载成功，使用CDN: ${posterUrl}`);
-          } else {
-            console.log(`  ⚠️ 下载失败，保留原URL`);
-            // 保留原URL
-          }
-        } else {
-          console.log(`  ⚠️ 无法提取图片URL，保留原URL`);
-        }
-        
-        // 延迟避免请求过频
-        await sleep(2000);
+      // 如果海报已下载，使用CDN URL；否则保持原URL
+      if (movieId && fs.existsSync(path.join(posterDir, `${movieId}.jpg`))) {
+        posterUrl = generateCDNUrl(movieId);
       }
       
       const processedMovie = {
@@ -162,7 +140,7 @@ async function processCsvSimple() {
     }
     
     // 处理所有电影数据（不仅仅是5星）
-    const allProcessedMovies = [];
+    const allNewProcessedMovies = [];
     for (let i = 0; i < allMovies.length; i++) {
       const movie = allMovies[i];
       
@@ -172,7 +150,7 @@ async function processCsvSimple() {
       }
       
       const directors = extractDirectorsFromCard(movie.card);
-      const year = extractYearFromCard(movie.card) || movie.pubdate?.match(/\\d{4}/)?.[0] || '';
+      const year = extractYearFromCard(movie.card) || movie.pubdate?.match(/\d{4}/)?.[0] || '';
       
       const processedMovie = {
         title: movie.title,
@@ -191,37 +169,42 @@ async function processCsvSimple() {
         id: movie.id
       };
       
-      allProcessedMovies.push(processedMovie);
+      allNewProcessedMovies.push(processedMovie);
     }
     
     // 合并新旧完整数据
-    const completeAllMovies = [...allProcessedMovies, ...existingAllMovies]
+    const completeAllMovies = [...allNewProcessedMovies, ...existingAllMovies]
       .sort((a, b) => new Date(b.mark_date) - new Date(a.mark_date));
     
     // 写入完整备份数据
     fs.writeFileSync(allMoviesPath, JSON.stringify(completeAllMovies, null, 2));
     console.log(`完整备份包含 ${completeAllMovies.length} 部电影`);
-    console.log(`新增 ${allProcessedMovies.length} 部电影到备份`);
+    console.log(`新增 ${allNewProcessedMovies.length} 部电影到备份`);
     
     // 生成统计信息
     const stats = {
       total_movies: allProcessedMovies.length,
       total_all_movies: allMovies.length,
       new_movies_this_run: newProcessedMovies.length,
+      total_backup_movies: completeAllMovies.length,
+      new_backup_movies: allNewProcessedMovies.length,
       last_update: new Date().toISOString(),
       data_source: 'douban',
       user_id: '59715677',
       rating_distribution: ratingStats,
-      note: '下载海报到本地并使用jsDelivr CDN'
+      note: '网站展示数据（5星电影，最多100部）+ 完整备份数据（所有电影）'
     };
     
     fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
     
     console.log('\n✅ 数据处理完成！');
+    console.log(`\n📊 网站展示数据 (data/movies.json):`);
     console.log(`- 新增5星电影: ${newProcessedMovies.length} 部`);
     console.log(`- 总5星电影: ${allProcessedMovies.length} 部`);
-    console.log(`- 总电影: ${allMovies.length} 部`);
-    console.log(`- 图片: 已下载到本地并使用jsDelivr CDN`);
+    console.log(`\n📦 完整备份数据 (data/backup/all-movies.json):`);
+    console.log(`- 新增电影: ${allNewProcessedMovies.length} 部`);
+    console.log(`- 备份总计: ${completeAllMovies.length} 部`);
+    console.log(`\n🖼️ 图片: 已下载到本地并使用jsDelivr CDN`);
     
   } catch (error) {
     console.error('❌ 数据处理失败:', error);
