@@ -15,14 +15,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Create raw data directory
+        run: mkdir -p ./data/raw
+        
       - name: Sync Douban Books Data
-        uses: lizheming/doumark-action@master
+        uses: lizheming/doumark-action@v0.2.0
         with:
           id: 59715677  # 你的豆瓣用户ID
           type: book
           format: csv
-          status: done  # 已读完的书籍
+          # status: done  # 已读完的书籍 - 不指定status参数，获取所有状态
           dir: ./data/raw
+          
+      - name: Debug - Check generated files
+        run: |
+          echo "Contents of data/raw directory:"
+          ls -la ./data/raw/ || echo "Directory not found"
+          echo "Book CSV file info:"
+          ls -la ./data/raw/book.csv || echo "book.csv not found"
+          if [ -f "./data/raw/book.csv" ]; then
+            echo "First few lines of book.csv:"
+            head -5 ./data/raw/book.csv
+          fi
           
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,10 +51,16 @@ jobs:
           sudo chown -R runner:docker ./data/raw/ || true
           
       - name: Process CSV data and filter 5-star books
-        run: node scripts/process-csv-books.js
+        run: |
+          if [ -f "./data/raw/book.csv" ]; then
+            echo "Processing book.csv..."
+            node scripts/process-csv-books.js
+          else
+            echo "⚠️  book.csv not found, skipping processing"
+          fi
           
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v8
+        uses: EndBug/add-and-commit@v9
         with:
           message: '📚 更新豆瓣书籍数据'
-          add: 'data/books.json data/book-stats.json data/backup/books-backup.json images/covers/*'
+          add: 'data/raw/book.csv data/books.json data/book-stats.json data/backup/books-backup.json images/covers/*'

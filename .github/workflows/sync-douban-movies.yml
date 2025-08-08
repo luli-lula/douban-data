@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Sync Douban Movies Data
-        uses: lizheming/doumark-action@master
+        uses: lizheming/doumark-action@v0.2.0
         with:
           id: 59715677  # 你的豆瓣用户ID
           type: movie
@@ -40,7 +40,7 @@ jobs:
         run: node scripts/process-csv-movies.js
           
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v8
+        uses: EndBug/add-and-commit@v9
         with:
           message: '🎬 更新豆瓣电影数据'
-          add: 'data/movies.json data/movie-stats.json data/backup/movies-backup.json images/posters/*'
+          add: 'data/raw/movie.csv data/movies.json data/movie-stats.json data/backup/movies-backup.json images/posters/*'

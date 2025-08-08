@@ -135,8 +135,7 @@ async function processCsvBooks() {
     
     // 合并新旧数据，按标记日期倒序排列
     const allProcessedBooks = [...newProcessedBooks, ...existingBooks]
-      .sort((a, b) => new Date(b.mark_date) - new Date(a.mark_date))
-      .slice(0, 100); // 保持最多100本
+      .sort((a, b) => new Date(b.mark_date) - new Date(a.mark_date)); // 保留所有5星书籍，不限制数量
     
     // 确保输出目录存在
     const outputDir = path.dirname(outputPath);
@@ -231,7 +230,7 @@ async function processCsvBooks() {
       data_source: 'douban',
       user_id: '59715677',
       rating_distribution: ratingStats,
-      note: '网站展示数据（5星书籍，最多100本）+ 完整备份数据（已评分书籍）'
+      note: '网站展示数据（所有5星书籍）+ 完整备份数据（已评分书籍）'
     };
     
     fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));

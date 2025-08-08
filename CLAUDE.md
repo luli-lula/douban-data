@@ -27,7 +27,7 @@ This is a personal Douban data synchronization repository that automatically fet
    - Filters 5-star movies for website display (max 100, incremental updates)
    - Creates complete backup of all movie data for data preservation
 4. **Image Management** - Downloads movie posters locally and serves via jsDelivr CDN
-5. **Auto-commit** pushes JSON data, backup data, and poster images to repository
+5. **Auto-commit** pushes raw CSV data, JSON data, backup data, and poster images to repository
 
 **Books:**
 1. **GitHub Actions Workflow** (`.github/workflows/sync-douban-books.yml`) runs daily at Beijing time 01:00 (UTC 17:00)
@@ -36,7 +36,7 @@ This is a personal Douban data synchronization repository that automatically fet
    - Filters 5-star books for website display (max 100, incremental updates)
    - Creates complete backup of all book data for data preservation
 4. **Image Management** - Downloads book covers locally and serves via jsDelivr CDN
-5. **Auto-commit** pushes JSON data, backup data, and cover images to repository
+5. **Auto-commit** pushes raw CSV data, JSON data, backup data, and cover images to repository
 
 ### Key Files
 
