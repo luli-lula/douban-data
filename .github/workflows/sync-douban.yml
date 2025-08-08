@@ -32,12 +32,15 @@ jobs:
       - name: Install dependencies
         run: npm install
           
+      - name: Fix file permissions
+        run: |
+          sudo chown -R runner:docker ./data/raw/ || true
+          
       - name: Process and save all data
         run: node scripts/save-all-data.js
           
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: EndBug/add-and-commit@v8
         with:
-          commit_message: '🎬 更新豆瓣电影数据 $(date -u +"%Y-%m-%d %H:%M:%S UTC")'
-          file_pattern: 'data/*.json images/posters/*'
-          commit_author: 'Douban Sync Bot <noreply@github.com>'
+          message: '🎬 更新豆瓣电影数据'
+          add: 'data/*.json images/posters/*'
