@@ -1,24 +1,22 @@
 {
   "total_books": 93,
-  "total_all_books": 8792,
-  "total_rated_books": 576,
+  "total_all_books": 225,
+  "total_rated_books": 101,
   "new_books_this_run": 0,
   "total_backup_books": 576,
-  "new_backup_books": 576,
-  "last_update": "2025-08-08T22:11:37.867Z",
+  "new_backup_books": 0,
+  "last_update": "2025-08-09T17:17:33.248Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
-    "0": 13,
-    "1": 7,
-    "2": 57,
-    "3": 237,
-    "4": 130,
-    "5": 82,
-    "6": 2,
-    "7": 3,
-    "8": 23,
-    "9": 22
+    "0": 6,
+    "1": 1,
+    "2": 9,
+    "3": 38,
+    "4": 26,
+    "5": 14,
+    "8": 4,
+    "9": 3
   },
   "note": "网站展示数据（5星书籍）+ 完整备份数据（所有评分书籍）"
 }
