@@ -1,5 +1,25 @@
 [
   {
+    "title": "未知的首尔",
+    "year": "2025",
+    "rating": "5",
+    "directors": [
+      "朴信宇"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36744090.jpg",
+    "douban_url": "https://movie.douban.com/subject/36744090/",
+    "mark_date": "2025-08-12",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-05-24(韩国)",
+    "douban_rating": "8.6",
+    "id": "36744090"
+  },
+  {
     "title": "茶馆",
     "year": "1982",
     "rating": "5",
