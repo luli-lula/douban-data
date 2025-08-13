@@ -2,8 +2,8 @@ name: Sync Douban Books Data
 
 on:
   schedule:
-    # 每天UTC 17点 (北京时间1点) 同步书籍数据
-    - cron: '0 17 * * *'
+    # 每周日UTC 17点 (北京时间周一1点) 同步书籍数据
+    - cron: '0 17 * * 0'
   workflow_dispatch: # 手动触发
 
 jobs:
@@ -50,14 +50,14 @@ jobs:
         run: |
           sudo chown -R runner:docker ./data/raw/ || true
           
-      - name: Clean CSV file (remove intro field to avoid multiline issues)
+      - name: Clean CSV file (fix encoding and quote issues)
         run: |
           if [ -f "./data/raw/book.csv" ]; then
-            echo "清理book.csv，移除intro字段避免多行解析问题..."
+            echo "清理book.csv，修复编码和引号问题..."
             # 备份原文件
             cp ./data/raw/book.csv ./data/raw/book.csv.backup
             
-            # 使用Node.js脚本清理CSV，移除intro字段避免多行文本解析问题
+            # 使用Node.js脚本清理CSV，修复编码和引号问题
             node -e "
               const fs = require('fs');
               try {
@@ -72,65 +72,84 @@ jobs:
                 
                 let processedBooks = 0;
                 
-                // 查找包含豆瓣URL的行（真正的书籍记录）
-                for (const line of lines) {
-                  if (line.includes('book.douban.com/subject/') && line.match(/^\d+,/)) {
-                    try {
-                      // 使用更智能的方式处理CSV行，避免intro字段中的逗号干扰
-                      const bookIdMatch = line.match(/^(\d+),/);
-                      if (!bookIdMatch) continue;
-                      
-                      const bookId = bookIdMatch[1];
-                      const urlMatch = line.match(/https:\/\/book\.douban\.com\/subject\/(\d+)\//);
-                      if (!urlMatch) continue;
-                      
-                      // 寻找各个字段的位置
-                      const parts = line.split(',');
-                      if (parts.length < 10) continue;
-                      
-                      // 从后往前提取固定字段
-                      const card = parts[parts.length - 1];
-                      const star_time = parts[parts.length - 2];
-                      const tags = parts[parts.length - 3];
-                      const comment = parts[parts.length - 4];
-                      const star = parts[parts.length - 5];
-                      
-                      // 寻找poster URL和其他字段
+                // 修复CSV引号和编码问题
+                for (let i = 0; i < lines.length; i++) {
+                  const line = lines[i].trim();
+                  if (!line || !line.includes('book.douban.com/subject/') || !line.match(/^\d+/)) {
+                    continue;
+                  }
+                  
+                  try {
+                    // 先修复常见的引号问题
+                    let cleanedLine = line
+                      .replace(/\"/g, '\"\"')  // 转义内部引号
+                      .replace(/([^,])\"([^,])/g, '\$1\"\"\$2')  // 修复中间的引号
+                      .replace(/\"([^\"]*?)([,\n])/g, '\"\$1\"\$2');  // 确保字段被正确引用
+                    
+                    // 使用更robust的方式解析CSV行
+                    const csvRegex = /(?:^|,)(\"(?:[^\"]|\"\")*\"|[^,]*)/g;
+                    const fields = [];
+                    let match;
+                    
+                    while ((match = csvRegex.exec(cleanedLine)) !== null) {
+                      let field = match[1];
+                      if (field.startsWith('\"') && field.endsWith('\"')) {
+                        field = field.slice(1, -1).replace(/\"\"/g, '\"');
+                      }
+                      fields.push(field);
+                    }
+                    
+                    if (fields.length >= 10) {
+                      // 提取关键字段
+                      const bookId = fields[0];
+                      const title = fields[1] || '';
                       let posterUrl = '';
                       let doubanUrl = '';
                       let rating = '';
                       let genres = '';
                       
-                      for (let i = 0; i < parts.length; i++) {
-                        if (parts[i].includes('dou.img.lithub.cc')) {
-                          posterUrl = parts[i];
-                        } else if (parts[i].includes('book.douban.com/subject/')) {
-                          doubanUrl = parts[i];
-                          if (i + 1 < parts.length) rating = parts[i + 1];
-                          if (i + 2 < parts.length) genres = parts[i + 2];
+                      // 找到豆瓣URL和相关字段
+                      for (let j = 0; j < fields.length; j++) {
+                        if (fields[j] && fields[j].includes('dou.img.lithub.cc')) {
+                          posterUrl = fields[j];
+                        } else if (fields[j] && fields[j].includes('book.douban.com/subject/')) {
+                          doubanUrl = fields[j];
+                          if (j + 1 < fields.length) rating = fields[j + 1] || '';
+                          if (j + 2 < fields.length) genres = fields[j + 2] || '';
                         }
                       }
                       
+                      // 从末尾提取固定字段
+                      const card = fields[fields.length - 1] || '';
+                      const star_time = fields[fields.length - 2] || '';
+                      const tags = fields[fields.length - 3] || '';
+                      const comment = fields[fields.length - 4] || '';
+                      const star = fields[fields.length - 5] || '';
+                      
+                      // 清理genres字段，移除可能导致解析问题的字符
+                      const cleanGenres = genres.replace(/[\"\n\r]/g, '').replace(/,/g, '，');
+                      
                       const cleanedParts = [
-                        bookId,           // id
-                        parts[1],         // title
-                        posterUrl,        // poster
-                        '',               // pubdate (可能在card中)
-                        doubanUrl,        // url
-                        rating,           // rating
-                        genres,           // genres
-                        star,             // star
-                        comment,          // comment
-                        tags,             // tags
-                        star_time,        // star_time
-                        card              // card
+                        bookId,
+                        title.replace(/[\"\n\r]/g, ''),
+                        posterUrl,
+                        '',  // pubdate
+                        doubanUrl,
+                        rating,
+                        cleanGenres,
+                        star,
+                        comment.replace(/[\"\n\r]/g, ''),
+                        tags.replace(/[\"\n\r]/g, ''),
+                        star_time,
+                        card.replace(/[\"\n\r]/g, '')
                       ];
                       
                       cleanLines.push(cleanedParts.join(','));
                       processedBooks++;
-                    } catch (e) {
-                      console.log('处理书籍行失败:', e.message);
                     }
+                  } catch (e) {
+                    console.log('处理书籍行失败 (行 ' + (i+1) + '):', e.message);
+                    console.log('问题行内容:', line.substring(0, 200) + '...');
                   }
                 }
                 

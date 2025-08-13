@@ -2,8 +2,8 @@ name: Sync Douban Movies Data
 
 on:
   schedule:
-    # 每天UTC 16点 (北京时间0点) 同步
-    - cron: '0 16 * * *'
+    # 每周日UTC 16点 (北京时间周一0点) 同步
+    - cron: '0 16 * * 0'
   workflow_dispatch: # 手动触发
 
 jobs:
