@@ -1,5 +1,26 @@
 [
   {
+    "title": "我最喜欢的蛋糕",
+    "year": "2024",
+    "rating": "5",
+    "directors": [
+      "玛利亚姆·莫哈达 贝塔什·萨奈哈"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/35740381.jpg",
+    "douban_url": "https://movie.douban.com/subject/35740381/",
+    "mark_date": "2025-08-21",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2024-02-16(柏林电影节)",
+    "douban_rating": "7.8",
+    "id": "35740381"
+  },
+  {
     "title": "初吻",
     "year": "2025",
     "rating": "3",
