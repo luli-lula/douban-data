@@ -1,5 +1,45 @@
 [
   {
+    "title": "性梦爱三部曲：梦",
+    "year": "2024",
+    "rating": "5",
+    "directors": [
+      "达格·约翰·豪格鲁德"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36117334.jpg",
+    "douban_url": "https://movie.douban.com/subject/36117334/",
+    "mark_date": "2025-08-29",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2024-09-23(挪威)",
+    "douban_rating": "8.2",
+    "id": "36117334"
+  },
+  {
+    "title": "疯狂独角兽",
+    "year": "2025",
+    "rating": "3",
+    "directors": [
+      "诺塔彭·邦帕卡布"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37259671.jpg",
+    "douban_url": "https://movie.douban.com/subject/37259671/",
+    "mark_date": "2025-08-29",
+    "comment": "老套",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-05-29(泰国)",
+    "douban_rating": "8.4",
+    "id": "37259671"
+  },
+  {
     "title": "我最喜欢的蛋糕",
     "year": "2024",
     "rating": "5",
