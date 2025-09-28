@@ -1,5 +1,166 @@
 [
   {
+    "title": "喜剧之王单口季",
+    "year": "2024",
+    "rating": "unrated",
+    "directors": [
+      "周星驰 罗永浩"
+    ],
+    "genres": [
+      "喜剧",
+      "真人秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36868615.jpg",
+    "douban_url": "https://movie.douban.com/subject/36868615/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2024-08-16(中国大陆)",
+    "douban_rating": "8.3",
+    "id": "36868615"
+  },
+  {
+    "title": "奇葩说 第七季",
+    "year": "2020",
+    "rating": "unrated",
+    "directors": [
+      "马东 蔡康永"
+    ],
+    "genres": [
+      "脱口秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/35070344.jpg",
+    "douban_url": "https://movie.douban.com/subject/35070344/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2020-12-17(中国大陆)",
+    "douban_rating": "6.8",
+    "id": "35070344"
+  },
+  {
+    "title": "奇葩说 第一季",
+    "year": "2014",
+    "rating": "unrated",
+    "directors": [
+      "牟頔"
+    ],
+    "genres": [
+      "脱口秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/26177736.jpg",
+    "douban_url": "https://movie.douban.com/subject/26177736/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2014-11-29(中国大陆)",
+    "douban_rating": "9",
+    "id": "26177736"
+  },
+  {
+    "title": "奇葩说 第三季",
+    "year": "2016",
+    "rating": "unrated",
+    "directors": [
+      "牟頔"
+    ],
+    "genres": [
+      "脱口秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/26581134.jpg",
+    "douban_url": "https://movie.douban.com/subject/26581134/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2016-03-04(中国大陆)",
+    "douban_rating": "8.6",
+    "id": "26581134"
+  },
+  {
+    "title": "喜剧之王单口季 第二季",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "谭晓虹 杨晓雨"
+    ],
+    "genres": [
+      "脱口秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37315781.jpg",
+    "douban_url": "https://movie.douban.com/subject/37315781/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-07-11(中国大陆)",
+    "douban_rating": "7.6",
+    "id": "37315781"
+  },
+  {
+    "title": "脱口秀和Ta的朋友们 第二季",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "李宇春 张绍刚"
+    ],
+    "genres": [
+      "脱口秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37296943.jpg",
+    "douban_url": "https://movie.douban.com/subject/37296943/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-06-27(中国大陆)",
+    "douban_rating": "7.9",
+    "id": "37296943"
+  },
+  {
+    "title": "花儿与少年·同心季",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "李超"
+    ],
+    "genres": [
+      "真人秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37116462.jpg",
+    "douban_url": "https://movie.douban.com/subject/37116462/",
+    "mark_date": "2025-09-22",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-08-16(中国大陆)",
+    "douban_rating": "8.2",
+    "id": "37116462"
+  },
+  {
+    "title": "但是还有书籍 第三季",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "叶深 罗颖鸾 郑苏杭 徐志垒 张藢苧 王子浩 金逸堃 黄怡 杨骊珠 高可馨 王黎 张蕊 穆艾琳"
+    ],
+    "genres": [
+      "纪录片"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36406324.jpg",
+    "douban_url": "https://movie.douban.com/subject/36406324/",
+    "mark_date": "2025-09-22",
+    "comment": "不知道为什么现在不再喜欢看这种叙事",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-06-23(中国大陆)",
+    "douban_rating": "9.4",
+    "id": "36406324"
+  },
+  {
     "title": "秋日何时来",
     "year": "2024",
     "rating": "3",
