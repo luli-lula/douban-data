@@ -1,5 +1,89 @@
 [
   {
+    "title": "触不到的恋人",
+    "year": "2000",
+    "rating": "4",
+    "directors": [
+      "李铉升"
+    ],
+    "genres": [
+      "爱情",
+      "奇幻"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/1306526.jpg",
+    "douban_url": "https://movie.douban.com/subject/1306526/",
+    "mark_date": "2025-10-21",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2000-09-09(韩国)",
+    "douban_rating": "7.9",
+    "id": "1306526"
+  },
+  {
+    "title": "当男人恋爱时",
+    "year": "2014",
+    "rating": "3",
+    "directors": [
+      "韩东旭"
+    ],
+    "genres": [
+      "爱情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/23712401.jpg",
+    "douban_url": "https://movie.douban.com/subject/23712401/",
+    "mark_date": "2025-10-21",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2014-01-22(韩国)",
+    "douban_rating": "8",
+    "id": "23712401"
+  },
+  {
+    "title": "金氏漂流记",
+    "year": "2009",
+    "rating": "3",
+    "directors": [
+      "李海俊"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/3586725.jpg",
+    "douban_url": "https://movie.douban.com/subject/3586725/",
+    "mark_date": "2025-10-21",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2009-05-14(韩国)",
+    "douban_rating": "8.3",
+    "id": "3586725"
+  },
+  {
+    "title": "花漾少女杀人事件",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "周璟豪"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/35183324.jpg",
+    "douban_url": "https://movie.douban.com/subject/35183324/",
+    "mark_date": "2025-10-20",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-07-18(中国大陆)",
+    "douban_rating": "7.4",
+    "id": "35183324"
+  },
+  {
     "title": "两生花",
     "year": "1991",
     "rating": "unrated",
