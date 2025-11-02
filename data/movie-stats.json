@@ -1,19 +1,19 @@
 {
   "total_movies": 100,
-  "total_all_movies": 2507,
+  "total_all_movies": 2512,
   "new_movies_this_run": 199,
-  "total_backup_movies": 2507,
-  "new_backup_movies": 4,
-  "last_update": "2025-10-26T16:29:49.554Z",
+  "total_backup_movies": 2512,
+  "new_backup_movies": 5,
+  "last_update": "2025-11-02T16:28:50.369Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
     "1": 31,
     "2": 215,
-    "3": 729,
+    "3": 730,
     "4": 520,
     "5": 299,
-    "unrated": 713
+    "unrated": 717
   },
   "note": "网站展示数据（5星电影，最多100部）+ 完整备份数据（所有电影）"
 }

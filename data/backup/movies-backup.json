@@ -1,5 +1,113 @@
 [
   {
+    "title": "不汗党",
+    "year": "2017",
+    "rating": "unrated",
+    "directors": [
+      "卞成贤"
+    ],
+    "genres": [
+      "剧情",
+      "动作",
+      "犯罪"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/26770698.jpg",
+    "douban_url": "https://movie.douban.com/subject/26770698/",
+    "mark_date": "2025-10-31",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2017-05-17(韩国)",
+    "douban_rating": "7.7",
+    "id": "26770698"
+  },
+  {
+    "title": "碧海蓝天",
+    "year": "1988",
+    "rating": "unrated",
+    "directors": [
+      "吕克·贝松"
+    ],
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/1300960.jpg",
+    "douban_url": "https://movie.douban.com/subject/1300960/",
+    "mark_date": "2025-10-30",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "1988-05-11(法国)",
+    "douban_rating": "8.6",
+    "id": "1300960"
+  },
+  {
+    "title": "沉静如海",
+    "year": "2004",
+    "rating": "unrated",
+    "directors": [
+      "皮埃尔·布特龙"
+    ],
+    "genres": [
+      "剧情",
+      "爱情",
+      "战争"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/1769507.jpg",
+    "douban_url": "https://movie.douban.com/subject/1769507/",
+    "mark_date": "2025-10-30",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2004-10-25(法国)",
+    "douban_rating": "9.1",
+    "id": "1769507"
+  },
+  {
+    "title": "从前的光景",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "塞德里克·克拉皮斯"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36799751.jpg",
+    "douban_url": "https://movie.douban.com/subject/36799751/",
+    "mark_date": "2025-10-29",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-05-22(戛纳电影节)",
+    "douban_rating": "7.8",
+    "id": "36799751"
+  },
+  {
+    "title": "玫瑰",
+    "year": "2025",
+    "rating": "3",
+    "directors": [
+      "杰伊·罗奇"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36833084.jpg",
+    "douban_url": "https://movie.douban.com/subject/36833084/",
+    "mark_date": "2025-10-27",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-08-27(法国)",
+    "douban_rating": "7.4",
+    "id": "36833084"
+  },
+  {
     "title": "触不到的恋人",
     "year": "2000",
     "rating": "4",
