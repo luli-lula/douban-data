@@ -1,5 +1,110 @@
 [
   {
+    "title": "兽藏我心",
+    "year": "2025",
+    "rating": "3",
+    "directors": [
+      "安东尼奥·坎波斯"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑",
+      "惊悚"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36832958.jpg",
+    "douban_url": "https://movie.douban.com/subject/36832958/",
+    "mark_date": "2025-11-16",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-11-13(美国)",
+    "douban_rating": "7.3",
+    "id": "36832958"
+  },
+  {
+    "title": "犯罪现场 Zero",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "尹贤俊"
+    ],
+    "genres": [
+      "悬疑",
+      "犯罪",
+      "真人秀"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36598430.jpg",
+    "douban_url": "https://movie.douban.com/subject/36598430/",
+    "mark_date": "2025-11-15",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-09-23(韩国)",
+    "douban_rating": "9.3",
+    "id": "36598430"
+  },
+  {
+    "title": "台风商社",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "李娜静"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37019290.jpg",
+    "douban_url": "https://movie.douban.com/subject/37019290/",
+    "mark_date": "2025-11-15",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-10-11(韩国)",
+    "douban_rating": "7.8",
+    "id": "37019290"
+  },
+  {
+    "title": "都是她的错",
+    "year": "2025",
+    "rating": "5",
+    "directors": [
+      "明基·斯皮罗"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36778966.jpg",
+    "douban_url": "https://movie.douban.com/subject/36778966/",
+    "mark_date": "2025-11-15",
+    "comment": "每一集似乎都在找一个女的审判，母亲妹妹保姆，最后发现fuck up的还是一个个男的",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-11-06(美国)",
+    "douban_rating": "9.2",
+    "id": "36778966"
+  },
+  {
+    "title": "吃饱睡足等幸福",
+    "year": "2025",
+    "rating": "unrated",
+    "directors": [
+      "中野亮平 田中健二 内田贵史"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/37113482.jpg",
+    "douban_url": "https://movie.douban.com/subject/37113482/",
+    "mark_date": "2025-11-12",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-04-01(日本)",
+    "douban_rating": "8.2",
+    "id": "37113482"
+  },
+  {
     "title": "豆豆笑笑",
     "year": "2025",
     "rating": "unrated",
