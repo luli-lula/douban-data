@@ -1,5 +1,174 @@
 [
   {
+    "title": "左撇子女孩",
+    "year": "2025",
+    "rating": "2",
+    "directors": [
+      "邹时擎"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36107332.jpg",
+    "douban_url": "https://movie.douban.com/subject/36107332/",
+    "mark_date": "2025-11-30",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-10-31(中国台湾)",
+    "douban_rating": "7.1",
+    "id": "36107332"
+  },
+  {
+    "title": "猎凶风河谷",
+    "year": "2017",
+    "rating": "unrated",
+    "directors": [
+      "泰勒·谢里丹"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑",
+      "犯罪"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/26389601.jpg",
+    "douban_url": "https://movie.douban.com/subject/26389601/",
+    "mark_date": "2025-11-30",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2017-01-21(圣丹斯电影节)",
+    "douban_rating": "7.8",
+    "id": "26389601"
+  },
+  {
+    "title": "脸庞",
+    "year": "2025",
+    "rating": "3",
+    "directors": [
+      "延尚昊"
+    ],
+    "genres": [
+      "悬疑",
+      "惊悚"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36978167.jpg",
+    "douban_url": "https://movie.douban.com/subject/36978167/",
+    "mark_date": "2025-11-27",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-09-05(多伦多国际电影节)",
+    "douban_rating": "6.4",
+    "id": "36978167"
+  },
+  {
+    "title": "追缉",
+    "year": "2022",
+    "rating": "unrated",
+    "directors": [
+      "曾英庭"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑",
+      "犯罪"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/35427293.jpg",
+    "douban_url": "https://movie.douban.com/subject/35427293/",
+    "mark_date": "2025-11-26",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2023-11-11(中国大陆)",
+    "douban_rating": "5.7",
+    "id": "35427293"
+  },
+  {
+    "title": "老井",
+    "year": "1986",
+    "rating": "unrated",
+    "directors": [
+      "吴天明"
+    ],
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/1308070.jpg",
+    "douban_url": "https://movie.douban.com/subject/1308070/",
+    "mark_date": "2025-11-24",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "1986",
+    "douban_rating": "8.1",
+    "id": "1308070"
+  },
+  {
+    "title": "黄土地",
+    "year": "1984",
+    "rating": "3",
+    "directors": [
+      "陈凯歌"
+    ],
+    "genres": [
+      "剧情",
+      "音乐"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/1291876.jpg",
+    "douban_url": "https://movie.douban.com/subject/1291876/",
+    "mark_date": "2025-11-24",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "1984(中国大陆)",
+    "douban_rating": "8",
+    "id": "1291876"
+  },
+  {
+    "title": "怪诞小镇 第一季",
+    "year": "2012",
+    "rating": "unrated",
+    "directors": [
+      "约翰·青岛崇 乔·皮特 亚伦·施普林格"
+    ],
+    "genres": [
+      "喜剧",
+      "动画",
+      "家庭"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/6874354.jpg",
+    "douban_url": "https://movie.douban.com/subject/6874354/",
+    "mark_date": "2025-11-24",
+    "comment": "",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2012-06-16(美国)",
+    "douban_rating": "9.5",
+    "id": "6874354"
+  },
+  {
+    "title": "你和其余的一切",
+    "year": "2025",
+    "rating": "2",
+    "directors": [
+      "赵英民"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://dou.img.lithub.cc/movie/36359381.jpg",
+    "douban_url": "https://movie.douban.com/subject/36359381/",
+    "mark_date": "2025-11-24",
+    "comment": "打着双女主本质还是韩剧固有的误会加误会",
+    "tags": "",
+    "intro": "",
+    "pubdate": "2025-09-12(韩国)",
+    "douban_rating": "8.1",
+    "id": "36359381"
+  },
+  {
     "title": "螳螂",
     "year": "2025",
     "rating": "3",
