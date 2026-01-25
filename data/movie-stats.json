@@ -1,17 +1,17 @@
 {
   "total_movies": 100,
-  "total_all_movies": 2575,
+  "total_all_movies": 2578,
   "new_movies_this_run": 201,
-  "total_backup_movies": 2575,
+  "total_backup_movies": 2578,
   "new_backup_movies": 3,
-  "last_update": "2026-01-18T16:33:42.934Z",
+  "last_update": "2026-01-25T16:35:11.896Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
-    "1": 32,
+    "1": 33,
     "2": 223,
-    "3": 743,
-    "4": 522,
+    "3": 744,
+    "4": 523,
     "5": 301,
     "unrated": 754
   },
