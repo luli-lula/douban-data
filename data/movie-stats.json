@@ -3,8 +3,8 @@
   "total_all_movies": 2583,
   "new_movies_this_run": 201,
   "total_backup_movies": 2583,
-  "new_backup_movies": 1,
-  "last_update": "2026-02-08T16:40:42.670Z",
+  "new_backup_movies": 0,
+  "last_update": "2026-02-15T16:40:54.524Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
