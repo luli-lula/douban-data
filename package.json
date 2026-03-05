@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Personal Douban movies/books data sync and processing",
   "scripts": {
-    "process": "node scripts/process-csv-simple.js"
+    "process:movies": "node scripts/process-csv-movies.js",
+    "process:books": "node scripts/process-csv-books.js"
   },
   "dependencies": {},
   "devDependencies": {},

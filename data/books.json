@@ -1,1395 +1,3791 @@
 [
   {
-    "title": "伊藤比吕美",
-    "year": "2024",
-    "rating": "5",
-    "authors": [
-      "伊藤比吕美"
-    ],
-    "publisher": "海峡文艺出版社",
+    "title": "未知图书",
+    "year": "",
+    "rating": "读完1984断断续续把这本书看完，每看完一个故事都在感叹那个疯狂的十年时间，从受害人到加害人的讲述，看到最后那篇没有经历过文革的人的采访想起来如果现在采访一次会是什么样子呢？",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/36818389.jpg",
-    "douban_url": "https://book.douban.com/subject/36818389/",
-    "mark_date": "2025-06-24",
-    "comment": "连着看了好几本她的书，总能把生活中的事情写的举重若轻，却又妙趣横生，老年生活各种问题却也都一一应对，看完能对老年生活产生一些勇气",
-    "id": "36818389"
+    "poster_url": "https://dou.img.lithub.cc/book/25917467.jpg",
+    "douban_url": "https://book.douban.com/subject/25917467/",
+    "mark_date": "2026-03-05",
+    "comment": "历史,纪实文学",
+    "tags": "2017-08-02 10:29:11",
+    "id": "25917467"
+  },
+  {
+    "title": "平凡的世界（全三部）",
+    "year": "",
+    "rating": "小说,中国文学,人生",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1200840.jpg",
+    "douban_url": "https://book.douban.com/subject/1200840/",
+    "mark_date": "2026-03-05",
+    "comment": "2014-07-25 10:33:13",
+    "tags": "路遥 / 2005 / 人民文学出版社",
+    "id": "1200840"
+  },
+  {
+    "title": "未知图书",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2299295.jpg",
+    "douban_url": "https://book.douban.com/subject/2299295/",
+    "mark_date": "2025-06-17",
+    "comment": "读完三妹的自传顺着过来看了大哥的，作者文笔读起来不是很舒服太多个人感情和瞎评论了，重点在抗战后的部分，不知该如何评论的悲剧。",
+    "tags": "",
+    "id": "2299295"
+  },
+  {
+    "title": "一个人的村庄",
+    "year": "2006",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "刘亮程"
+    ],
+    "publisher": "春风文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1692648.jpg",
+    "douban_url": "https://book.douban.com/subject/1692648/",
+    "mark_date": "2025-03-24",
+    "comment": "乡村文学看腻了",
+    "tags": "",
+    "id": "1692648"
+  },
+  {
+    "title": "Welcome to the Hyunam-dong Bookshop",
+    "year": "2024",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "Hwang Bo-reum"
+    ],
+    "publisher": "Bloomsbury Publishing",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/36818536.jpg",
+    "douban_url": "https://book.douban.com/subject/36818536/",
+    "mark_date": "2025-02-02",
+    "comment": "",
+    "tags": "",
+    "id": "36818536"
+  },
+  {
+    "title": "이웃 사람 3",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "강풀"
+    ],
+    "publisher": "재미주의",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26678040.jpg",
+    "douban_url": "https://book.douban.com/subject/26678040/",
+    "mark_date": "2024-12-31",
+    "comment": "",
+    "tags": "",
+    "id": "26678040"
+  },
+  {
+    "title": "이웃 사람 2",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "강풀"
+    ],
+    "publisher": "재미주의",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26678038.jpg",
+    "douban_url": "https://book.douban.com/subject/26678038/",
+    "mark_date": "2024-12-31",
+    "comment": "",
+    "tags": "",
+    "id": "26678038"
+  },
+  {
+    "title": "이웃 사람 1",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "강풀"
+    ],
+    "publisher": "재미주의",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26678034.jpg",
+    "douban_url": "https://book.douban.com/subject/26678034/",
+    "mark_date": "2024-12-31",
+    "comment": "",
+    "tags": "",
+    "id": "26678034"
   },
   {
     "title": "情人",
     "year": "2005",
     "rating": "5",
-    "authors": [
-      "[法] 玛格丽特·杜拉斯"
+    "status": "done",
+    "author": [
+      "玛格丽特·杜拉斯"
     ],
     "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1400705.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/1400705.jpg",
     "douban_url": "https://book.douban.com/subject/1400705/",
     "mark_date": "2024-12-05",
     "comment": "很久之前看的电影，只注意到其中的爱情的部分，重看小说才发现有很多关于家庭和母女关系的描写。",
+    "tags": "",
     "id": "1400705"
   },
   {
-    "title": "虹影",
-    "year": "2022",
-    "rating": "5",
-    "authors": [
-      "虹影"
+    "title": "浮出历史地表",
+    "year": "2018",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "孟悦 戴锦华"
     ],
-    "publisher": "花城出版社",
+    "publisher": "北京大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35649992.jpg",
-    "douban_url": "https://book.douban.com/subject/35649992/",
-    "mark_date": "2024-12-03",
-    "comment": "看的太痛苦了，饥饿的年代饥饿的人，很有重庆的地方特色。",
-    "id": "35649992"
-  },
-  {
-    "title": "谭恩美",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[美]谭恩美"
-    ],
-    "publisher": "外语教学与研究出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27133729.jpg",
-    "douban_url": "https://book.douban.com/subject/27133729/",
-    "mark_date": "2024-11-25",
-    "comment": "",
-    "id": "27133729"
-  },
-  {
-    "title": "the first-person narratives are complemented by a history of the discursive process and the author's sophisticated intertextual readings. Together",
-    "year": "1999",
-    "rating": "5",
-    "authors": [
-      "Wang Zheng 王政"
-    ],
-    "publisher": "University of California Press",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/5298408.jpg",
-    "douban_url": "https://book.douban.com/subject/5298408/",
-    "mark_date": "2024-11-23",
-    "comment": "感叹于五四时期的进步性，采访的几位都是精英阶层有些共同的特性大部分很早就有独身主义的自我定位，办学校的几位都是49年之后收归国有了",
-    "id": "5298408"
-  },
-  {
-    "title": "欧阳洁",
-    "year": "2000",
-    "rating": "5",
-    "authors": [
-      "欧阳洁"
-    ],
-    "publisher": "辽宁画报出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/4232613.jpg",
-    "douban_url": "https://book.douban.com/subject/4232613/",
+    "poster_url": "https://dou.img.lithub.cc/book/30147095.jpg",
+    "douban_url": "https://book.douban.com/subject/30147095/",
     "mark_date": "2024-11-22",
-    "comment": "",
-    "id": "4232613"
+    "comment": "读的人心潮澎湃，最开始的从古到今的论述太厉害了，不过有些内容太学术了。",
+    "tags": "",
+    "id": "30147095"
   },
   {
-    "title": "凯茜·帕克·洪",
-    "year": "2024",
-    "rating": "5",
-    "authors": [
-      "[美] 凯茜·帕克·洪"
+    "title": "呼兰河传",
+    "year": "2018",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "萧红"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30749561.jpg",
+    "douban_url": "https://book.douban.com/subject/30749561/",
+    "mark_date": "2024-11-08",
+    "comment": "",
+    "tags": "",
+    "id": "30749561"
+  },
+  {
+    "title": "Beyond the Wage",
+    "year": "2021",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "William Monteith 威廉·蒙蒂思 菲利帕·威廉姆斯 多拉-奥利维亚·维科尔"
+    ],
+    "publisher": "Policy Press",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/36338353.jpg",
+    "douban_url": "https://book.douban.com/subject/36338353/",
+    "mark_date": "2024-11-06",
+    "comment": "",
+    "tags": "",
+    "id": "36338353"
+  },
+  {
+    "title": "纽约琐记（修订版）",
+    "year": "2007",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "陈丹青"
+    ],
+    "publisher": "广西师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2294993.jpg",
+    "douban_url": "https://book.douban.com/subject/2294993/",
+    "mark_date": "2024-10-26",
+    "comment": "",
+    "tags": "",
+    "id": "2294993"
+  },
+  {
+    "title": "清瘦的日子",
+    "year": "1998",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "陈丹燕"
     ],
     "publisher": "上海人民出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/36678533.jpg",
-    "douban_url": "https://book.douban.com/subject/36678533/",
-    "mark_date": "2024-11-02",
-    "comment": "尖锐有趣，对亚裔的理解和白人的吐槽让人拍案叫绝哈哈哈哈哈",
-    "id": "36678533"
-  },
-  {
-    "title": "露图·莫丹",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[以] 露图·莫丹"
-    ],
-    "publisher": "北京联合出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27072981.jpg",
-    "douban_url": "https://book.douban.com/subject/27072981/",
-    "mark_date": "2024-10-29",
-    "comment": "很有意思的故事，线索埋的挺好",
-    "id": "27072981"
-  },
-  {
-    "title": "宫本百合子",
-    "year": "2022",
-    "rating": "5",
-    "authors": [
-      "[日] 宫本百合子"
-    ],
-    "publisher": "四川人民出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35880253.jpg",
-    "douban_url": "https://book.douban.com/subject/35880253/",
-    "mark_date": "2024-10-03",
-    "comment": "类似娜拉出走的故事，有些自传性质的感觉，写的非常细腻，就是那种在日常的夫妻生活中消磨掉的激情和两个人难以沟通的感觉，继续看续集",
-    "id": "35880253"
-  },
-  {
-    "title": "弗雷德里克·佩特斯 弗雷德里克·皮特斯",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[瑞士] 弗雷德里克·佩特斯 弗雷德里克·皮特斯"
-    ],
-    "publisher": "北京联合出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27154489.jpg",
-    "douban_url": "https://book.douban.com/subject/27154489/",
-    "mark_date": "2024-10-03",
-    "comment": "读起来挺温暖的爱情片，作为HIV的科普读物挺好的",
-    "id": "27154489"
-  },
-  {
-    "title": "洪渊植 编绘",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "[韩] 洪渊植 编绘"
-    ],
-    "publisher": "湖南美术出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35183770.jpg",
-    "douban_url": "https://book.douban.com/subject/35183770/",
-    "mark_date": "2024-09-12",
-    "comment": "简单的描绘日常就很有意思，最后房东来看到好日子想要回收房子仿佛看到了B站改造Up主停更说明一样。",
-    "id": "35183770"
-  },
-  {
-    "title": "伊藤比吕美",
-    "year": "2024",
-    "rating": "5",
-    "authors": [
-      "[日] 伊藤比吕美"
-    ],
-    "publisher": "湖南文艺出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/36852931.jpg",
-    "douban_url": "https://book.douban.com/subject/36852931/",
-    "mark_date": "2024-09-05",
-    "comment": "很喜欢日本这种随笔",
-    "id": "36852931"
-  },
-  {
-    "title": "史铁生",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "史铁生"
-    ],
-    "publisher": "人民文学出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/5910656.jpg",
-    "douban_url": "https://book.douban.com/subject/5910656/",
-    "mark_date": "2024-08-28",
+    "poster_url": "https://dou.img.lithub.cc/book/1033288.jpg",
+    "douban_url": "https://book.douban.com/subject/1033288/",
+    "mark_date": "2024-10-26",
     "comment": "",
-    "id": "5910656"
+    "tags": "",
+    "id": "1033288"
   },
   {
-    "title": "埃莱娜·费兰特",
-    "year": "2023",
-    "rating": "5",
-    "authors": [
-      "[意]埃莱娜·费兰特"
+    "title": "榫卯的魅力",
+    "year": "2020",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "张瑶  主编"
     ],
-    "publisher": "人民文学出版社",
+    "publisher": "化学工业出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/36402171.jpg",
-    "douban_url": "https://book.douban.com/subject/36402171/",
-    "mark_date": "2023-07-29",
-    "comment": "一口气读完的，行文太流畅了，特别是最黑暗的那一天读的喘不过气来，从害怕成为记忆里被遗弃后自杀的女人到重建生活，甚至还在告诉前夫不要把带孩子的责任都推给新妻子。“我仔细看着他，事情真的是这样，他身上没有任何东西可以使我产生兴趣，没有一点点过去的痕迹，那只是一片污迹，像是多年前留在墙壁上的指痕。”",
-    "id": "36402171"
+    "poster_url": "https://dou.img.lithub.cc/book/35255628.jpg",
+    "douban_url": "https://book.douban.com/subject/35255628/",
+    "mark_date": "2024-10-11",
+    "comment": "最近看了好几本把线下展览集结成一本书的形式，更像一个小册子",
+    "tags": "",
+    "id": "35255628"
   },
   {
-    "title": "戴安娜·阿西尔",
+    "title": "中国古建筑知识一点通",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "张驭寰"
+    ],
+    "publisher": "清华大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/33411771.jpg",
+    "douban_url": "https://book.douban.com/subject/33411771/",
+    "mark_date": "2024-10-09",
+    "comment": "问答的形式挺有意思的，可以直接看问题找到想要的答案",
+    "tags": "",
+    "id": "33411771"
+  },
+  {
+    "title": "移民政治",
+    "year": "2019",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "熊易寒"
+    ],
+    "publisher": "复旦大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34920267.jpg",
+    "douban_url": "https://book.douban.com/subject/34920267/",
+    "mark_date": "2024-10-08",
+    "comment": "第一章关于户籍制度和公民权利的讨论最有意思，总结了政府部门如何最大限度夺取劳动资源的同时限制这些人获取公民的基本权利，从上一辈的暂住证到现在所谓的积分落户其实并没有什么本质的改变。这就是上海visa，北京visa。",
+    "tags": "",
+    "id": "34920267"
+  },
+  {
+    "title": "玻璃屋顶",
+    "year": "2002",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "三七"
+    ],
+    "publisher": "新世界出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1028977.jpg",
+    "douban_url": "https://book.douban.com/subject/1028977/",
+    "mark_date": "2024-08-04",
+    "comment": "",
+    "tags": "",
+    "id": "1028977"
+  },
+  {
+    "title": "别害怕吵架",
+    "year": "2024",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "丹尼尔·诺瓦拉"
+    ],
+    "publisher": "中信出版集团",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/36779060.jpg",
+    "douban_url": "https://book.douban.com/subject/36779060/",
+    "mark_date": "2024-06-27",
+    "comment": "幼儿教育相关，并不是自己想看的主题",
+    "tags": "",
+    "id": "36779060"
+  },
+  {
+    "title": "与古为徒和娟娟发屋",
+    "year": "2016",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "白谦慎"
+    ],
+    "publisher": "广西师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26808220.jpg",
+    "douban_url": "https://book.douban.com/subject/26808220/",
+    "mark_date": "2024-04-22",
+    "comment": "没啥意思",
+    "tags": "",
+    "id": "26808220"
+  },
+  {
+    "title": "国家的视角",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "詹姆斯·C.斯科特(James C. Scott)"
+    ],
+    "publisher": "社会科学文献出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/33380604.jpg",
+    "douban_url": "https://book.douban.com/subject/33380604/",
+    "mark_date": "2024-04-08",
+    "comment": "",
+    "tags": "",
+    "id": "33380604"
+  },
+  {
+    "title": "日出国的工厂",
+    "year": "2021",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "村上春树"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35338093.jpg",
+    "douban_url": "https://book.douban.com/subject/35338093/",
+    "mark_date": "2024-04-07",
+    "comment": "随便翻翻不太感兴趣",
+    "tags": "",
+    "id": "35338093"
+  },
+  {
+    "title": "和语言漫步的日记",
+    "year": "2018",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "多和田叶子"
+    ],
+    "publisher": "河南大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/27616061.jpg",
+    "douban_url": "https://book.douban.com/subject/27616061/",
+    "mark_date": "2023-08-16",
+    "comment": "更多集中在语言的差异上，读起来很舒适",
+    "tags": "",
+    "id": "27616061"
+  },
+  {
+    "title": "农民自杀研究",
+    "year": "2014",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "刘燕舞"
+    ],
+    "publisher": "社会科学文献出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26260799.jpg",
+    "douban_url": "https://book.douban.com/subject/26260799/",
+    "mark_date": "2023-07-31",
+    "comment": "比较有意思的是每个类型最后一节会给出一些实际田野的例子，农村真的是吃女人的社会，当然也有很多男人被规训着承担压力",
+    "tags": "",
+    "id": "26260799"
+  },
+  {
+    "title": "老妓抄",
     "year": "2022",
-    "rating": "5",
-    "authors": [
-      "[英] 戴安娜·阿西尔"
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "冈本加乃子"
     ],
-    "publisher": "四川人民出版社",
+    "publisher": "辽宁人民出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/36020007.jpg",
-    "douban_url": "https://book.douban.com/subject/36020007/",
-    "mark_date": "2023-07-05",
-    "comment": "很诚实很酷的老太太",
-    "id": "36020007"
+    "poster_url": "https://dou.img.lithub.cc/book/35710421.jpg",
+    "douban_url": "https://book.douban.com/subject/35710421/",
+    "mark_date": "2023-07-22",
+    "comment": "短篇小说集，看了前几篇不太喜欢这种风格",
+    "tags": "",
+    "id": "35710421"
   },
   {
     "title": "献给阿尔吉侬的花束",
     "year": "2015",
     "rating": "5",
-    "authors": [
-      "[美] 丹尼尔·凯斯"
+    "status": "done",
+    "author": [
+      "丹尼尔·凯斯"
     ],
     "publisher": "广西师范大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26362836.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/26362836.jpg",
     "douban_url": "https://book.douban.com/subject/26362836/",
     "mark_date": "2023-06-28",
     "comment": "从一开始充满希望到逐渐下坠",
+    "tags": "",
     "id": "26362836"
   },
   {
-    "title": "孔飞力",
+    "title": "当工作消失时",
     "year": "2016",
-    "rating": "5",
-    "authors": [
-      "[美] 孔飞力"
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "(美)威廉·朱利叶斯·威尔逊"
     ],
-    "publisher": "江苏人民出版社",
+    "publisher": "上海人民出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26736805.jpg",
-    "douban_url": "https://book.douban.com/subject/26736805/",
-    "mark_date": "2023-06-26",
-    "comment": "这本可能是因为离现在时间最近，看起来也比之前看的基本全面",
-    "id": "26736805"
+    "poster_url": "https://dou.img.lithub.cc/book/26874476.jpg",
+    "douban_url": "https://book.douban.com/subject/26874476/",
+    "mark_date": "2023-06-25",
+    "comment": "",
+    "tags": "",
+    "id": "26874476"
   },
   {
-    "title": "贝丝·廖-威廉姆斯",
-    "year": "2022",
-    "rating": "5",
-    "authors": [
-      "[美] 贝丝·廖-威廉姆斯"
+    "title": "唐人街：共生与同化",
+    "year": "1991",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "吴景超"
     ],
-    "publisher": "社会科学文献出版社",
+    "publisher": "天津人民出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/34889905.jpg",
-    "douban_url": "https://book.douban.com/subject/34889905/",
-    "mark_date": "2023-06-24",
-    "comment": "",
-    "id": "34889905"
+    "poster_url": "https://dou.img.lithub.cc/book/5415638.jpg",
+    "douban_url": "https://book.douban.com/subject/5415638/",
+    "mark_date": "2023-06-25",
+    "comment": "1928年的华人记录，引用了很多人的的受访记录原话，十二章之后讲文化冲突和边缘任很有意思",
+    "tags": "",
+    "id": "5415638"
   },
   {
-    "title": "迪帕克·马尔霍特拉 [美] 马克斯·巴泽曼",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "[美] 迪帕克·马尔霍特拉 [美] 马克斯·巴泽曼"
+    "title": "圆圈正义",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "罗翔"
     ],
-    "publisher": "四川人民出版社",
+    "publisher": "中国法制出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35238507.jpg",
-    "douban_url": "https://book.douban.com/subject/35238507/",
-    "mark_date": "2023-04-24",
+    "poster_url": "https://dou.img.lithub.cc/book/34815132.jpg",
+    "douban_url": "https://book.douban.com/subject/34815132/",
+    "mark_date": "2023-06-23",
+    "comment": "有些地方过于鸡汤，有种博客合集的感觉，只挑了几篇看",
+    "tags": "",
+    "id": "34815132"
+  },
+  {
+    "title": "有限与无限的游戏",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "詹姆斯·卡斯"
+    ],
+    "publisher": "电子工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/33438841.jpg",
+    "douban_url": "https://book.douban.com/subject/33438841/",
+    "mark_date": "2023-06-14",
+    "comment": "（1987年的书，最近发现这些书咋都这么老）推掉牌桌撕掉剧本",
+    "tags": "",
+    "id": "33438841"
+  },
+  {
+    "title": "你干吗在乎别人怎么想？",
+    "year": "1999",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "理查德·费曼"
+    ],
+    "publisher": "中国社会科学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1053174.jpg",
+    "douban_url": "https://book.douban.com/subject/1053174/",
+    "mark_date": "2023-04-06",
     "comment": "",
-    "id": "35238507"
+    "tags": "",
+    "id": "1053174"
+  },
+  {
+    "title": "别闹了，费曼先生",
+    "year": "1997",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "理查德·费曼"
+    ],
+    "publisher": "生活·读书·新知三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1037602.jpg",
+    "douban_url": "https://book.douban.com/subject/1037602/",
+    "mark_date": "2023-04-06",
+    "comment": "",
+    "tags": "",
+    "id": "1037602"
+  },
+  {
+    "title": "Managing Up",
+    "year": "2018",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "Mary Abbajay"
+    ],
+    "publisher": "John Wiley & Sons",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30239304.jpg",
+    "douban_url": "https://book.douban.com/subject/30239304/",
+    "mark_date": "2023-03-21",
+    "comment": "之前一直很讨厌这类的书，但是这本书希望能更早的看到，列举了四种不同类型的老板的优劣势，以及各种有毒老板的类型，核心其实还是去适应和迎合",
+    "tags": "",
+    "id": "30239304"
+  },
+  {
+    "title": "叫魂",
+    "year": "2014",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "孔飞力"
+    ],
+    "publisher": "生活·读书·新知三联书店 上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/25912076.jpg",
+    "douban_url": "https://book.douban.com/subject/25912076/",
+    "mark_date": "2022-11-28",
+    "comment": "",
+    "tags": "",
+    "id": "25912076"
+  },
+  {
+    "title": "爱的多重奏",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "阿兰·巴迪欧 尼古拉·张"
+    ],
+    "publisher": "华东师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/19964304.jpg",
+    "douban_url": "https://book.douban.com/subject/19964304/",
+    "mark_date": "2022-10-08",
+    "comment": "",
+    "tags": "",
+    "id": "19964304"
+  },
+  {
+    "title": "岩田先生",
+    "year": "2021",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "HOBO日刊ITOI新闻(编)"
+    ],
+    "publisher": "译林出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35506252.jpg",
+    "douban_url": "https://book.douban.com/subject/35506252/",
+    "mark_date": "2022-09-18",
+    "comment": "",
+    "tags": "",
+    "id": "35506252"
   },
   {
     "title": "卡拉马佐夫兄弟",
     "year": "2011",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "陀思妥耶夫斯基"
     ],
     "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6313496.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/6313496.jpg",
     "douban_url": "https://book.douban.com/subject/6313496/",
     "mark_date": "2022-08-15",
     "comment": "哎 大部头太难啃了",
+    "tags": "",
     "id": "6313496"
   },
   {
-    "title": "谷口治郎",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "[日] 谷口治郎"
+    "title": "DK蔬菜种植栽培百科(精)",
+    "year": "2017",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "艾伦·白金汉"
     ],
-    "publisher": "湖南美术出版社",
+    "publisher": "电子工业出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/34819859.jpg",
-    "douban_url": "https://book.douban.com/subject/34819859/",
-    "mark_date": "2022-06-12",
-    "comment": "江户时期的散步去",
-    "id": "34819859"
+    "poster_url": "https://dou.img.lithub.cc/book/30387213.jpg",
+    "douban_url": "https://book.douban.com/subject/30387213/",
+    "mark_date": "2022-06-08",
+    "comment": "这本详细好多有每种蔬菜的播种收获时间表",
+    "tags": "",
+    "id": "30387213"
   },
   {
-    "title": "卡雷尔·恰佩克 [捷克]约瑟夫·恰佩克 绘",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "[捷克]卡雷尔·恰佩克 [捷克]约瑟夫·恰佩克 绘"
+    "title": "DK在家种蔬果-美好生活课堂",
+    "year": "2018",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "西蒙·阿克约德"
     ],
-    "publisher": "北京科学技术出版社",
+    "publisher": "中国轻工业出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/33461860.jpg",
-    "douban_url": "https://book.douban.com/subject/33461860/",
+    "poster_url": "https://dou.img.lithub.cc/book/30227534.jpg",
+    "douban_url": "https://book.douban.com/subject/30227534/",
+    "mark_date": "2022-06-08",
+    "comment": "绍兴图书馆，这本感觉内容上没啥特殊",
+    "tags": "",
+    "id": "30227534"
+  },
+  {
+    "title": "浙江海岛植物原色图谱",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "浙江大学出版社"
+    ],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35028138.jpg",
+    "douban_url": "https://book.douban.com/subject/35028138/",
+    "mark_date": "2022-05-29",
+    "comment": "标记一下，图不错",
+    "tags": "",
+    "id": "35028138"
+  },
+  {
+    "title": "草木深圳",
+    "year": "2017",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "深圳市城管局深圳市林业局"
+    ],
+    "publisher": "海天出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/27043119.jpg",
+    "douban_url": "https://book.douban.com/subject/27043119/",
+    "mark_date": "2022-05-29",
+    "comment": "没想到是在舟山图书馆看到这本书，按照花的颜色来排还挺友好，就是感觉种类太少了，而且漫山遍野的三角梅竟然没有入选",
+    "tags": "",
+    "id": "27043119"
+  },
+  {
+    "title": "明天也是小春日和",
+    "year": "2016",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "津端英子 津端修一"
+    ],
+    "publisher": "新星出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26733854.jpg",
+    "douban_url": "https://book.douban.com/subject/26733854/",
     "mark_date": "2022-05-18",
-    "comment": "很有意思的一本小书，很多很真实的场景，邀请别人来看花，结果每走一步都能看到活，不能出远门，交给别人的院子不放心，很有意思",
-    "id": "33461860"
+    "comment": "",
+    "tags": "",
+    "id": "26733854"
   },
   {
-    "title": "彼得·萨伯 Peter Suber",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "[美] 彼得·萨伯 Peter Suber"
+    "title": "插花植材",
+    "year": "2008",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "孙光闻 徐晔春 主编 徐晔春 孙光闻 等摄影"
     ],
-    "publisher": "九州出版社",
+    "publisher": "汕头大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35183164.jpg",
-    "douban_url": "https://book.douban.com/subject/35183164/",
-    "mark_date": "2022-03-09",
-    "comment": "从法官的角度看不同观点很有意思",
-    "id": "35183164"
+    "poster_url": "https://dou.img.lithub.cc/book/2972491.jpg",
+    "douban_url": "https://book.douban.com/subject/2972491/",
+    "mark_date": "2022-05-18",
+    "comment": "",
+    "tags": "",
+    "id": "2972491"
   },
   {
     "title": "当尼采哭泣",
     "year": "2017",
     "rating": "5",
-    "authors": [
-      "[美国] 欧文·亚隆"
+    "status": "done",
+    "author": [
+      "欧文·亚隆"
     ],
     "publisher": "机械工业出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27018918.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/27018918.jpg",
     "douban_url": "https://book.douban.com/subject/27018918/",
     "mark_date": "2022-03-06",
     "comment": "近期读到的好书，从两个人正式治疗的开始的对话",
+    "tags": "",
     "id": "27018918"
   },
   {
-    "title": "李沧东",
-    "year": "2021",
-    "rating": "5",
-    "authors": [
-      "李沧东"
+    "title": "万尼亚舅舅·三姊妹·樱桃园",
+    "year": "2014",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "契诃夫"
     ],
-    "publisher": "武汉大学出版社",
+    "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35517022.jpg",
-    "douban_url": "https://book.douban.com/subject/35517022/",
+    "poster_url": "https://dou.img.lithub.cc/book/25912106.jpg",
+    "douban_url": "https://book.douban.com/subject/25912106/",
+    "mark_date": "2022-03-02",
+    "comment": "",
+    "tags": "",
+    "id": "25912106"
+  },
+  {
+    "title": "体国经野之道",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "周振鹤"
+    ],
+    "publisher": "上海人民出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/33950530.jpg",
+    "douban_url": "https://book.douban.com/subject/33950530/",
+    "mark_date": "2022-03-02",
+    "comment": "",
+    "tags": "",
+    "id": "33950530"
+  },
+  {
+    "title": "中国国家治理的制度逻辑",
+    "year": "2017",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "周雪光"
+    ],
+    "publisher": "生活·读书·新知三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26901114.jpg",
+    "douban_url": "https://book.douban.com/subject/26901114/",
     "mark_date": "2022-02-03",
-    "comment": "晚上吃完饭看到现在，被最后两个中篇打中了，瞄准的都不是那种理想主义坚定的人，而是复杂多面在垃圾堆里生长的人",
-    "id": "35517022"
+    "comment": "实实在在的荒诞感",
+    "tags": "",
+    "id": "26901114"
   },
   {
-    "title": "洛莉·戈特利布",
-    "year": "2021",
-    "rating": "5",
-    "authors": [
-      "[美]洛莉·戈特利布"
+    "title": "活出生命的意义",
+    "year": "2010",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "维克多·弗兰克"
     ],
-    "publisher": "上海文化出版社",
+    "publisher": "华夏出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35481512.jpg",
-    "douban_url": "https://book.douban.com/subject/35481512/",
+    "poster_url": "https://dou.img.lithub.cc/book/5330333.jpg",
+    "douban_url": "https://book.douban.com/subject/5330333/",
+    "mark_date": "2022-01-25",
+    "comment": "个人不喜欢，前面是集中营个人经历部份，本来以为后半部份理论能讲的更深刻一点，但是大失所望",
+    "tags": "",
+    "id": "5330333"
+  },
+  {
+    "title": "坏世界研究",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "赵汀阳"
+    ],
+    "publisher": "中国人民大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3669381.jpg",
+    "douban_url": "https://book.douban.com/subject/3669381/",
     "mark_date": "2022-01-17",
-    "comment": "完整的读了八个小时对我来说是大部头了，心理咨询师点视角，写得很坦诚，朱莉去世的那篇看哭了，最后还是大团圆结局，每个人似乎都慢慢找到出路，没有那么多说教的意味，反而融在故事里，也许我也要找个人聊聊吧。 “我们是在人与人的关系中成长的”",
-    "id": "35481512"
+    "comment": "",
+    "tags": "",
+    "id": "3669381"
   },
   {
-    "title": "埃里克·霍弗",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "[美] 埃里克·霍弗"
-    ],
-    "publisher": "广西师范大学出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3057556.jpg",
-    "douban_url": "https://book.douban.com/subject/3057556/",
-    "mark_date": "2021-12-10",
-    "comment": "仿佛在看微博合集，很多总结看的想拍大腿，狂热份子往往都是自卑不如意现实生活稳定不变的人",
-    "id": "3057556"
-  },
-  {
-    "title": "南茜·罗斯·胡格（Nancy Ross Hugo） [美] 罗伯特·卢埃林（Robert Llewellyn） Nancy Ross Hugo",
+    "title": "上海植物图鉴·草本卷",
     "year": "2016",
-    "rating": "5",
-    "authors": [
-      "[美] 南茜·罗斯·胡格（Nancy Ross Hugo） [美] 罗伯特·卢埃林（Robert Llewellyn） Nancy Ross Hugo"
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "汪远 马金双"
+    ],
+    "publisher": "河南科学技术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26723408.jpg",
+    "douban_url": "https://book.douban.com/subject/26723408/",
+    "mark_date": "2022-01-08",
+    "comment": "",
+    "tags": "",
+    "id": "26723408"
+  },
+  {
+    "title": "为权利而斗争",
+    "year": "2007",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "鲁道夫·冯·耶林"
+    ],
+    "publisher": "法律出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2009914.jpg",
+    "douban_url": "https://book.douban.com/subject/2009914/",
+    "mark_date": "2022-01-08",
+    "comment": "很薄的一本小册子",
+    "tags": "",
+    "id": "2009914"
+  },
+  {
+    "title": "每日斯多葛日报",
+    "year": "2021",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "莱恩·霍利得 [美]史提芬·汉赛蒙"
+    ],
+    "publisher": "中国青年出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35489963.jpg",
+    "douban_url": "https://book.douban.com/subject/35489963/",
+    "mark_date": "2022-01-06",
+    "comment": "有几个问题还不错，但是不值得翻",
+    "tags": "",
+    "id": "35489963"
+  },
+  {
+    "title": "生活的艺术",
+    "year": "2016",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "林语堂"
+    ],
+    "publisher": "湖南文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26847648.jpg",
+    "douban_url": "https://book.douban.com/subject/26847648/",
+    "mark_date": "2021-12-20",
+    "comment": "不值一翻",
+    "tags": "",
+    "id": "26847648"
+  },
+  {
+    "title": "在西伯利亚森林中",
+    "year": "2018",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "西尔万·泰松"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30299532.jpg",
+    "douban_url": "https://book.douban.com/subject/30299532/",
+    "mark_date": "2021-11-23",
+    "comment": "",
+    "tags": "",
+    "id": "30299532"
+  },
+  {
+    "title": "废都",
+    "year": "2012",
+    "rating": "1",
+    "status": "done",
+    "author": [
+      "贾平凹"
+    ],
+    "publisher": "译林出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10520377.jpg",
+    "douban_url": "https://book.douban.com/subject/10520377/",
+    "mark_date": "2021-11-21",
+    "comment": "",
+    "tags": "",
+    "id": "10520377"
+  },
+  {
+    "title": "妖绘卷",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "Sheep"
+    ],
+    "publisher": "湖南美术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10574335.jpg",
+    "douban_url": "https://book.douban.com/subject/10574335/",
+    "mark_date": "2021-11-20",
+    "comment": "",
+    "tags": "",
+    "id": "10574335"
+  },
+  {
+    "title": "像艺术家一样思考",
+    "year": "2003",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "贝蒂・艾德华"
+    ],
+    "publisher": "海南出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1055088.jpg",
+    "douban_url": "https://book.douban.com/subject/1055088/",
+    "mark_date": "2021-11-14",
+    "comment": "还不错的一本书，把学画画中的一些内心障碍列出来总结为左脑的语言和常识阻碍， 限定一个画框把三维平面缩到二维，然后把看到的精准画出来就好，后面几章跑的太快了",
+    "tags": "",
+    "id": "1055088"
+  },
+  {
+    "title": "王家卫的电影世界",
+    "year": "2021",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "张建德"
+    ],
+    "publisher": "北京大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34954799.jpg",
+    "douban_url": "https://book.douban.com/subject/34954799/",
+    "mark_date": "2021-11-09",
+    "comment": "刷完片单随手看看",
+    "tags": "",
+    "id": "34954799"
+  },
+  {
+    "title": "权力与影响力",
+    "year": "2008",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "约翰 P. 科特(John P. Kotter) 约翰·P.科特"
+    ],
+    "publisher": "机械工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2280967.jpg",
+    "douban_url": "https://book.douban.com/subject/2280967/",
+    "mark_date": "2021-11-02",
+    "comment": "",
+    "tags": "",
+    "id": "2280967"
+  },
+  {
+    "title": "人不单靠面包活着",
+    "year": "2013",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "费奥多尔·陀思妥耶夫斯基"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/24871605.jpg",
+    "douban_url": "https://book.douban.com/subject/24871605/",
+    "mark_date": "2021-10-13",
+    "comment": "",
+    "tags": "",
+    "id": "24871605"
+  },
+  {
+    "title": "画家之眼",
+    "year": "2016",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "安德鲁·路米斯"
+    ],
+    "publisher": "北京联合出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26975767.jpg",
+    "douban_url": "https://book.douban.com/subject/26975767/",
+    "mark_date": "2021-10-09",
+    "comment": "",
+    "tags": "",
+    "id": "26975767"
+  },
+  {
+    "title": "轻轻松松认植物",
+    "year": "2016",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "汪劲武"
+    ],
+    "publisher": "化学工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26877918.jpg",
+    "douban_url": "https://book.douban.com/subject/26877918/",
+    "mark_date": "2021-07-02",
+    "comment": "太长了断断续续挑感兴趣的看完了",
+    "tags": "",
+    "id": "26877918"
+  },
+  {
+    "title": "民主的细节",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "刘瑜"
+    ],
+    "publisher": "上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3813669.jpg",
+    "douban_url": "https://book.douban.com/subject/3813669/",
+    "mark_date": "2021-06-28",
+    "comment": "杂文集锦",
+    "tags": "",
+    "id": "3813669"
+  },
+  {
+    "title": "送你一颗子弹",
+    "year": "2010",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "刘瑜"
+    ],
+    "publisher": "上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4238362.jpg",
+    "douban_url": "https://book.douban.com/subject/4238362/",
+    "mark_date": "2021-06-16",
+    "comment": "博客日志收录，很坦诚的絮絮叨叨",
+    "tags": "",
+    "id": "4238362"
+  },
+  {
+    "title": "看不见的森林",
+    "year": "2014",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "戴维•乔治•哈斯凯尔 戴维·乔治·哈斯凯尔"
     ],
     "publisher": "商务印书馆",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26901529.jpg",
-    "douban_url": "https://book.douban.com/subject/26901529/",
-    "mark_date": "2021-06-19",
-    "comment": "图片太美了，上班路上的蛋黄花树看了一年了",
-    "id": "26901529"
+    "poster_url": "https://dou.img.lithub.cc/book/25876750.jpg",
+    "douban_url": "https://book.douban.com/subject/25876750/",
+    "mark_date": "2021-06-16",
+    "comment": "博物学家每周对于一片森林的观察日记",
+    "tags": "",
+    "id": "25876750"
+  },
+  {
+    "title": "茶馆",
+    "year": "2002",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "老舍"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1036613.jpg",
+    "douban_url": "https://book.douban.com/subject/1036613/",
+    "mark_date": "2021-06-12",
+    "comment": "Mark as movie ",
+    "tags": "",
+    "id": "1036613"
+  },
+  {
+    "title": "霸王别姬",
+    "year": "1999",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "李碧华"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1088711.jpg",
+    "douban_url": "https://book.douban.com/subject/1088711/",
+    "mark_date": "2021-06-12",
+    "comment": "Mark as movie ",
+    "tags": "",
+    "id": "1088711"
+  },
+  {
+    "title": "麦琪的礼物",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "欧·亨利"
+    ],
+    "publisher": "上海社会科学院出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1051193.jpg",
+    "douban_url": "https://book.douban.com/subject/1051193/",
+    "mark_date": "2021-06-12",
+    "comment": "",
+    "tags": "",
+    "id": "1051193"
+  },
+  {
+    "title": "许三观卖血记",
+    "year": "1998",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "余华"
+    ],
+    "publisher": "南海出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1029791.jpg",
+    "douban_url": "https://book.douban.com/subject/1029791/",
+    "mark_date": "2021-06-12",
+    "comment": "",
+    "tags": "",
+    "id": "1029791"
+  },
+  {
+    "title": "受戒",
+    "year": "1987",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "汪曾祺"
+    ],
+    "publisher": "漓江出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1760432.jpg",
+    "douban_url": "https://book.douban.com/subject/1760432/",
+    "mark_date": "2021-05-25",
+    "comment": "没看完开头两篇写的也太嫩的感觉，也可能就是汪的特色吧，相比之下还是喜欢散文多点",
+    "tags": "",
+    "id": "1760432"
+  },
+  {
+    "title": "海的女儿",
+    "year": "1978",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "安徒生"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1765512.jpg",
+    "douban_url": "https://book.douban.com/subject/1765512/",
+    "mark_date": "2021-05-19",
+    "comment": "",
+    "tags": "",
+    "id": "1765512"
+  },
+  {
+    "title": "厌女",
+    "year": "2015",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "上野千鹤子"
+    ],
+    "publisher": "上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/25836270.jpg",
+    "douban_url": "https://book.douban.com/subject/25836270/",
+    "mark_date": "2021-05-16",
+    "comment": "已经进了豆瓣250了，其中母亲的厌女症的那章看的太难过了，如此挣扎却无法和解，就像佐野洋子一样挣扎一生",
+    "tags": "",
+    "id": "25836270"
+  },
+  {
+    "title": "非凡冒险",
+    "year": "2019",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "丹尼尔•华莱士"
+    ],
+    "publisher": "江苏凤凰文艺出版社有限公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30413226.jpg",
+    "douban_url": "https://book.douban.com/subject/30413226/",
+    "mark_date": "2021-05-16",
+    "comment": "一个需要伴侣参加的免费项目，仿佛大众点评的两人霸王餐一样，一个34岁的奇怪的人的碎碎念，但是还是吸引我看完了，虽然有很多无脑的情节的，但是其中的一些孤独的描写还是很戳心",
+    "tags": "",
+    "id": "30413226"
+  },
+  {
+    "title": "青铜时代",
+    "year": "1997",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "王小波"
+    ],
+    "publisher": "花城出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1085883.jpg",
+    "douban_url": "https://book.douban.com/subject/1085883/",
+    "mark_date": "2021-05-09",
+    "comment": "",
+    "tags": "",
+    "id": "1085883"
+  },
+  {
+    "title": "动物农场",
+    "year": "2016",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "乔治•奥威尔"
+    ],
+    "publisher": "北京联合出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26728835.jpg",
+    "douban_url": "https://book.douban.com/subject/26728835/",
+    "mark_date": "2021-05-09",
+    "comment": "",
+    "tags": "",
+    "id": "26728835"
   },
   {
     "title": "美丽新世界",
     "year": "2017",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "【英】奥尔德斯·赫胥黎"
     ],
     "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27002046.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/27002046.jpg",
     "douban_url": "https://book.douban.com/subject/27002046/",
     "mark_date": "2021-05-09",
     "comment": "",
+    "tags": "",
     "id": "27002046"
   },
   {
-    "title": "戴维·伯恩斯",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "[美] 戴维·伯恩斯"
+    "title": "万水千山走遍",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "三毛"
     ],
-    "publisher": "中国城市出版社",
+    "publisher": "哈尔滨出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/5980113.jpg",
-    "douban_url": "https://book.douban.com/subject/5980113/",
-    "mark_date": "2021-04-13",
-    "comment": "很厚的一本书，最开始两部分似乎有种成功学的意味，就是各种认知偏差和分析方法之类的，第三部分关于认同/爱/价值似乎触到我自己了，自己从小到大痴迷的价值评估方法，所以产生对他人认同的依赖以及害怕面对批评容易生气，解决办法似乎是消解掉「价值」这个概念，只是去在日常生活中找到满足感",
-    "id": "5980113"
+    "poster_url": "https://dou.img.lithub.cc/book/1036490.jpg",
+    "douban_url": "https://book.douban.com/subject/1036490/",
+    "mark_date": "2021-05-07",
+    "comment": "",
+    "tags": "",
+    "id": "1036490"
   },
   {
-    "title": "艾里希·弗洛姆",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "[美]艾里希·弗洛姆"
+    "title": "稻草人手记",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "(台湾)三毛"
     ],
-    "publisher": "上海译文出版社",
+    "publisher": "哈尔滨出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6859959.jpg",
-    "douban_url": "https://book.douban.com/subject/6859959/",
-    "mark_date": "2021-03-28",
-    "comment": "第五章人的异化看的不停在划线，似乎为自己之前的对于生活和工作的疑惑找到了一点出口，资本主义的一套话语中人成为工具，后果就是人和自我的剥离，只有通过消费或者带来创造力错觉的消费来蒙蔽自己。",
-    "id": "6859959"
+    "poster_url": "https://dou.img.lithub.cc/book/1064682.jpg",
+    "douban_url": "https://book.douban.com/subject/1064682/",
+    "mark_date": "2021-05-07",
+    "comment": "爱情故事",
+    "tags": "",
+    "id": "1064682"
+  },
+  {
+    "title": "温柔的夜",
+    "year": "2004",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "三毛"
+    ],
+    "publisher": "哈尔滨出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1082416.jpg",
+    "douban_url": "https://book.douban.com/subject/1082416/",
+    "mark_date": "2021-05-07",
+    "comment": "",
+    "tags": "",
+    "id": "1082416"
+  },
+  {
+    "title": "哭泣的骆驼",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "三毛"
+    ],
+    "publisher": "哈尔滨出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1029111.jpg",
+    "douban_url": "https://book.douban.com/subject/1029111/",
+    "mark_date": "2021-05-07",
+    "comment": "",
+    "tags": "",
+    "id": "1029111"
+  },
+  {
+    "title": "一千零一夜",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "2003"
+    ],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1035848.jpg",
+    "douban_url": "https://book.douban.com/subject/1035848/",
+    "mark_date": "2021-05-06",
+    "comment": "",
+    "tags": "",
+    "id": "1035848"
+  },
+  {
+    "title": "安徒生童话故事集",
+    "year": "1997",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "（丹麦）安徒生"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1046209.jpg",
+    "douban_url": "https://book.douban.com/subject/1046209/",
+    "mark_date": "2021-05-06",
+    "comment": "回家翻了小时候的书重读了第一篇就觉得很奇怪，士兵杀了巫婆国王和王后，娶了公主，公主心满意足这是啥设定",
+    "tags": "",
+    "id": "1046209"
+  },
+  {
+    "title": "朝花夕拾",
+    "year": "1973",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "鲁迅"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1449352.jpg",
+    "douban_url": "https://book.douban.com/subject/1449352/",
+    "mark_date": "2021-05-06",
+    "comment": "散文读起来稍微容易些",
+    "tags": "",
+    "id": "1449352"
+  },
+  {
+    "title": "撒哈拉的故事",
+    "year": "2003",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "三毛"
+    ],
+    "publisher": "哈尔滨出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1060068.jpg",
+    "douban_url": "https://book.douban.com/subject/1060068/",
+    "mark_date": "2021-04-27",
+    "comment": "没有想象中的好，但是还是被文字可爱到",
+    "tags": "",
+    "id": "1060068"
+  },
+  {
+    "title": "我的阿勒泰",
+    "year": "2018",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "李娟"
+    ],
+    "publisher": "长江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30259726.jpg",
+    "douban_url": "https://book.douban.com/subject/30259726/",
+    "mark_date": "2021-04-24",
+    "comment": "读着好舒服",
+    "tags": "",
+    "id": "30259726"
+  },
+  {
+    "title": "经济学原理（上下）",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "曼昆"
+    ],
+    "publisher": "机械工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1028842.jpg",
+    "douban_url": "https://book.douban.com/subject/1028842/",
+    "mark_date": "2021-04-20",
+    "comment": "大学教材",
+    "tags": "",
+    "id": "1028842"
+  },
+  {
+    "title": "乡土中国",
+    "year": "2006",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "费孝通"
+    ],
+    "publisher": "上海人民出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1795079.jpg",
+    "douban_url": "https://book.douban.com/subject/1795079/",
+    "mark_date": "2021-04-18",
+    "comment": "对现在的自己来说太理论了",
+    "tags": "",
+    "id": "1795079"
+  },
+  {
+    "title": "时间的玫瑰",
+    "year": "2020",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "御巫由纪"
+    ],
+    "publisher": "中信出版集团·雅信",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34779934.jpg",
+    "douban_url": "https://book.douban.com/subject/34779934/",
+    "mark_date": "2021-04-04",
+    "comment": "",
+    "tags": "",
+    "id": "34779934"
+  },
+  {
+    "title": "叔本华美学随笔",
+    "year": "2018",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "阿图尔·叔本华"
+    ],
+    "publisher": "上海人民出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/27204786.jpg",
+    "douban_url": "https://book.douban.com/subject/27204786/",
+    "mark_date": "2021-03-27",
+    "comment": "主要读了前两章论思考和论阅读",
+    "tags": "",
+    "id": "27204786"
+  },
+  {
+    "title": "叔本华思想随笔",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "阿图尔·叔本华"
+    ],
+    "publisher": "上海人民出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30466225.jpg",
+    "douban_url": "https://book.douban.com/subject/30466225/",
+    "mark_date": "2021-03-24",
+    "comment": "",
+    "tags": "",
+    "id": "30466225"
   },
   {
     "title": "人生的意义",
     "year": "2012",
     "rating": "5",
-    "authors": [
-      "[英国] 特里·伊格尔顿"
+    "status": "done",
+    "author": [
+      "特里·伊格尔顿"
     ],
     "publisher": "译林出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/20273773.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/20273773.jpg",
     "douban_url": "https://book.douban.com/subject/20273773/",
     "mark_date": "2021-03-21",
     "comment": "哲学家喜欢分析问题不喜欢给出答案，什么是人生，什么是意义，什么是无意义，你为什么要问意义，最后一页给出两个可能选项爱和幸福？",
+    "tags": "",
     "id": "20273773"
   },
   {
-    "title": "佐野洋子",
-    "year": "2013",
-    "rating": "5",
-    "authors": [
-      "佐野洋子"
+    "title": "日常生活中的自我呈现",
+    "year": "2008",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "（美）欧文·戈夫曼"
     ],
-    "publisher": "一起來出版",
+    "publisher": "北京大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/25783249.jpg",
-    "douban_url": "https://book.douban.com/subject/25783249/",
-    "mark_date": "2021-03-15",
-    "comment": "到深圳的第一个月在诚品看到了台版，竖版繁体读的很累，看到2006年写着我68岁还在换算今年应该多少岁，结果翻到最后看到去世时间巨大的失落感",
-    "id": "25783249"
+    "poster_url": "https://dou.img.lithub.cc/book/3062632.jpg",
+    "douban_url": "https://book.douban.com/subject/3062632/",
+    "mark_date": "2021-03-20",
+    "comment": "硬着头皮翻完了，学术论文看起来好累，似乎并没有解决我最开始的问题，人处处都是表演。",
+    "tags": "",
+    "id": "3062632"
   },
   {
-    "title": "赫尔曼·黑塞",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[德] 赫尔曼·黑塞"
-    ],
-    "publisher": "天津人民出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26980487.jpg",
-    "douban_url": "https://book.douban.com/subject/26980487/",
-    "mark_date": "2020-12-05",
-    "comment": "",
-    "id": "26980487"
-  },
-  {
-    "title": "玛格丽特·阿特伍德",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "[加拿大] 玛格丽特·阿特伍德"
+    "title": "到灯塔去",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "弗吉尼亚·伍尔夫"
     ],
     "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35081845.jpg",
-    "douban_url": "https://book.douban.com/subject/35081845/",
-    "mark_date": "2020-12-05",
+    "poster_url": "https://dou.img.lithub.cc/book/3402999.jpg",
+    "douban_url": "https://book.douban.com/subject/3402999/",
+    "mark_date": "2021-03-19",
+    "comment": "看了开头没看下去，等待下一个阅读时机。",
+    "tags": "",
+    "id": "3402999"
+  },
+  {
+    "title": "常识与通识",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "阿城"
+    ],
+    "publisher": "上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30314820.jpg",
+    "douban_url": "https://book.douban.com/subject/30314820/",
+    "mark_date": "2021-02-10",
+    "comment": "最近不太看得进去这种随笔",
+    "tags": "",
+    "id": "30314820"
+  },
+  {
+    "title": "下河 #3",
+    "year": "2020",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "214"
+    ],
+    "publisher": "无像",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35218633.jpg",
+    "douban_url": "https://book.douban.com/subject/35218633/",
+    "mark_date": "2021-01-24",
+    "comment": "小张家翻到摄影书，夏天的感觉",
+    "tags": "",
+    "id": "35218633"
+  },
+  {
+    "title": "乌托邦诗篇",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "王安忆"
+    ],
+    "publisher": "华东师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/7051803.jpg",
+    "douban_url": "https://book.douban.com/subject/7051803/",
+    "mark_date": "2021-01-12",
     "comment": "",
-    "id": "35081845"
+    "tags": "",
+    "id": "7051803"
   },
   {
-    "title": "约翰·安德鲁斯",
-    "year": "2015",
-    "rating": "5",
-    "authors": [
-      "约翰·安德鲁斯"
+    "title": "真实的幸福",
+    "year": "2010",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "【美】马丁•塞利格曼（Martin E.P. Seligman ）"
     ],
-    "publisher": "新星出版社",
+    "publisher": "万卷出版公司",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26655770.jpg",
-    "douban_url": "https://book.douban.com/subject/26655770/",
-    "mark_date": "2020-11-16",
-    "comment": "很有意思的一本小书，阅读其他书的时候总是纠结各种主义的词是什么意思，这本就可以查！",
-    "id": "26655770"
+    "poster_url": "https://dou.img.lithub.cc/book/4934733.jpg",
+    "douban_url": "https://book.douban.com/subject/4934733/",
+    "mark_date": "2020-11-28",
+    "comment": "正念课程参考书",
+    "tags": "",
+    "id": "4934733"
   },
   {
-    "title": "匡扶",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "匡扶"
+    "title": "禅与摩托车维修艺术",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "罗伯特·M.波西格"
     ],
-    "publisher": "湖南文艺出版社",
+    "publisher": "重庆出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/35041581.jpg",
-    "douban_url": "https://book.douban.com/subject/35041581/",
-    "mark_date": "2020-08-23",
-    "comment": "几个故事都很不错！",
-    "id": "35041581"
+    "poster_url": "https://dou.img.lithub.cc/book/6811366.jpg",
+    "douban_url": "https://book.douban.com/subject/6811366/",
+    "mark_date": "2020-11-26",
+    "comment": "标注一下没看完，虽然试图把哲学讲的通俗一些，但是反而变得更啰嗦没有逻辑",
+    "tags": "",
+    "id": "6811366"
   },
   {
-    "title": "许先哲",
-    "year": "2020",
-    "rating": "5",
-    "authors": [
-      "许先哲"
-    ],
-    "publisher": "江苏凤凰文艺出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/34884051.jpg",
-    "douban_url": "https://book.douban.com/subject/34884051/",
-    "mark_date": "2020-08-19",
-    "comment": "花了三天看完了，第一次看国漫真的很棒呀，黑白画面，故事背景，人物设定都很棒，就是这更新频率追起来估计很痛苦，被老万安利记录一下（PS标记漫画看过很爽",
-    "id": "34884051"
-  },
-  {
-    "title": "佐野洋子",
-    "year": "2018",
-    "rating": "5",
-    "authors": [
-      "[日] 佐野洋子"
-    ],
-    "publisher": "新星出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/30257731.jpg",
-    "douban_url": "https://book.douban.com/subject/30257731/",
-    "mark_date": "2020-08-15",
-    "comment": "这个人也太有意思了",
-    "id": "30257731"
-  },
-  {
-    "title": "王小波",
+    "title": "沉默的大多数",
     "year": "2017",
-    "rating": "5",
-    "authors": [
+    "rating": "3",
+    "status": "done",
+    "author": [
       "王小波"
     ],
     "publisher": "北京十月文艺出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27013741.jpg",
-    "douban_url": "https://book.douban.com/subject/27013741/",
-    "mark_date": "2020-04-18",
-    "comment": "最后看着王二年表三篇连在一起，反而最喜欢最后的似水流年，似水流年是一个人所有的一切，只有这个东西，才真正归你所有。其余的一切，都是片刻的欢娱和不幸，转眼间就已跑到那似水流年里去了。我所认识的人，都不珍视自己的似水流年。他们甚至不知道，自己还有这么一件东西，所以一个个像丢了魂一样。",
-    "id": "27013741"
-  },
-  {
-    "title": "弗吉尼亚·伍尔夫",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "[英] 弗吉尼亚·伍尔夫"
-    ],
-    "publisher": "天津人民出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/34835082.jpg",
-    "douban_url": "https://book.douban.com/subject/34835082/",
-    "mark_date": "2020-04-11",
+    "poster_url": "https://dou.img.lithub.cc/book/27013716.jpg",
+    "douban_url": "https://book.douban.com/subject/27013716/",
+    "mark_date": "2020-11-22",
     "comment": "",
-    "id": "34835082"
+    "tags": "",
+    "id": "27013716"
   },
   {
-    "title": "小川糸",
-    "year": "2018",
-    "rating": "5",
-    "authors": [
-      "[日] 小川糸"
+    "title": "呐喊",
+    "year": "1973",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "鲁迅"
     ],
-    "publisher": "湖南文艺出版社",
+    "publisher": "人民文学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/28656614.jpg",
-    "douban_url": "https://book.douban.com/subject/28656614/",
-    "mark_date": "2020-02-03",
-    "comment": "很温柔适合晚上听的书",
-    "id": "28656614"
+    "poster_url": "https://dou.img.lithub.cc/book/1449351.jpg",
+    "douban_url": "https://book.douban.com/subject/1449351/",
+    "mark_date": "2020-11-17",
+    "comment": "",
+    "tags": "",
+    "id": "1449351"
   },
   {
-    "title": "周濂",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "周濂"
+    "title": "古代生活图卷",
+    "year": "2020",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "王远"
+    ],
+    "publisher": "湖南人民出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35024032.jpg",
+    "douban_url": "https://book.douban.com/subject/35024032/",
+    "mark_date": "2020-11-01",
+    "comment": "随手翻翻，感觉内容有些太单薄",
+    "tags": "",
+    "id": "35024032"
+  },
+  {
+    "title": "布莱克诗集",
+    "year": "1999",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "威廉·布莱克 William Blake"
     ],
     "publisher": "上海三联书店",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/30441530.jpg",
-    "douban_url": "https://book.douban.com/subject/30441530/",
-    "mark_date": "2020-02-01",
-    "comment": "之前好奇的各种哲学家和各种主义，让人很容易读进去的哲学入门书",
-    "id": "30441530"
+    "poster_url": "https://dou.img.lithub.cc/book/1077762.jpg",
+    "douban_url": "https://book.douban.com/subject/1077762/",
+    "mark_date": "2020-10-29",
+    "comment": "",
+    "tags": "",
+    "id": "1077762"
+  },
+  {
+    "title": "How to Take Smart Notes",
+    "year": "2017",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "Sönke Ahrens"
+    ],
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30216624.jpg",
+    "douban_url": "https://book.douban.com/subject/30216624/",
+    "mark_date": "2020-10-15",
+    "comment": "",
+    "tags": "",
+    "id": "30216624"
+  },
+  {
+    "title": "围城",
+    "year": "1991",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "钱锺书"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/11524204.jpg",
+    "douban_url": "https://book.douban.com/subject/11524204/",
+    "mark_date": "2020-10-15",
+    "comment": "",
+    "tags": "",
+    "id": "11524204"
+  },
+  {
+    "title": "印尼 Etc.",
+    "year": "2019",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "伊莉莎白·皮萨尼"
+    ],
+    "publisher": "上海三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34872741.jpg",
+    "douban_url": "https://book.douban.com/subject/34872741/",
+    "mark_date": "2020-10-12",
+    "comment": "",
+    "tags": "",
+    "id": "34872741"
+  },
+  {
+    "title": "存在主义救了我",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "戈登·马里诺"
+    ],
+    "publisher": "北京联合出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34429817.jpg",
+    "douban_url": "https://book.douban.com/subject/34429817/",
+    "mark_date": "2020-09-17",
+    "comment": "",
+    "tags": "",
+    "id": "34429817"
+  },
+  {
+    "title": "云彩收集者手册",
+    "year": "2018",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "加文·普雷特-平尼 加文·普雷特-平尼"
+    ],
+    "publisher": "译林出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/27624390.jpg",
+    "douban_url": "https://book.douban.com/subject/27624390/",
+    "mark_date": "2020-09-17",
+    "comment": "",
+    "tags": "",
+    "id": "27624390"
+  },
+  {
+    "title": "把自己作为方法",
+    "year": "2020",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "项飙 吴琦"
+    ],
+    "publisher": "上海文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/35092383.jpg",
+    "douban_url": "https://book.douban.com/subject/35092383/",
+    "mark_date": "2020-09-16",
+    "comment": "",
+    "tags": "",
+    "id": "35092383"
+  },
+  {
+    "title": "镖人：卷六",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "许先哲"
+    ],
+    "publisher": "北京联合出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30490151.jpg",
+    "douban_url": "https://book.douban.com/subject/30490151/",
+    "mark_date": "2020-08-19",
+    "comment": "",
+    "tags": "",
+    "id": "30490151"
+  },
+  {
+    "title": "绿毛水怪",
+    "year": "2018",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "王小波"
+    ],
+    "publisher": "北京十月文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/30163860.jpg",
+    "douban_url": "https://book.douban.com/subject/30163860/",
+    "mark_date": "2020-04-18",
+    "comment": "忘了什么时候看的了",
+    "tags": "",
+    "id": "30163860"
+  },
+  {
+    "title": "存在主义是一种人道主义",
+    "year": "1988",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "让-保罗.萨特(Jean-Paul Sartre)"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2050424.jpg",
+    "douban_url": "https://book.douban.com/subject/2050424/",
+    "mark_date": "2020-04-12",
+    "comment": "",
+    "tags": "",
+    "id": "2050424"
+  },
+  {
+    "title": "你当像鸟飞往你的山",
+    "year": "2019",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "塔拉·韦斯特弗"
+    ],
+    "publisher": "南海出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/33440205.jpg",
+    "douban_url": "https://book.douban.com/subject/33440205/",
+    "mark_date": "2020-01-30",
+    "comment": "",
+    "tags": "",
+    "id": "33440205"
   },
   {
     "title": "局外人",
     "year": "2010",
     "rating": "5",
-    "authors": [
-      "[法] 阿尔贝·加缪"
+    "status": "done",
+    "author": [
+      "阿尔贝·加缪"
     ],
     "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/4908885.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/4908885.jpg",
     "douban_url": "https://book.douban.com/subject/4908885/",
     "mark_date": "2019-12-29",
     "comment": "局外人的疏离感",
+    "tags": "",
     "id": "4908885"
   },
   {
-    "title": "迈克尔·桑德尔",
+    "title": "鼠疫",
     "year": "2011",
-    "rating": "5",
-    "authors": [
-      "[美] 迈克尔·桑德尔"
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "阿尔贝·加缪"
     ],
-    "publisher": "中信出版社",
+    "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/5408882.jpg",
-    "douban_url": "https://book.douban.com/subject/5408882/",
-    "mark_date": "2019-11-24",
+    "poster_url": "https://dou.img.lithub.cc/book/5406559.jpg",
+    "douban_url": "https://book.douban.com/subject/5406559/",
+    "mark_date": "2019-11-27",
     "comment": "",
-    "id": "5408882"
+    "tags": "",
+    "id": "5406559"
   },
   {
-    "title": "贾樟柯 万佳欢 编",
-    "year": "2018",
-    "rating": "5",
-    "authors": [
-      "贾樟柯 万佳欢 编"
-    ],
-    "publisher": "台海出版社",
+    "title": "未知图书",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27600198.jpg",
-    "douban_url": "https://book.douban.com/subject/27600198/",
-    "mark_date": "2019-11-09",
+    "poster_url": "https://dou.img.lithub.cc/book/3239549.jpg",
+    "douban_url": "https://book.douban.com/subject/3239549/",
+    "mark_date": "2019-11-20",
     "comment": "",
-    "id": "27600198"
+    "tags": "",
+    "id": "3239549"
   },
   {
-    "title": "贾樟柯 万佳欢 编",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "贾樟柯 万佳欢 编"
+    "title": "人性的弱点全集",
+    "year": "2008",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "戴尔·卡耐基"
     ],
-    "publisher": "台海出版社",
+    "publisher": "中国发展出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27062726.jpg",
-    "douban_url": "https://book.douban.com/subject/27062726/",
-    "mark_date": "2019-11-09",
+    "poster_url": "https://dou.img.lithub.cc/book/1056295.jpg",
+    "douban_url": "https://book.douban.com/subject/1056295/",
+    "mark_date": "2019-11-20",
     "comment": "",
-    "id": "27062726"
+    "tags": "",
+    "id": "1056295"
   },
   {
-    "title": "三浦紫苑",
-    "year": "2015",
-    "rating": "5",
-    "authors": [
-      "三浦紫苑"
+    "title": "人生",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "路遥"
+    ],
+    "publisher": "北京十月文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3803820.jpg",
+    "douban_url": "https://book.douban.com/subject/3803820/",
+    "mark_date": "2019-11-20",
+    "comment": "",
+    "tags": "",
+    "id": "3803820"
+  },
+  {
+    "title": "孤独六讲",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "蒋勋"
     ],
     "publisher": "广西师范大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26210487.jpg",
-    "douban_url": "https://book.douban.com/subject/26210487/",
-    "mark_date": "2019-08-03",
-    "comment": "简单质朴细腻",
-    "id": "26210487"
+    "poster_url": "https://dou.img.lithub.cc/book/4124727.jpg",
+    "douban_url": "https://book.douban.com/subject/4124727/",
+    "mark_date": "2019-11-20",
+    "comment": "",
+    "tags": "",
+    "id": "4124727"
   },
   {
-    "title": "【美】比尔•基尔迪（Bill Kilday）",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "【美】比尔•基尔迪（Bill Kilday）"
+    "title": "富爸爸，穷爸爸",
+    "year": "2000",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "（美）罗伯特·T·清崎 莎伦·L·莱希特"
     ],
-    "publisher": "中信出版集团",
+    "publisher": "世界图书出版公司",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/33430445.jpg",
-    "douban_url": "https://book.douban.com/subject/33430445/",
-    "mark_date": "2019-07-10",
-    "comment": "作为GIS专业的看起来真的是热血沸腾",
-    "id": "33430445"
+    "poster_url": "https://dou.img.lithub.cc/book/1033778.jpg",
+    "douban_url": "https://book.douban.com/subject/1033778/",
+    "mark_date": "2019-11-20",
+    "comment": "",
+    "tags": "",
+    "id": "1033778"
+  },
+  {
+    "title": "乌合之众",
+    "year": "2005",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "古斯塔夫·勒庞"
+    ],
+    "publisher": "中央编译出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1012611.jpg",
+    "douban_url": "https://book.douban.com/subject/1012611/",
+    "mark_date": "2019-11-20",
+    "comment": "",
+    "tags": "",
+    "id": "1012611"
+  },
+  {
+    "title": "爱情笔记",
+    "year": "2004",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "（英）阿兰·德波顿"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1079252.jpg",
+    "douban_url": "https://book.douban.com/subject/1079252/",
+    "mark_date": "2019-11-14",
+    "comment": "",
+    "tags": "",
+    "id": "1079252"
+  },
+  {
+    "title": "我也不想这样",
+    "year": "2019",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "（日）细川貂貂"
+    ],
+    "publisher": "湖南文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/34461208.jpg",
+    "douban_url": "https://book.douban.com/subject/34461208/",
+    "mark_date": "2019-11-14",
+    "comment": "",
+    "tags": "",
+    "id": "34461208"
+  },
+  {
+    "title": "颓废与沉默",
+    "year": "2015",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "徐贲"
+    ],
+    "publisher": "东方出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26575643.jpg",
+    "douban_url": "https://book.douban.com/subject/26575643/",
+    "mark_date": "2019-11-09",
+    "comment": "前三小段讲犬儒的定义还挺不错的，后面感觉就是新闻评述没什么意思",
+    "tags": "",
+    "id": "26575643"
+  },
+  {
+    "title": "亲爱的三毛",
+    "year": "2009",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "三毛"
+    ],
+    "publisher": "北京十月文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3713237.jpg",
+    "douban_url": "https://book.douban.com/subject/3713237/",
+    "mark_date": "2019-11-08",
+    "comment": "",
+    "tags": "",
+    "id": "3713237"
+  },
+  {
+    "title": "阴翳礼赞",
+    "year": "2010",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "谷崎润一郎"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4151117.jpg",
+    "douban_url": "https://book.douban.com/subject/4151117/",
+    "mark_date": "2019-09-11",
+    "comment": "",
+    "tags": "",
+    "id": "4151117"
+  },
+  {
+    "title": "地久天长",
+    "year": "2008",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "王小波"
+    ],
+    "publisher": "上海锦绣文章出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3264644.jpg",
+    "douban_url": "https://book.douban.com/subject/3264644/",
+    "mark_date": "2019-04-26",
+    "comment": "",
+    "tags": "",
+    "id": "3264644"
   },
   {
     "title": "风与树的歌",
     "year": "2004",
     "rating": "5",
-    "authors": [
-      "[日本] 安房直子"
+    "status": "done",
+    "author": [
+      "安房直子"
     ],
     "publisher": "少年儿童出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1270150.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/1270150.jpg",
     "douban_url": "https://book.douban.com/subject/1270150/",
     "mark_date": "2019-04-09",
     "comment": "温柔的童话",
+    "tags": "",
     "id": "1270150"
   },
   {
-    "title": "陆茵茵",
-    "year": "2018",
-    "rating": "5",
-    "authors": [
-      "陆茵茵"
+    "title": "流浪地球",
+    "year": "2008",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "刘慈欣"
     ],
-    "publisher": "四川人民出版社",
+    "publisher": "长江文艺出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27662422.jpg",
-    "douban_url": "https://book.douban.com/subject/27662422/",
-    "mark_date": "2019-03-31",
-    "comment": "普通令人绝望的生活",
-    "id": "27662422"
+    "poster_url": "https://dou.img.lithub.cc/book/3266609.jpg",
+    "douban_url": "https://book.douban.com/subject/3266609/",
+    "mark_date": "2019-03-10",
+    "comment": "",
+    "tags": "",
+    "id": "3266609"
   },
   {
-    "title": "大山旬",
-    "year": "2019",
-    "rating": "5",
-    "authors": [
-      "[日]大山旬"
+    "title": "小狗钱钱",
+    "year": "2014",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "博多·舍费尔 (Schafer B.)"
     ],
-    "publisher": "四川人民出版社",
+    "publisher": "四川少年儿童出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/30435330.jpg",
-    "douban_url": "https://book.douban.com/subject/30435330/",
-    "mark_date": "2019-03-26",
-    "comment": "",
-    "id": "30435330"
-  },
-  {
-    "title": "内田悟",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[日] 内田悟"
-    ],
-    "publisher": "北京联合出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/27126207.jpg",
-    "douban_url": "https://book.douban.com/subject/27126207/",
-    "mark_date": "2018-11-18",
-    "comment": "",
-    "id": "27126207"
+    "poster_url": "https://dou.img.lithub.cc/book/26061406.jpg",
+    "douban_url": "https://book.douban.com/subject/26061406/",
+    "mark_date": "2019-03-09",
+    "comment": "浅显易懂的小故事蕴含了很多道理，但是其实都是最基础说了很多遍的，所谓的具象化目标，记录成功日记，将资产分隔处理等等大部分都知道却没有实践的",
+    "tags": "",
+    "id": "26061406"
   },
   {
     "title": "梁思成与林徽因",
     "year": "1997",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "（美）费慰梅"
     ],
     "publisher": "中国文联出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1460449.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/1460449.jpg",
     "douban_url": "https://book.douban.com/subject/1460449/",
     "mark_date": "2018-09-17",
     "comment": "",
+    "tags": "",
     "id": "1460449"
   },
   {
-    "title": "埃莱娜·费兰特",
-    "year": "2018",
-    "rating": "5",
-    "authors": [
-      "[意] 埃莱娜·费兰特"
+    "title": "复盘+",
+    "year": "2015",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "邱昭良"
     ],
-    "publisher": "人民文学出版社",
+    "publisher": "机械工业出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/30172069.jpg",
-    "douban_url": "https://book.douban.com/subject/30172069/",
-    "mark_date": "2018-07-29",
-    "comment": "我的整个生命，只是一场为了提升社会地位的低俗斗争。",
-    "id": "30172069"
-  },
-  {
-    "title": "是枝裕和",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[日] 是枝裕和"
-    ],
-    "publisher": "北京联合出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26963321.jpg",
-    "douban_url": "https://book.douban.com/subject/26963321/",
-    "mark_date": "2018-02-03",
-    "comment": "#2018已读07#跟看电影还是不一样的体验",
-    "id": "26963321"
+    "poster_url": "https://dou.img.lithub.cc/book/26598457.jpg",
+    "douban_url": "https://book.douban.com/subject/26598457/",
+    "mark_date": "2018-09-01",
+    "comment": "对于了解AAR有一定帮助，不过只翻了个人复盘的部分内容，最后附录的表格还好",
+    "tags": "",
+    "id": "26598457"
   },
   {
     "title": "少年凯歌",
     "year": "",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "2001"
     ],
     "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1091203.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/1091203.jpg",
     "douban_url": "https://book.douban.com/subject/1091203/",
     "mark_date": "2018-01-12",
     "comment": "#2018已读01#文笔太好了，对那个时代的经历的思考",
+    "tags": "",
     "id": "1091203"
   },
   {
-    "title": "尹胎镐 尹太浩",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "[韩]尹胎镐 尹太浩"
+    "title": "Getting Real",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "Jason Fried Heinemeier David Hansson Matthew Linderman"
     ],
-    "publisher": "中信出版社",
+    "publisher": "37signals",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26904342.jpg",
-    "douban_url": "https://book.douban.com/subject/26904342/",
-    "mark_date": "2017-11-18",
-    "comment": "学校图书馆上架之后就借来看，开始的时候脑子里总是会浮现电视剧里的人物场景，感觉漫画毕竟没有剧集刻画的那么生动，剧集里的各个配角都各有特色，然而看到最后的部分感觉漫画也又自己的特色，不会为了所谓的戏剧性去故意煽情，很多片段都让人思考。",
-    "id": "26904342"
+    "poster_url": "https://dou.img.lithub.cc/book/3567853.jpg",
+    "douban_url": "https://book.douban.com/subject/3567853/",
+    "mark_date": "2017-12-18",
+    "comment": "",
+    "tags": "",
+    "id": "3567853"
+  },
+  {
+    "title": "明安小师父",
+    "year": "2016",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "走路摇（绘） 明安（编）"
+    ],
+    "publisher": "中国友谊出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26818144.jpg",
+    "douban_url": "https://book.douban.com/subject/26818144/",
+    "mark_date": "2017-12-05",
+    "comment": "",
+    "tags": "",
+    "id": "26818144"
   },
   {
     "title": "十年一觉电影梦",
     "year": "2007",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "张靓蓓 编著"
     ],
     "publisher": "人民文学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/2275502.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/2275502.jpg",
     "douban_url": "https://book.douban.com/subject/2275502/",
     "mark_date": "2017-11-06",
     "comment": "很喜欢的文笔读起来很顺畅，顺便补了两部电影，看了十三邀的采访，就是一个很努力拍电影的人。",
+    "tags": "",
     "id": "2275502"
   },
   {
-    "title": "林奕含",
-    "year": "2017",
-    "rating": "5",
-    "authors": [
-      "林奕含"
+    "title": "娱乐至死",
+    "year": "2011",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "尼尔·波兹曼"
     ],
-    "publisher": "游擊文化",
+    "publisher": "广西师范大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26963900.jpg",
-    "douban_url": "https://book.douban.com/subject/26963900/",
-    "mark_date": "2017-10-02",
-    "comment": "看的时候时刻有种真人真事的代入感，恐惧无奈愤怒各种情绪，只能看一会停一会。",
-    "id": "26963900"
+    "poster_url": "https://dou.img.lithub.cc/book/1062193.jpg",
+    "douban_url": "https://book.douban.com/subject/1062193/",
+    "mark_date": "2017-10-15",
+    "comment": "",
+    "tags": "",
+    "id": "1062193"
   },
   {
     "title": "未知图书",
     "year": "",
-    "rating": "5",
-    "authors": [],
+    "rating": "4",
+    "status": "done",
+    "author": [],
     "publisher": "",
     "genres": [],
-    "cover_url": "https://dou.img.lithub.cc/book/25917467.jpg",
-    "douban_url": "https://book.douban.com/subject/25917467/",
-    "mark_date": "2017-08-02",
-    "comment": "\"历史",
-    "id": "25917467"
+    "poster_url": "https://dou.img.lithub.cc/book/26671188.jpg",
+    "douban_url": "https://book.douban.com/subject/26671188/",
+    "mark_date": "2017-09-24",
+    "comment": "才了解姥爷口中的三年自然灾害",
+    "tags": "",
+    "id": "26671188"
   },
   {
-    "title": "乔治·奥威尔",
-    "year": "2010",
-    "rating": "5",
-    "authors": [
-      "[英] 乔治·奥威尔"
+    "title": "雨天 炎天",
+    "year": "2016",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "村上春树"
     ],
-    "publisher": "万卷出版公司",
+    "publisher": "上海译文出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/5299764.jpg",
-    "douban_url": "https://book.douban.com/subject/5299764/",
+    "poster_url": "https://dou.img.lithub.cc/book/26841614.jpg",
+    "douban_url": "https://book.douban.com/subject/26841614/",
+    "mark_date": "2017-09-01",
+    "comment": "这一本还挺有意思的，更像游记一些",
+    "tags": "",
+    "id": "26841614"
+  },
+  {
+    "title": "远方的鼓声",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "村上春树"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/6126821.jpg",
+    "douban_url": "https://book.douban.com/subject/6126821/",
+    "mark_date": "2017-08-29",
+    "comment": "先看了蒋姑娘的东京一年再看到这本，不太感冒可能一直不太喜欢村上的风格，有些年代感和距离。",
+    "tags": "",
+    "id": "6126821"
+  },
+  {
+    "title": "无缘社会",
+    "year": "2014",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "日本NHK特别节目录制组"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/25822105.jpg",
+    "douban_url": "https://book.douban.com/subject/25822105/",
+    "mark_date": "2017-07-19",
+    "comment": "太像我们的未来了",
+    "tags": "",
+    "id": "25822105"
+  },
+  {
+    "title": "刀与星辰",
+    "year": "",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "2012"
+    ],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10607793.jpg",
+    "douban_url": "https://book.douban.com/subject/10607793/",
     "mark_date": "2017-07-02",
-    "comment": "有点难以想象是1948年的书，仿佛寓言了太多事情，看完之后有点冲击感，特别是新语的设计，再加上最近发生的事情，需要时间自己来慢慢消化",
-    "id": "5299764"
+    "comment": "说是影评其实也是借电影表达想法吧，很多观点很犀利",
+    "tags": "",
+    "id": "10607793"
   },
   {
-    "title": "玛格丽特·阿特伍德",
-    "year": "2008",
-    "rating": "5",
-    "authors": [
-      "[加拿大] 玛格丽特·阿特伍德"
+    "title": "一本小小的红色写作书",
+    "year": "2017",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "布兰登·罗伊尔"
     ],
-    "publisher": "译林出版社",
+    "publisher": "九州出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3056877.jpg",
-    "douban_url": "https://book.douban.com/subject/3056877/",
-    "mark_date": "2017-05-06",
-    "comment": "\"小说",
-    "id": "3056877"
+    "poster_url": "https://dou.img.lithub.cc/book/26990918.jpg",
+    "douban_url": "https://book.douban.com/subject/26990918/",
+    "mark_date": "2017-06-15",
+    "comment": "感觉不是特别实用，很快就翻完了。",
+    "tags": "",
+    "id": "26990918"
+  },
+  {
+    "title": "白鹿原",
+    "year": "1997",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "陈忠实"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1085799.jpg",
+    "douban_url": "https://book.douban.com/subject/1085799/",
+    "mark_date": "2017-05-25",
+    "comment": "读的放不下来，对于自己来说开始理解之前家里长辈的一些观点。",
+    "tags": "",
+    "id": "1085799"
+  },
+  {
+    "title": "人间失格",
+    "year": "2009",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "太宰治"
+    ],
+    "publisher": "吉林出版集团",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4011670.jpg",
+    "douban_url": "https://book.douban.com/subject/4011670/",
+    "mark_date": "2017-04-01",
+    "comment": "年幼时的把自己划到人类之外的清醒，和后期的渣男行为，不知道为什么总是很容易感同身受。这个和《被嫌弃的松子的医生》《百年酒馆》《伦敦生活》都好像，第一反应其实都是觉得主角好作，为什么那么多正常的路不去走，而是把自己作到如此悲惨的地步，可是自己却总是会有种理解的心情，人总是没有办法像设定好的路去走的啊，总是有这样或者那样的让人无法理解，但是顺应自己内心的行为啊。",
+    "tags": "",
+    "id": "4011670"
+  },
+  {
+    "title": "当呼吸化为空气",
+    "year": "2016",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "保罗·卡拉尼什 Paul Kalanithi"
+    ],
+    "publisher": "浙江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26896859.jpg",
+    "douban_url": "https://book.douban.com/subject/26896859/",
+    "mark_date": "2017-03-02",
+    "comment": "未完书，医生和患者两个身份集中在一个人身上，前半部分讲述对医学和文学的追求，后半部分则是从一个医生的角度看待自己的疾病，最后妻子的后记让人感动。能与自己的主治医师无障碍沟通，到最后最重要的是什么时候做出那个“我准备好了”的决定吧。",
+    "tags": "",
+    "id": "26896859"
+  },
+  {
+    "title": "那可不行哦",
+    "year": "2014",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "佐野洋子"
+    ],
+    "publisher": "重庆大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/25977954.jpg",
+    "douban_url": "https://book.douban.com/subject/25977954/",
+    "mark_date": "2017-02-24",
+    "comment": "",
+    "tags": "",
+    "id": "25977954"
+  },
+  {
+    "title": "我想吃一个小孩",
+    "year": "2009",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "西尔维娜·多尼奥 著 [法] 多萝蒂·德·蒙弗里 绘"
+    ],
+    "publisher": "北京科学技术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3608170.jpg",
+    "douban_url": "https://book.douban.com/subject/3608170/",
+    "mark_date": "2017-01-10",
+    "comment": "儿童读物",
+    "tags": "绘本",
+    "id": "3608170"
   },
   {
     "title": "爷爷变成了幽灵",
     "year": "2007",
     "rating": "5",
-    "authors": [
-      "[丹麦]金·弗珀兹·艾克松/文 [瑞典]爱娃·艾瑞克松/图"
+    "status": "done",
+    "author": [
+      "金·弗珀兹·艾克松/文 [瑞典]爱娃·艾瑞克松/图"
     ],
     "publisher": "湖北美术出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/2361768.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/2361768.jpg",
     "douban_url": "https://book.douban.com/subject/2361768/",
     "mark_date": "2017-01-10",
     "comment": "我想起来我忘记什么事了，我忘记对你说再见。这句看哭了，那句再见再也没来及说。",
+    "tags": "",
     "id": "2361768"
   },
   {
-    "title": "罗英石 罗䁐锡",
-    "year": "2016",
-    "rating": "5",
-    "authors": [
-      "[韩]罗英石 罗䁐锡"
+    "title": "怎样临帖",
+    "year": "2015",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "邓散木"
     ],
-    "publisher": "广西师范大学出版社",
+    "publisher": "浙江人民美术出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26894364.jpg",
-    "douban_url": "https://book.douban.com/subject/26894364/",
-    "mark_date": "2016-12-16",
-    "comment": "迫不及待的读完了，看了罗PD在tvn的几乎所有节目，很喜欢这种真性情的罗PD，强烈推荐！",
-    "id": "26894364"
+    "poster_url": "https://dou.img.lithub.cc/book/26639366.jpg",
+    "douban_url": "https://book.douban.com/subject/26639366/",
+    "mark_date": "2017-01-04",
+    "comment": "",
+    "tags": "",
+    "id": "26639366"
   },
   {
-    "title": "詹宏志",
-    "year": "2016",
-    "rating": "5",
-    "authors": [
-      "詹宏志"
+    "title": "结构思考力",
+    "year": "2014",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "李忠秋"
+    ],
+    "publisher": "电子工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26145094.jpg",
+    "douban_url": "https://book.douban.com/subject/26145094/",
+    "mark_date": "2016-12-23",
+    "comment": "感觉道理其实大家日常都懂，但是有例子促进思考",
+    "tags": "",
+    "id": "26145094"
+  },
+  {
+    "title": "未知图书",
+    "year": "",
+    "rating": "1",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26910673.jpg",
+    "douban_url": "https://book.douban.com/subject/26910673/",
+    "mark_date": "2016-12-23",
+    "comment": "买书需谨慎",
+    "tags": "",
+    "id": "26910673"
+  },
+  {
+    "title": "习字入门",
+    "year": "2015",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "刘养锋"
+    ],
+    "publisher": "浙江人民美术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/26639363.jpg",
+    "douban_url": "https://book.douban.com/subject/26639363/",
+    "mark_date": "2016-12-21",
+    "comment": "字无百日功",
+    "tags": "",
+    "id": "26639363"
+  },
+  {
+    "title": "一个人的好天气",
+    "year": "2007",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "青山七惠"
+    ],
+    "publisher": "上海译文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2250587.jpg",
+    "douban_url": "https://book.douban.com/subject/2250587/",
+    "mark_date": "2016-11-16",
+    "comment": "不喜欢知寿，又觉得像自己。",
+    "tags": "日本",
+    "id": "2250587"
+  },
+  {
+    "title": "花田半亩",
+    "year": "2009",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "田维"
+    ],
+    "publisher": "昆仑出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3698217.jpg",
+    "douban_url": "https://book.douban.com/subject/3698217/",
+    "mark_date": "2016-10-28",
+    "comment": "在CCTV10上看的推荐，当年还专门去市里买的全价书~",
+    "tags": "随笔",
+    "id": "3698217"
+  },
+  {
+    "title": "暗时间",
+    "year": "2011",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "刘未鹏"
+    ],
+    "publisher": "电子工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/6709809.jpg",
+    "douban_url": "https://book.douban.com/subject/6709809/",
+    "mark_date": "2016-06-26",
+    "comment": "",
+    "tags": "",
+    "id": "6709809"
+  },
+  {
+    "title": "钢笔画技法",
+    "year": "1998",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "盖瑞・斯梅恩斯"
+    ],
+    "publisher": "中国青年出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1014485.jpg",
+    "douban_url": "https://book.douban.com/subject/1014485/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "1014485"
+  },
+  {
+    "title": "漫话法国",
+    "year": "2010",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "李元馥"
     ],
     "publisher": "中信出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26831788.jpg",
-    "douban_url": "https://book.douban.com/subject/26831788/",
-    "mark_date": "2016-11-29",
-    "comment": "喜欢这种类型的随笔，每次看到最后都好饿。",
-    "id": "26831788"
+    "poster_url": "https://dou.img.lithub.cc/book/4240953.jpg",
+    "douban_url": "https://book.douban.com/subject/4240953/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "4240953"
   },
   {
-    "title": "顾乡",
-    "year": "2016",
-    "rating": "5",
-    "authors": [
-      "顾乡"
+    "title": "蜗居",
+    "year": "2007",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "六六"
     ],
     "publisher": "长江文艺出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/26865082.jpg",
-    "douban_url": "https://book.douban.com/subject/26865082/",
-    "mark_date": "2016-11-25",
-    "comment": "画风清奇，一口气读完。",
-    "id": "26865082"
-  },
-  {
-    "title": "阿兰·德波顿",
-    "year": "2007",
-    "rating": "5",
-    "authors": [
-      "[英] 阿兰·德波顿"
-    ],
-    "publisher": "上海译文出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/2033081.jpg",
-    "douban_url": "https://book.douban.com/subject/2033081/",
-    "mark_date": "2016-11-23",
-    "comment": "知识面太广了，一些观点很能引发思考，通过各种图表的形式来阐述观点很喜欢这种书的形式。",
-    "id": "2033081"
-  },
-  {
-    "title": "山本文绪",
-    "year": "2013",
-    "rating": "5",
-    "authors": [
-      "[日] 山本文绪"
-    ],
-    "publisher": "南海出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6967980.jpg",
-    "douban_url": "https://book.douban.com/subject/6967980/",
-    "mark_date": "2016-11-16",
-    "comment": "\"日本",
-    "id": "6967980"
-  },
-  {
-    "title": "理查德·耶茨",
-    "year": "2014",
-    "rating": "5",
-    "authors": [
-      "[美] 理查德·耶茨"
-    ],
-    "publisher": "上海译文出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/25754589.jpg",
-    "douban_url": "https://book.douban.com/subject/25754589/",
-    "mark_date": "2016-11-05",
-    "comment": "\"小说",
-    "id": "25754589"
-  },
-  {
-    "title": "astute fiction that feeds the mind and the senses. Fingersmith marks a major leap forward in this young and brilliant career.",
-    "year": "2005",
-    "rating": "5",
-    "authors": [
-      "Sarah Waters"
-    ],
-    "publisher": "Time Warner Books Uk",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1474481.jpg",
-    "douban_url": "https://book.douban.com/subject/1474481/",
-    "mark_date": "2016-11-01",
-    "comment": "啃的第一本原著，虽然看过BBC的剧和韩国的电影，最后还是迫不及待看结局~",
-    "id": "1474481"
-  },
-  {
-    "title": "东野圭吾",
-    "year": "2014",
-    "rating": "5",
-    "authors": [
-      "[日] 东野圭吾"
-    ],
-    "publisher": "南海出版公司",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/25862578.jpg",
-    "douban_url": "https://book.douban.com/subject/25862578/",
-    "mark_date": "2015-08-11",
+    "poster_url": "https://dou.img.lithub.cc/book/2345727.jpg",
+    "douban_url": "https://book.douban.com/subject/2345727/",
+    "mark_date": "2015-10-23",
     "comment": "",
-    "id": "25862578"
+    "tags": "",
+    "id": "2345727"
   },
   {
-    "title": "丹尼·格雷戈里",
+    "title": "新生代农民工",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "2011"
+    ],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/7068122.jpg",
+    "douban_url": "https://book.douban.com/subject/7068122/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "7068122"
+  },
+  {
+    "title": "女思考者",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "毕淑敏"
+    ],
+    "publisher": "中国文联出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3702698.jpg",
+    "douban_url": "https://book.douban.com/subject/3702698/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "3702698"
+  },
+  {
+    "title": "女心理师",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "毕淑敏"
+    ],
+    "publisher": "重庆出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10761494.jpg",
+    "douban_url": "https://book.douban.com/subject/10761494/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "10761494"
+  },
+  {
+    "title": "拯救乳房",
+    "year": "2003",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "毕淑敏"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1081971.jpg",
+    "douban_url": "https://book.douban.com/subject/1081971/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "1081971"
+  },
+  {
+    "title": "街头的自语",
     "year": "2010",
-    "rating": "5",
-    "authors": [
-      "丹尼·格雷戈里"
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "周国平"
     ],
-    "publisher": "上海人民美术出版社",
+    "publisher": "北京理工大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/4251473.jpg",
-    "douban_url": "https://book.douban.com/subject/4251473/",
-    "mark_date": "2015-01-07",
+    "poster_url": "https://dou.img.lithub.cc/book/5247601.jpg",
+    "douban_url": "https://book.douban.com/subject/5247601/",
+    "mark_date": "2015-10-23",
     "comment": "",
-    "id": "4251473"
+    "tags": "",
+    "id": "5247601"
   },
   {
-    "title": "于娟",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "于娟"
+    "title": "安静的位置",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "周国平"
     ],
-    "publisher": "湖南科学技术出版社",
+    "publisher": "北京理工大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6397275.jpg",
-    "douban_url": "https://book.douban.com/subject/6397275/",
+    "poster_url": "https://dou.img.lithub.cc/book/3750309.jpg",
+    "douban_url": "https://book.douban.com/subject/3750309/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "3750309"
+  },
+  {
+    "title": "一千张糖纸",
+    "year": "2006",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "铁凝"
+    ],
+    "publisher": "江苏文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1748067.jpg",
+    "douban_url": "https://book.douban.com/subject/1748067/",
+    "mark_date": "2015-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "1748067"
+  },
+  {
+    "title": "看到什么都会画",
+    "year": "2013",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "飞乐鸟工作室"
+    ],
+    "publisher": "中国水利水电出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/25916335.jpg",
+    "douban_url": "https://book.douban.com/subject/25916335/",
+    "mark_date": "2015-10-09",
+    "comment": "",
+    "tags": "",
+    "id": "25916335"
+  },
+  {
+    "title": "痛并快乐着",
+    "year": "2010",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "白岩松"
+    ],
+    "publisher": "长江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/5404058.jpg",
+    "douban_url": "https://book.douban.com/subject/5404058/",
+    "mark_date": "2015-10-09",
+    "comment": "",
+    "tags": "",
+    "id": "5404058"
+  },
+  {
+    "title": "世界因你不同",
+    "year": "2010",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "李开复 范海涛"
+    ],
+    "publisher": "中信出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4237182.jpg",
+    "douban_url": "https://book.douban.com/subject/4237182/",
+    "mark_date": "2015-10-09",
+    "comment": "",
+    "tags": "",
+    "id": "4237182"
+  },
+  {
+    "title": "幸福了吗？",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "白岩松"
+    ],
+    "publisher": "长江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/5996195.jpg",
+    "douban_url": "https://book.douban.com/subject/5996195/",
+    "mark_date": "2015-09-05",
+    "comment": "",
+    "tags": "",
+    "id": "5996195"
+  },
+  {
+    "title": "天才在左 疯子在右",
+    "year": "2010",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "高铭"
+    ],
+    "publisher": "武汉大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4242172.jpg",
+    "douban_url": "https://book.douban.com/subject/4242172/",
+    "mark_date": "2014-12-03",
+    "comment": "读的时候有种后背发凉的感觉(后来发现是小说而已就无趣了)",
+    "tags": "",
+    "id": "4242172"
+  },
+  {
+    "title": "把时间当作朋友",
+    "year": "2009",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "李笑来"
+    ],
+    "publisher": "电子工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3609132.jpg",
+    "douban_url": "https://book.douban.com/subject/3609132/",
+    "mark_date": "2014-11-05",
+    "comment": "",
+    "tags": "时间管理",
+    "id": "3609132"
+  },
+  {
+    "title": "幸福了吗?",
+    "year": "2010",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "白岩松"
+    ],
+    "publisher": "长江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/5252677.jpg",
+    "douban_url": "https://book.douban.com/subject/5252677/",
     "mark_date": "2014-09-14",
     "comment": "",
-    "id": "6397275"
+    "tags": "",
+    "id": "5252677"
   },
   {
-    "title": "(美)利奥·巴斯卡利亚",
-    "year": "2006",
-    "rating": "5",
-    "authors": [
-      "(美)利奥·巴斯卡利亚"
+    "title": "森林唱游",
+    "year": "2002",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "幾米"
     ],
-    "publisher": "南海出版公司",
+    "publisher": "生活·读书·新知三联书店",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1975886.jpg",
-    "douban_url": "https://book.douban.com/subject/1975886/",
+    "poster_url": "https://dou.img.lithub.cc/book/1013001.jpg",
+    "douban_url": "https://book.douban.com/subject/1013001/",
     "mark_date": "2014-09-13",
-    "comment": "\"绘本",
-    "id": "1975886"
+    "comment": "",
+    "tags": "",
+    "id": "1013001"
+  },
+  {
+    "title": "听幾米唱歌",
+    "year": "2002",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "幾米"
+    ],
+    "publisher": "生活·读书·新知三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1031575.jpg",
+    "douban_url": "https://book.douban.com/subject/1031575/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "",
+    "id": "1031575"
+  },
+  {
+    "title": "照相本子",
+    "year": "2001",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "幾米"
+    ],
+    "publisher": "大塊文化出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1367458.jpg",
+    "douban_url": "https://book.douban.com/subject/1367458/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "",
+    "id": "1367458"
+  },
+  {
+    "title": "微笑的鱼",
+    "year": "2004",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "幾米"
+    ],
+    "publisher": "辽宁教育出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1059937.jpg",
+    "douban_url": "https://book.douban.com/subject/1059937/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "",
+    "id": "1059937"
   },
   {
     "title": "原来你非不快乐",
     "year": "2008",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "林夕"
     ],
     "publisher": "广西师范大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3311009.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/3311009.jpg",
     "douban_url": "https://book.douban.com/subject/3311009/",
     "mark_date": "2014-09-13",
     "comment": "",
+    "tags": "随笔",
     "id": "3311009"
   },
   {
-    "title": "李开复 范海涛",
-    "year": "2009",
-    "rating": "5",
-    "authors": [
-      "李开复 范海涛"
-    ],
-    "publisher": "中信出版社",
+    "title": "骆驼祥子",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/4010196.jpg",
-    "douban_url": "https://book.douban.com/subject/4010196/",
+    "poster_url": "https://dou.img.lithub.cc/book/1043815.jpg",
+    "douban_url": "https://book.douban.com/subject/1043815/",
+    "mark_date": "老舍",
+    "comment": "小说,经典",
+    "tags": "2014-09-13 13:12:22",
+    "id": "1043815"
+  },
+  {
+    "title": "草样年华",
+    "year": "2004",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "孙睿"
+    ],
+    "publisher": "远方出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1007334.jpg",
+    "douban_url": "https://book.douban.com/subject/1007334/",
     "mark_date": "2014-09-13",
     "comment": "",
-    "id": "4010196"
+    "tags": "小说",
+    "id": "1007334"
   },
   {
-    "title": "霍达",
-    "year": "1988",
-    "rating": "5",
-    "authors": [
-      "霍达"
-    ],
-    "publisher": "北京十月文艺出版社",
+    "title": "钢铁是怎样炼成的",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1082334.jpg",
-    "douban_url": "https://book.douban.com/subject/1082334/",
+    "poster_url": "https://dou.img.lithub.cc/book/1013502.jpg",
+    "douban_url": "https://book.douban.com/subject/1013502/",
+    "mark_date": "[苏]",
+    "comment": "小说,经典",
+    "tags": "2014-09-13 13:10:23",
+    "id": "1013502"
+  },
+  {
+    "title": "人生若只如初见",
+    "year": "2006",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "安意如"
+    ],
+    "publisher": "天津教育出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1856285.jpg",
+    "douban_url": "https://book.douban.com/subject/1856285/",
     "mark_date": "2014-09-13",
     "comment": "",
-    "id": "1082334"
+    "tags": "诗词",
+    "id": "1856285"
   },
   {
-    "title": "玛格丽特·米切尔",
-    "year": "2000",
-    "rating": "5",
-    "authors": [
-      "[美国] 玛格丽特·米切尔"
+    "title": "明朝那些事儿（贰）",
+    "year": "2007",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "当年明月"
     ],
-    "publisher": "译林出版社",
+    "publisher": "中国友谊出版公司",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1068920.jpg",
-    "douban_url": "https://book.douban.com/subject/1068920/",
+    "poster_url": "https://dou.img.lithub.cc/book/1949338.jpg",
+    "douban_url": "https://book.douban.com/subject/1949338/",
     "mark_date": "2014-09-13",
-    "comment": "\"小说",
-    "id": "1068920"
-  },
-  {
-    "title": "安倍夜郎",
-    "year": "2013",
-    "rating": "5",
-    "authors": [
-      "[日] 安倍夜郎"
-    ],
-    "publisher": "湖南文艺出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/20470917.jpg",
-    "douban_url": "https://book.douban.com/subject/20470917/",
-    "mark_date": "2014-08-24",
     "comment": "",
-    "id": "20470917"
+    "tags": "",
+    "id": "1949338"
   },
   {
-    "title": "圣埃克苏佩里 [法国] 安东尼·德·圣-埃克苏佩里",
+    "title": "老人与海",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1064275.jpg",
+    "douban_url": "https://book.douban.com/subject/1064275/",
+    "mark_date": "[美]海明威",
+    "comment": "小说,经典",
+    "tags": "2014-09-13 13:07:38",
+    "id": "1064275"
+  },
+  {
+    "title": "这些都是你给我的爱",
+    "year": "2010",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "文：安东尼 图：echo"
+    ],
+    "publisher": "长江文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/4714734.jpg",
+    "douban_url": "https://book.douban.com/subject/4714734/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "绘本",
+    "id": "4714734"
+  },
+  {
+    "title": "窗边的小豆豆",
     "year": "2003",
-    "rating": "5",
-    "authors": [
-      "[法] 圣埃克苏佩里 [法国] 安东尼·德·圣-埃克苏佩里"
-    ],
-    "publisher": "人民文学出版社",
-    "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1084336.jpg",
-    "douban_url": "https://book.douban.com/subject/1084336/",
-    "mark_date": "2014-08-21",
-    "comment": "",
-    "id": "1084336"
-  },
-  {
-    "title": "村上春树",
-    "year": "2009",
-    "rating": "5",
-    "authors": [
-      "[日] 村上春树"
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "黑柳彻子 著 岩崎千弘 图"
     ],
     "publisher": "南海出版公司",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3369600.jpg",
-    "douban_url": "https://book.douban.com/subject/3369600/",
-    "mark_date": "2014-07-25",
+    "poster_url": "https://dou.img.lithub.cc/book/1007914.jpg",
+    "douban_url": "https://book.douban.com/subject/1007914/",
+    "mark_date": "2014-09-13",
     "comment": "",
-    "id": "3369600"
+    "tags": "",
+    "id": "1007914"
   },
   {
-    "title": "平凡的世界（全三部）",
-    "year": "2005",
-    "rating": "5",
-    "authors": [
-      "路遥"
-    ],
-    "publisher": "人民文学出版社",
+    "title": "简爱（英文全本）",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1200840.jpg",
-    "douban_url": "https://book.douban.com/subject/1200840/",
-    "mark_date": "2014-07-25",
-    "comment": "中国文学",
-    "id": "1200840"
+    "poster_url": "https://dou.img.lithub.cc/book/1141406.jpg",
+    "douban_url": "https://book.douban.com/subject/1141406/",
+    "mark_date": "[英]",
+    "comment": "经典,小说",
+    "tags": "2014-09-13 13:03:59",
+    "id": "1141406"
+  },
+  {
+    "title": "何以笙箫默",
+    "year": "2007",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "顾漫"
+    ],
+    "publisher": "朝华出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1461903.jpg",
+    "douban_url": "https://book.douban.com/subject/1461903/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "小说",
+    "id": "1461903"
+  },
+  {
+    "title": "梦里花落知多少",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1016300.jpg",
+    "douban_url": "https://book.douban.com/subject/1016300/",
+    "mark_date": "郭敬明",
+    "comment": "青春,小说",
+    "tags": "2014-09-13 13:03:12",
+    "id": "1016300"
+  },
+  {
+    "title": "万历十五年",
+    "year": "2004",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "黄仁宇"
+    ],
+    "publisher": "生活·读书·新知三联书店",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1012743.jpg",
+    "douban_url": "https://book.douban.com/subject/1012743/",
+    "mark_date": "2014-09-13",
+    "comment": "",
+    "tags": "历史",
+    "id": "1012743"
+  },
+  {
+    "title": "明朝那些事儿（壹）",
+    "year": "2006",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "当年明月"
+    ],
+    "publisher": "中国友谊出版公司",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1873231.jpg",
+    "douban_url": "https://book.douban.com/subject/1873231/",
+    "mark_date": "2014-09-12",
+    "comment": "",
+    "tags": "",
+    "id": "1873231"
+  },
+  {
+    "title": "就这么漂来漂去",
+    "year": "2005",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "韩寒"
+    ],
+    "publisher": "接力出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1440101.jpg",
+    "douban_url": "https://book.douban.com/subject/1440101/",
+    "mark_date": "2014-07-31",
+    "comment": "",
+    "tags": "杂文",
+    "id": "1440101"
+  },
+  {
+    "title": "把你的英语用起来！",
+    "year": "2013",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "伍君仪 刘晓光"
+    ],
+    "publisher": "外文出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3748247.jpg",
+    "douban_url": "https://book.douban.com/subject/3748247/",
+    "mark_date": "2014-07-07",
+    "comment": "",
+    "tags": "",
+    "id": "3748247"
   },
   {
     "title": "那些让你痛苦的，必是让你成长的",
     "year": "2013",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "嘉倩"
     ],
     "publisher": "龙门书局",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/24839537.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/24839537.jpg",
     "douban_url": "https://book.douban.com/subject/24839537/",
     "mark_date": "2014-07-06",
     "comment": "",
+    "tags": "",
     "id": "24839537"
   },
   {
-    "title": "死亡如此多情",
-    "year": "2013",
-    "rating": "5",
-    "authors": [
-      "中国医学论坛报社"
-    ],
-    "publisher": "中信出版社",
+    "title": "世界上最成功的24个女人",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/24839756.jpg",
+    "poster_url": "https://dou.img.lithub.cc/book/5991869.jpg",
+    "douban_url": "https://book.douban.com/subject/5991869/",
+    "mark_date": "朴恩梦",
+    "comment": "",
+    "tags": "2014-06-30 14:19:28",
+    "id": "5991869"
+  },
+  {
+    "title": "死亡如此多情",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/24839756.jpg",
     "douban_url": "https://book.douban.com/subject/24839756/",
-    "mark_date": "2014-04-19",
-    "comment": "\"纪实",
+    "mark_date": "中国医学论坛报社",
+    "comment": "纪实,死亡",
+    "tags": "2014-04-19 14:12:42",
     "id": "24839756"
   },
   {
-    "title": "大冰",
-    "year": "2013",
-    "rating": "5",
-    "authors": [
-      "大冰"
+    "title": "MEMO 2013",
+    "year": "2014",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "三联生活周刊"
     ],
-    "publisher": "中信出版社",
+    "publisher": "生活·读书·新知三联书店",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/25697520.jpg",
-    "douban_url": "https://book.douban.com/subject/25697520/",
-    "mark_date": "2013-11-07",
-    "comment": "\"旅行",
-    "id": "25697520"
+    "poster_url": "https://dou.img.lithub.cc/book/25813030.jpg",
+    "douban_url": "https://book.douban.com/subject/25813030/",
+    "mark_date": "2014-04-17",
+    "comment": "",
+    "tags": "",
+    "id": "25813030"
   },
   {
-    "title": "邹鑫 邹小强",
-    "year": "2009",
-    "rating": "5",
-    "authors": [
-      "邹鑫 邹小强"
+    "title": "手绘POP广告金典教程",
+    "year": "",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "2012"
     ],
-    "publisher": "北京出版社",
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3558629.jpg",
-    "douban_url": "https://book.douban.com/subject/3558629/",
-    "mark_date": "2013-10-25",
+    "poster_url": "https://dou.img.lithub.cc/book/10800125.jpg",
+    "douban_url": "https://book.douban.com/subject/10800125/",
+    "mark_date": "2014-04-17",
     "comment": "",
-    "id": "3558629"
+    "tags": "手绘",
+    "id": "10800125"
+  },
+  {
+    "title": "只愿你曾被这世界温柔相待",
+    "year": "2012",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "水木丁"
+    ],
+    "publisher": "广西师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/19899834.jpg",
+    "douban_url": "https://book.douban.com/subject/19899834/",
+    "mark_date": "2014-03-19",
+    "comment": "",
+    "tags": "随笔",
+    "id": "19899834"
+  },
+  {
+    "title": "因为懂得 所以慈悲",
+    "year": "2012",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "白落梅"
+    ],
+    "publisher": "中国华侨出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10429652.jpg",
+    "douban_url": "https://book.douban.com/subject/10429652/",
+    "mark_date": "2013-12-27",
+    "comment": "",
+    "tags": "传记",
+    "id": "10429652"
+  },
+  {
+    "title": "俞敏洪口述",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "优米网"
+    ],
+    "publisher": "当代中国出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10831855.jpg",
+    "douban_url": "https://book.douban.com/subject/10831855/",
+    "mark_date": "2013-12-14",
+    "comment": "",
+    "tags": "传记",
+    "id": "10831855"
+  },
+  {
+    "title": "杰出的流年",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3025580.jpg",
+    "douban_url": "https://book.douban.com/subject/3025580/",
+    "mark_date": "张杰",
+    "comment": "传记,明星著作",
+    "tags": "2013-11-12 19:59:20",
+    "id": "3025580"
+  },
+  {
+    "title": "娜是一阵疯",
+    "year": "2006",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "谢娜"
+    ],
+    "publisher": "湖南文艺出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1852906.jpg",
+    "douban_url": "https://book.douban.com/subject/1852906/",
+    "mark_date": "2013-11-12",
+    "comment": "",
+    "tags": "传记",
+    "id": "1852906"
+  },
+  {
+    "title": "开始",
+    "year": "2007",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "几米"
+    ],
+    "publisher": "人民文学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3003765.jpg",
+    "douban_url": "https://book.douban.com/subject/3003765/",
+    "mark_date": "2013-11-01",
+    "comment": "",
+    "tags": "绘本",
+    "id": "3003765"
+  },
+  {
+    "title": "haru的橡皮章生活",
+    "year": "2009",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "haru 著 廖家威 摄影"
+    ],
+    "publisher": "化学工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3765140.jpg",
+    "douban_url": "https://book.douban.com/subject/3765140/",
+    "mark_date": "2013-10-29",
+    "comment": "",
+    "tags": "手工",
+    "id": "3765140"
+  },
+  {
+    "title": "怦然心动的人生整理魔法",
+    "year": "2012",
+    "rating": "1",
+    "status": "done",
+    "author": [
+      "近藤麻理惠"
+    ],
+    "publisher": "译林出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10747883.jpg",
+    "douban_url": "https://book.douban.com/subject/10747883/",
+    "mark_date": "2013-10-24",
+    "comment": "",
+    "tags": "",
+    "id": "10747883"
+  },
+  {
+    "title": "自控力",
+    "year": "2012",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "凯利·麦格尼格尔"
+    ],
+    "publisher": "文化发展出版社(原印刷工业出版社)",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/10786473.jpg",
+    "douban_url": "https://book.douban.com/subject/10786473/",
+    "mark_date": "2013-10-23",
+    "comment": "",
+    "tags": "",
+    "id": "10786473"
+  },
+  {
+    "title": "The Willpower Instinct",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "Kelly McGonigal"
+    ],
+    "publisher": "Avery",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/7043452.jpg",
+    "douban_url": "https://book.douban.com/subject/7043452/",
+    "mark_date": "2013-10-23",
+    "comment": "",
+    "tags": "心理学",
+    "id": "7043452"
+  },
+  {
+    "title": "秘密",
+    "year": "2008",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "朗达·拜恩"
+    ],
+    "publisher": "中国城市出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3266968.jpg",
+    "douban_url": "https://book.douban.com/subject/3266968/",
+    "mark_date": "2013-10-23",
+    "comment": "",
+    "tags": "灵修",
+    "id": "3266968"
   },
   {
     "title": "我们时代的神经症人格",
     "year": "2011",
     "rating": "5",
-    "authors": [
+    "status": "done",
+    "author": [
       "卡伦·霍尼"
     ],
     "publisher": "译林出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6511362.jpg",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/books/6511362.jpg",
     "douban_url": "https://book.douban.com/subject/6511362/",
     "mark_date": "2013-10-16",
     "comment": "",
+    "tags": "",
     "id": "6511362"
   },
   {
-    "title": "目送",
-    "year": "2009",
-    "rating": "5",
-    "authors": [
-      "龙应台"
+    "title": "宝贝，宝贝",
+    "year": "2010",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "周国平"
     ],
-    "publisher": "生活·读书·新知三联书店",
+    "publisher": "江苏人民出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3995526.jpg",
-    "douban_url": "https://book.douban.com/subject/3995526/",
+    "poster_url": "https://dou.img.lithub.cc/book/4238299.jpg",
+    "douban_url": "https://book.douban.com/subject/4238299/",
     "mark_date": "2013-07-17",
-    "comment": "\"亲情",
+    "comment": "",
+    "tags": "",
+    "id": "4238299"
+  },
+  {
+    "title": "目送",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3995526.jpg",
+    "douban_url": "https://book.douban.com/subject/3995526/",
+    "mark_date": "龙应台",
+    "comment": "亲情,散文",
+    "tags": "2013-07-17 09:19:10",
     "id": "3995526"
   },
   {
-    "title": "塔季雅娜•德•罗斯奈",
-    "year": "2012",
-    "rating": "5",
-    "authors": [
-      "塔季雅娜•德•罗斯奈"
+    "title": "剩者为王",
+    "year": "2011",
+    "rating": "2",
+    "status": "done",
+    "author": [
+      "落落"
     ],
-    "publisher": "新星出版社",
+    "publisher": "长江文艺出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/20435902.jpg",
-    "douban_url": "https://book.douban.com/subject/20435902/",
-    "mark_date": "2013-05-08",
-    "comment": "\"外国文学",
-    "id": "20435902"
+    "poster_url": "https://dou.img.lithub.cc/book/5403007.jpg",
+    "douban_url": "https://book.douban.com/subject/5403007/",
+    "mark_date": "2013-06-13",
+    "comment": "",
+    "tags": "",
+    "id": "5403007"
   },
   {
-    "title": "尼古拉斯·斯帕克思",
-    "year": "2008",
-    "rating": "5",
-    "authors": [
-      "[美] 尼古拉斯·斯帕克思"
+    "title": "克拉马依自然奇观",
+    "year": "2002",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "赵承安"
     ],
-    "publisher": "天津教育出版社",
+    "publisher": "中国旅游出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/3242857.jpg",
-    "douban_url": "https://book.douban.com/subject/3242857/",
-    "mark_date": "2013-05-07",
-    "comment": "\"小说",
-    "id": "3242857"
+    "poster_url": "https://dou.img.lithub.cc/book/1588066.jpg",
+    "douban_url": "https://book.douban.com/subject/1588066/",
+    "mark_date": "2013-06-09",
+    "comment": "",
+    "tags": "地貌",
+    "id": "1588066"
+  },
+  {
+    "title": "一个人的美食之旅",
+    "year": "2011",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "高木直子"
+    ],
+    "publisher": "江西科学技术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/5940434.jpg",
+    "douban_url": "https://book.douban.com/subject/5940434/",
+    "mark_date": "2013-06-08",
+    "comment": "",
+    "tags": "",
+    "id": "5940434"
+  },
+  {
+    "title": "一个人漂泊的日子①",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "高木直子 图文"
+    ],
+    "publisher": "当代世界出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3449759.jpg",
+    "douban_url": "https://book.douban.com/subject/3449759/",
+    "mark_date": "2013-06-08",
+    "comment": "",
+    "tags": "绘本",
+    "id": "3449759"
+  },
+  {
+    "title": "我的路5",
+    "year": "2009",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "寂地"
+    ],
+    "publisher": "黑龙江美术出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3897928.jpg",
+    "douban_url": "https://book.douban.com/subject/3897928/",
+    "mark_date": "2013-06-08",
+    "comment": "",
+    "tags": "绘本",
+    "id": "3897928"
+  },
+  {
+    "title": "十四堂人生创意课",
+    "year": "2008",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "李欣频"
+    ],
+    "publisher": "电子工业出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2363651.jpg",
+    "douban_url": "https://book.douban.com/subject/2363651/",
+    "mark_date": "2013-05-31",
+    "comment": "",
+    "tags": "启发",
+    "id": "2363651"
+  },
+  {
+    "title": "蓝鱼手绘日记",
+    "year": "2009",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "bluefisher"
+    ],
+    "publisher": "广西师范大学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/3930906.jpg",
+    "douban_url": "https://book.douban.com/subject/3930906/",
+    "mark_date": "2013-05-18",
+    "comment": "",
+    "tags": "绘本",
+    "id": "3930906"
+  },
+  {
+    "title": "你不可不知的人性",
+    "year": "2004",
+    "rating": "3",
+    "status": "done",
+    "author": [
+      "刘墉"
+    ],
+    "publisher": "接力出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1071821.jpg",
+    "douban_url": "https://book.douban.com/subject/1071821/",
+    "mark_date": "2013-05-13",
+    "comment": "",
+    "tags": "人生哲学",
+    "id": "1071821"
+  },
+  {
+    "title": "PCI图像处理教程",
+    "year": "2007",
+    "rating": "4",
+    "status": "done",
+    "author": [
+      "赵文吉"
+    ],
+    "publisher": "中国环境科学出版社",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/2112089.jpg",
+    "douban_url": "https://book.douban.com/subject/2112089/",
+    "mark_date": "2013-05-13",
+    "comment": "",
+    "tags": "遥感",
+    "id": "2112089"
   },
   {
     "title": "芒果街上的小屋",
-    "year": "2006",
-    "rating": "5",
-    "authors": [
-      "[美国] 桑德拉·希斯内罗丝"
-    ],
-    "publisher": "译林出版社",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/1794620.jpg",
+    "poster_url": "https://dou.img.lithub.cc/book/1794620.jpg",
     "douban_url": "https://book.douban.com/subject/1794620/",
-    "mark_date": "2013-04-22",
-    "comment": "\"外国文学",
+    "mark_date": "[美国]",
+    "comment": "外国文学,小说",
+    "tags": "2013-04-22 15:06:14",
     "id": "1794620"
   },
   {
-    "title": "刘畅",
-    "year": "2011",
-    "rating": "5",
-    "authors": [
-      "刘畅"
+    "title": "给青年的十二封信",
+    "year": "2004",
+    "rating": "unrated",
+    "status": "done",
+    "author": [
+      "朱光潜"
     ],
-    "publisher": "中信出版社",
+    "publisher": "广西师范大学出版社",
     "genres": [],
-    "cover_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/covers/6516050.jpg",
-    "douban_url": "https://book.douban.com/subject/6516050/",
-    "mark_date": "2013-04-01",
-    "comment": "\"旅行",
-    "id": "6516050"
+    "poster_url": "https://dou.img.lithub.cc/book/1069805.jpg",
+    "douban_url": "https://book.douban.com/subject/1069805/",
+    "mark_date": "2013-04-19",
+    "comment": "",
+    "tags": "人生",
+    "id": "1069805"
+  },
+  {
+    "title": "窗边的小豆豆",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/5437113.jpg",
+    "douban_url": "https://book.douban.com/subject/5437113/",
+    "mark_date": "[日]",
+    "comment": "日本,儿童文学",
+    "tags": "2013-04-19 17:01:23",
+    "id": "5437113"
+  },
+  {
+    "title": "未知图书",
+    "year": "",
+    "rating": "unrated",
+    "status": "done",
+    "author": [],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/20427187.jpg",
+    "douban_url": "https://book.douban.com/subject/20427187/",
+    "mark_date": "2013-03-16",
+    "comment": "很久没有仔仔细细的把一本这么厚的书读完，如饥似渴。",
+    "tags": "随笔",
+    "id": "20427187"
+  },
+  {
+    "title": "人间草木",
+    "year": "",
+    "rating": "https://book.douban.com/subject/1253310/",
+    "status": "done",
+    "author": [
+      "04 夏天"
+    ],
+    "publisher": "",
+    "genres": [],
+    "poster_url": "https://dou.img.lithub.cc/book/1253310.jpg",
+    "douban_url": "https://book.douban.com/subject/1253310/",
+    "mark_date": "4",
+    "comment": "9.2",
+    "tags": "",
+    "id": "1253310"
   }
 ]

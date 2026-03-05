@@ -14,232 +14,91 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Create raw data directory
         run: mkdir -p ./data/raw
-        
-      - name: Sync Douban Books Data
+
+      - name: Sync Douban Books - Done (已读)
         uses: lizheming/doumark-action@master
         continue-on-error: true
-        id: sync_books
         with:
-          id: 59715677  # 你的豆瓣用户ID
+          id: 59715677
           type: book
           format: csv
-          status: done  # 已读完的书籍，与电影保持一致
+          status: done
           dir: ./data/raw
-          
-      - name: Check sync result and debug
+
+      - name: Rename done CSV
         run: |
-          echo "=== 检查豆瓣数据同步结果 ==="
-          if [ "${{ steps.sync_books.outcome }}" = "failure" ]; then
-            echo "⚠️ 豆瓣数据同步失败，将使用现有数据继续处理"
-            echo "SYNC_FAILED=true" >> $GITHUB_ENV
-          else
-            echo "✅ 豆瓣数据同步成功"
-            echo "SYNC_FAILED=false" >> $GITHUB_ENV
-          fi
-          
-          echo "Contents of data/raw directory:"
-          ls -la ./data/raw/ || echo "Directory not found"
-          echo "Book CSV file info:"
-          ls -la ./data/raw/book.csv || echo "book.csv not found"
           if [ -f "./data/raw/book.csv" ]; then
-            echo "First few lines of book.csv:"
-            head -5 ./data/raw/book.csv
+            cp ./data/raw/book.csv ./data/raw/book-done.csv
+            echo "✅ book-done.csv created"
           fi
-          
+
+      - name: Sync Douban Books - Doing (在读)
+        uses: lizheming/doumark-action@master
+        continue-on-error: true
+        with:
+          id: 59715677
+          type: book
+          format: csv
+          status: doing
+          dir: ./data/raw
+
+      - name: Rename doing CSV
+        run: |
+          if [ -f "./data/raw/book.csv" ]; then
+            cp ./data/raw/book.csv ./data/raw/book-doing.csv
+            echo "✅ book-doing.csv created"
+          fi
+
+      - name: Sync Douban Books - Mark (想读)
+        uses: lizheming/doumark-action@master
+        continue-on-error: true
+        with:
+          id: 59715677
+          type: book
+          format: csv
+          status: mark
+          dir: ./data/raw
+
+      - name: Rename mark CSV
+        run: |
+          if [ -f "./data/raw/book.csv" ]; then
+            cp ./data/raw/book.csv ./data/raw/book-mark.csv
+            echo "✅ book-mark.csv created"
+          fi
+
+      - name: Check sync results
+        run: |
+          echo "=== 同步结果 ==="
+          for status in done doing mark; do
+            f="./data/raw/book-${status}.csv"
+            if [ -f "$f" ]; then
+              lines=$(wc -l < "$f")
+              echo "✅ book-${status}.csv: ${lines} 行"
+            else
+              echo "⚠️ book-${status}.csv: 不存在"
+            fi
+          done
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          
+
       - name: Install dependencies
         run: npm install
-          
+
       - name: Fix file permissions
         run: |
           sudo chown -R runner:docker ./data/raw/ || true
-          
-      - name: Clean CSV file (fix encoding and quote issues)
-        if: env.SYNC_FAILED == 'false'
-        run: |
-          if [ -f "./data/raw/book.csv" ]; then
-            echo "清理book.csv，修复编码和引号问题..."
-            # 备份原文件
-            cp ./data/raw/book.csv ./data/raw/book.csv.backup
-            
-            # 使用Node.js脚本清理CSV，修复编码和引号问题
-            node -e "
-              const fs = require('fs');
-              try {
-                const csvContent = fs.readFileSync('./data/raw/book.csv', 'utf8');
-                const lines = csvContent.split('\n');
-                
-                console.log('原始CSV行数:', lines.length);
-                
-                const cleanLines = [];
-                const header = 'id,title,poster,pubdate,url,rating,genres,star,comment,tags,star_time,card';
-                cleanLines.push(header);
-                
-                let processedBooks = 0;
-                
-                // 修复CSV引号和编码问题
-                for (let i = 0; i < lines.length; i++) {
-                  const line = lines[i].trim();
-                  if (!line || !line.includes('book.douban.com/subject/') || !line.match(/^\d+/)) {
-                    continue;
-                  }
-                  
-                  try {
-                    // 使用简化但更鲁棒的方式处理CSV行
-                    // 先尝试通过豆瓣ID和URL来定位关键字段
-                    const bookIdMatch = line.match(/^(\d+),/);
-                    const doubanUrlMatch = line.match(/(https:\/\/book\.douban\.com\/subject\/\d+\/)/);
-                    
-                    if (!bookIdMatch || !doubanUrlMatch) {
-                      console.log('跳过无效行:', line.substring(0, 100));
-                      continue;
-                    }
-                    
-                    const bookId = bookIdMatch[1];
-                    const doubanUrl = doubanUrlMatch[1];
-                    
-                    // 提取评分（在豆瓣URL后面）
-                    const ratingPattern = new RegExp(doubanUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ',([^,]*),');
-                    const ratingMatch = line.match(ratingPattern);
-                    const rating = ratingMatch ? ratingMatch[1] : '';
-                    
-                    // 提取genres字段（在rating后面，但需要小心处理逗号）
-                    let genresStartIndex = -1;
-                    if (ratingMatch) {
-                      genresStartIndex = line.indexOf(ratingMatch[0]) + ratingMatch[0].length;
-                    }
-                    
-                    // 从后往前提取固定字段
-                    const parts = line.split(',');
-                    const card = parts[parts.length - 1] || '';
-                    const star_time = parts[parts.length - 2] || '';
-                    const tags = parts[parts.length - 3] || '';
-                    const comment = parts[parts.length - 4] || '';
-                    const star = parts[parts.length - 5] || '';
-                    
-                    // 提取标题 - 从card字段中获取更可靠
-                    let title = '';
-                    const cardParts = card.split(' / ');
-                    if (cardParts.length >= 1) {
-                      title = cardParts[0].replace(/^\[.*?\]\s*/, '').trim();
-                    }
-                    if (!title) {
-                      title = `Book_${bookId}`;
-                    }
-                    
-                    // 提取genres - 使用正则表达式更精确地定位
-                    let genres = '';
-                    if (genresStartIndex > 0) {
-                      const genresEndPattern = new RegExp(',' + star.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ',' + comment.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-                      const genresEndMatch = line.match(genresEndPattern);
-                      if (genresEndMatch) {
-                        const genresEndIndex = line.indexOf(genresEndMatch[0]);
-                        genres = line.substring(genresStartIndex, genresEndIndex);
-                      }
-                    }
-                    
-                    // 构造字段数组用于后续处理
-                    const fields = [
-                      bookId,
-                      title,
-                      '', // poster - 稍后从line中提取
-                      '', // pubdate
-                      doubanUrl,
-                      rating,
-                      genres,
-                      star,
-                      comment,
-                      tags,
-                      star_time,
-                      card
-                    ];
-                    
-                    // 提取封面URL
-                    const posterMatch = line.match(/https:\/\/dou\.img\.lithub\.cc\/book\/[^,]+\.jpg/);
-                    if (posterMatch) {
-                      fields[2] = posterMatch[0];
-                    }
-                    
-                    if (fields.length >= 10) {
-                      // 字段已经在上面正确提取，直接使用
-                      const finalBookId = fields[0];
-                      const finalTitle = fields[1];
-                      const posterUrl = fields[2];
-                      const finalDoubanUrl = fields[4];
-                      const finalRating = fields[5];
-                      const finalGenres = fields[6];
-                      const finalStar = fields[7];
-                      const finalComment = fields[8];
-                      const finalTags = fields[9];
-                      const finalStarTime = fields[10];
-                      const finalCard = fields[11];
-                      
-                      // 清理genres字段，移除可能导致解析问题的字符
-                      const cleanGenres = finalGenres.replace(/[\"\n\r]/g, '').replace(/,/g, '，').replace(/'/g, '');
-                      
-                      const cleanedParts = [
-                        finalBookId,
-                        finalTitle.replace(/[\"\n\r]/g, ''),
-                        posterUrl,
-                        '',  // pubdate
-                        finalDoubanUrl,
-                        finalRating,
-                        cleanGenres,
-                        finalStar,
-                        finalComment.replace(/[\"\n\r]/g, ''),
-                        finalTags.replace(/[\"\n\r]/g, ''),
-                        finalStarTime,
-                        finalCard.replace(/[\"\n\r]/g, '')
-                      ];
-                      
-                      cleanLines.push(cleanedParts.join(','));
-                      processedBooks++;
-                    }
-                  } catch (e) {
-                    console.log('处理书籍行失败 (行 ' + (i+1) + '):', e.message);
-                    console.log('问题行内容:', line.substring(0, 200) + '...');
-                  }
-                }
-                
-                fs.writeFileSync('./data/raw/book.csv', cleanLines.join('\n'));
-                console.log('清理后CSV行数:', cleanLines.length);
-                console.log('成功处理书籍数:', processedBooks);
-                console.log('CSV清理完成！');
-              } catch (error) {
-                console.error('清理CSV失败:', error.message);
-                process.exit(1);
-              }
-            "
-          else
-            echo "book.csv not found, skipping cleanup"
-          fi
-          
-      - name: Process CSV data and filter 5-star books
-        run: |
-          if [ "${{ env.SYNC_FAILED }}" = "false" ] && [ -f "./data/raw/book.csv" ]; then
-            echo "Processing book.csv..."
-            node scripts/process-csv-books.js
-          else
-            echo "⚠️ 同步失败或book.csv不存在，跳过处理。使用现有数据或重新处理已有文件。"
-            # 如果有现存的book.csv，尝试重新处理
-            if [ -f "./data/raw/book.csv" ]; then
-              echo "发现现有book.csv文件，尝试重新处理..."
-              node scripts/process-csv-books.js || echo "处理失败，保持现有数据不变"
-            fi
-          fi
-          
+
+      - name: Process CSV data
+        run: node scripts/process-csv-books.js
+
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: |
-            📚 更新豆瓣书籍数据
-            
-            同步状态: ${{ env.SYNC_FAILED == 'false' && '✅ 成功' || '⚠️ 部分失败，使用现有数据' }}
-          add: 'data/raw/book.csv data/books.json data/book-stats.json data/backup/books-backup.json images/books/*'
+          message: '📚 更新豆瓣书籍数据'
+          add: 'data/ images/books/*'

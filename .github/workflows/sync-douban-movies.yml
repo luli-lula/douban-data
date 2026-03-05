@@ -14,33 +14,90 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      - name: Sync Douban Movies Data
+
+      - name: Create raw data directory
+        run: mkdir -p ./data/raw
+
+      - name: Sync Douban Movies - Done (已看)
         uses: lizheming/doumark-action@master
         with:
-          id: 59715677  # 你的豆瓣用户ID
+          id: 59715677
           type: movie
           format: csv
-          status: done  # 已看完的电影
+          status: done
           dir: ./data/raw
-          
+
+      - name: Rename done CSV
+        run: |
+          if [ -f "./data/raw/movie.csv" ]; then
+            cp ./data/raw/movie.csv ./data/raw/movie-done.csv
+            echo "✅ movie-done.csv created"
+          fi
+
+      - name: Sync Douban Movies - Doing (在看)
+        uses: lizheming/doumark-action@master
+        continue-on-error: true
+        with:
+          id: 59715677
+          type: movie
+          format: csv
+          status: doing
+          dir: ./data/raw
+
+      - name: Rename doing CSV
+        run: |
+          if [ -f "./data/raw/movie.csv" ]; then
+            cp ./data/raw/movie.csv ./data/raw/movie-doing.csv
+            echo "✅ movie-doing.csv created"
+          fi
+
+      - name: Sync Douban Movies - Mark (想看)
+        uses: lizheming/doumark-action@master
+        continue-on-error: true
+        with:
+          id: 59715677
+          type: movie
+          format: csv
+          status: mark
+          dir: ./data/raw
+
+      - name: Rename mark CSV
+        run: |
+          if [ -f "./data/raw/movie.csv" ]; then
+            cp ./data/raw/movie.csv ./data/raw/movie-mark.csv
+            echo "✅ movie-mark.csv created"
+          fi
+
+      - name: Check sync results
+        run: |
+          echo "=== 同步结果 ==="
+          for status in done doing mark; do
+            f="./data/raw/movie-${status}.csv"
+            if [ -f "$f" ]; then
+              lines=$(wc -l < "$f")
+              echo "✅ movie-${status}.csv: ${lines} 行"
+            else
+              echo "⚠️ movie-${status}.csv: 不存在"
+            fi
+          done
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          
+
       - name: Install dependencies
         run: npm install
-          
+
       - name: Fix file permissions
         run: |
           sudo chown -R runner:docker ./data/raw/ || true
-          
-      - name: Process CSV data and filter 5-star movies
+
+      - name: Process CSV data
         run: node scripts/process-csv-movies.js
-          
+
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
           message: '🎬 更新豆瓣电影数据'
-          add: 'data/raw/movie.csv data/movies.json data/movie-stats.json data/backup/movies-backup.json images/movies/*'
+          add: 'data/ images/movies/*'
