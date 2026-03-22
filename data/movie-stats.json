@@ -1,8 +1,8 @@
 {
-  "total_movies": 2609,
-  "total_csv_records": 7791,
-  "new_movies_this_run": 15,
-  "last_update": "2026-03-15T16:41:39.176Z",
+  "total_movies": 2615,
+  "total_csv_records": 7797,
+  "new_movies_this_run": 6,
+  "last_update": "2026-03-22T16:40:17.884Z",
   "data_source": "douban",
   "user_id": "59715677",
   "rating_distribution": {
@@ -11,11 +11,11 @@
     "3": 2253,
     "4": 1578,
     "5": 903,
-    "unrated": 2286
+    "unrated": 2292
   },
   "status_distribution": {
     "done": 2597,
     "doing": 2597,
-    "mark": 2597
+    "mark": 2603
   }
 }
