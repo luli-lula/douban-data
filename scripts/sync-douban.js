@@ -150,14 +150,24 @@ async function fetchAll(type, status) {
   let offset = 0;
   let total = null;
   let retries = 0;
+  let emptyPages = 0;       // 连续空页计数
+  const MAX_EMPTY = 3;      // 连续空页超过此数则认为 API 到达上限
+  const startTime = Date.now();
+  const TIMEOUT = 5 * 60 * 1000;  // 5 分钟超时
 
   while (true) {
+    // 超时保护
+    if (Date.now() - startTime > TIMEOUT) {
+      console.log(`  [${status}] ⏰ 超时 (5min)，已获取 ${records.length} 条，停止`);
+      break;
+    }
+
     const data = await fetchPage(type, status, offset);
 
     if (!data) {
       retries++;
       if (retries >= 3) {
-        console.log(`  [${status}] 连续失败 ${retries} 次，停止`);
+        console.log(`  [${status}] 连续失败 ${retries} 次，已获取 ${records.length} 条，停止`);
         break;
       }
       console.log(`  [${status}] 重试 (${retries}/3)...`);
@@ -174,14 +184,17 @@ async function fetchAll(type, status) {
 
     const interests = data.interests || [];
     if (interests.length === 0) {
-      if (offset < total) {
-        // API 偶尔返回空页，跳过继续
-        offset += CONFIG.pageSize;
-        if (offset > total + CONFIG.pageSize) break;
-        continue;
+      emptyPages++;
+      console.log(`  [${status}] 空页 (${emptyPages}/${MAX_EMPTY}) at offset ${offset}`);
+      if (emptyPages >= MAX_EMPTY) {
+        console.log(`  [${status}] 连续 ${MAX_EMPTY} 个空页，API 可能到达上限，已获取 ${records.length} 条`);
+        break;
       }
-      break;
+      offset += CONFIG.pageSize;
+      await sleep(CONFIG.delayMs);
+      continue;
     }
+    emptyPages = 0;  // 有数据，重置空页计数
 
     for (const interest of interests) {
       const record = parseRecord(interest, type, status);
@@ -195,7 +208,7 @@ async function fetchAll(type, status) {
     await sleep(CONFIG.delayMs);
   }
 
-  console.log(`  [${status}] 完成: ${records.length} 条`);
+  console.log(`  [${status}] 完成: ${records.length} 条 (耗时 ${((Date.now() - startTime) / 1000).toFixed(0)}s)`);
   return records;
 }
 
