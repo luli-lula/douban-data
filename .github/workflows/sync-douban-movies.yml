@@ -2,9 +2,8 @@ name: Sync Douban Movies
 
 on:
   schedule:
-    # 每周日 UTC 16:00 (北京时间周一 0:00)
     - cron: '0 16 * * 0'
-  workflow_dispatch: # 手动触发
+  workflow_dispatch:
 
 concurrency:
   group: sync-douban
@@ -27,11 +26,12 @@ jobs:
       - name: Sync movies from Douban API
         run: node scripts/sync-douban.js movie
 
-      - name: Pull latest before push
-        run: git pull --rebase origin main
-
-      - name: Commit and push
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: '🎬 同步豆瓣电影数据'
-          add: 'data/ images/movies/* README.md'
+      - name: Commit, rebase, and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ images/movies/ README.md
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "🎬 同步豆瓣电影数据"
+          git pull --rebase origin main
+          git push origin main
