@@ -41,13 +41,18 @@ async function main() {
   const arg = process.argv[2] || 'all';
   const types = arg === 'all' ? ['movie', 'book'] : [arg];
 
+  const syncResults = [];
   for (const type of types) {
     if (!PATHS[type]) {
       console.error(`未知类型: ${type}，支持 movie / book / all`);
       process.exit(1);
     }
-    await syncType(type);
+    const result = await syncType(type);
+    syncResults.push(result);
   }
+
+  // 更新 README
+  updateReadme(syncResults);
 }
 
 async function syncType(type) {
@@ -133,6 +138,8 @@ async function syncType(type) {
   console.log(`\n✅ 完成！总计 ${merged.length} 条`);
   console.log(`📊 状态: done=${stats.status_distribution.done || 0}, doing=${stats.status_distribution.doing || 0}, mark=${stats.status_distribution.mark || 0}`);
   console.log(`📈 评分: ${JSON.stringify(stats.rating_distribution)}`);
+
+  return { type, stats, newCount: newRecords.length };
 }
 
 // ─── API ─────────────────────────────────────────────────────
@@ -304,6 +311,76 @@ function buildStats(records, newCount) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// ─── README Update ───────────────────────────────────────────
+
+function updateReadme(syncResults) {
+  const readmePath = './README.md';
+  if (!fs.existsSync(readmePath)) return;
+
+  let readme = fs.readFileSync(readmePath, 'utf8');
+  const today = new Date().toISOString().split('T')[0];
+
+  // 读取所有 stats 文件来构建总览表
+  const allStats = {};
+  for (const [type, paths] of Object.entries(PATHS)) {
+    if (fs.existsSync(paths.stats)) {
+      allStats[type] = JSON.parse(fs.readFileSync(paths.stats, 'utf8'));
+    }
+  }
+
+  // 更新数据总览表 (STATS:START ... STATS:END)
+  const statsRows = [];
+  for (const [type, stats] of Object.entries(allStats)) {
+    const icon = type === 'movie' ? '🎬 电影' : '📚 书籍';
+    const rd = stats.rating_distribution || {};
+    const sd = stats.status_distribution || {};
+    statsRows.push(
+      `| ${icon} | ${stats.total} | ${sd.done || 0} | ${sd.doing || 0} | ${sd.mark || 0} | ${rd['5'] || 0} | ${rd['4'] || 0} | ${rd['3'] || 0} | ${rd['2'] || 0} | ${rd['1'] || 0} | ${rd['unrated'] || 0} | ${today} |`
+    );
+  }
+
+  const statsTable = `<!-- STATS:START -->
+| 类型 | 总数 | 已看/已读 | 在看/在读 | 想看/想读 | ⭐5 | ⭐4 | ⭐3 | ⭐2 | ⭐1 | 未评分 | 最后同步 |
+|------|------|----------|----------|----------|-----|-----|-----|-----|-----|--------|---------|
+${statsRows.join('\n')}
+<!-- STATS:END -->`;
+
+  readme = readme.replace(
+    /<!-- STATS:START -->[\s\S]*?<!-- STATS:END -->/,
+    statsTable
+  );
+
+  // 追加同步日志 (在 SYNC_LOG:START 后面插入新行)
+  for (const result of syncResults) {
+    const icon = result.type === 'movie' ? '🎬 电影' : '📚 书籍';
+    const status = result.newCount > 0 ? `✅ +${result.newCount} 新增` : '✅ 无新增';
+    const logLine = `| ${today} | ${icon} | +${result.newCount} | ${result.stats.total} | ${status} |`;
+
+    // 插入到表头之后
+    readme = readme.replace(
+      /(<!-- SYNC_LOG:START -->\n\|[^\n]+\n\|[^\n]+\n)/,
+      `$1${logLine}\n`
+    );
+  }
+
+  // 限制同步日志最多保留 50 行
+  const logMatch = readme.match(/(<!-- SYNC_LOG:START -->[\s\S]*?)(<!-- SYNC_LOG:END -->)/);
+  if (logMatch) {
+    const lines = logMatch[1].split('\n');
+    // header = 3 lines (marker + table header + separator), data = rest
+    if (lines.length > 53) { // 3 header + 50 data
+      const trimmed = lines.slice(0, 53).join('\n') + '\n';
+      readme = readme.replace(
+        /<!-- SYNC_LOG:START -->[\s\S]*?<!-- SYNC_LOG:END -->/,
+        trimmed + '<!-- SYNC_LOG:END -->'
+      );
+    }
+  }
+
+  fs.writeFileSync(readmePath, readme);
+  console.log('\n📝 README.md 已更新');
 }
 
 main().catch(e => { console.error('❌', e); process.exit(1); });

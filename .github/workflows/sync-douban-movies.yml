@@ -25,4 +25,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: '🎬 同步豆瓣电影数据'
-          add: 'data/ images/movies/*'
+          add: 'data/ images/movies/* README.md'
