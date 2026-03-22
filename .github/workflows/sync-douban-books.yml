@@ -1,104 +1,28 @@
-name: Sync Douban Books Data
+name: Sync Douban Books
 
 on:
   schedule:
-    # 每周日UTC 17点 (北京时间周一1点) 同步书籍数据
+    # 每周日 UTC 17:00 (北京时间周一 1:00)
     - cron: '0 17 * * 0'
   workflow_dispatch: # 手动触发
 
 jobs:
-  sync-and-process:
+  sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Create raw data directory
-        run: mkdir -p ./data/raw
-
-      - name: Sync Douban Books - Done (已读)
-        uses: lizheming/doumark-action@master
-        continue-on-error: true
-        with:
-          id: 59715677
-          type: book
-          format: csv
-          status: done
-          dir: ./data/raw
-
-      - name: Rename done CSV
-        run: |
-          if [ -f "./data/raw/book.csv" ]; then
-            cp ./data/raw/book.csv ./data/raw/book-done.csv
-            echo "✅ book-done.csv created"
-          fi
-
-      - name: Sync Douban Books - Doing (在读)
-        uses: lizheming/doumark-action@master
-        continue-on-error: true
-        with:
-          id: 59715677
-          type: book
-          format: csv
-          status: doing
-          dir: ./data/raw
-
-      - name: Rename doing CSV
-        run: |
-          if [ -f "./data/raw/book.csv" ]; then
-            cp ./data/raw/book.csv ./data/raw/book-doing.csv
-            echo "✅ book-doing.csv created"
-          fi
-
-      - name: Sync Douban Books - Mark (想读)
-        uses: lizheming/doumark-action@master
-        continue-on-error: true
-        with:
-          id: 59715677
-          type: book
-          format: csv
-          status: mark
-          dir: ./data/raw
-
-      - name: Rename mark CSV
-        run: |
-          if [ -f "./data/raw/book.csv" ]; then
-            cp ./data/raw/book.csv ./data/raw/book-mark.csv
-            echo "✅ book-mark.csv created"
-          fi
-
-      - name: Check sync results
-        run: |
-          echo "=== 同步结果 ==="
-          for status in done doing mark; do
-            f="./data/raw/book-${status}.csv"
-            if [ -f "$f" ]; then
-              lines=$(wc -l < "$f")
-              echo "✅ book-${status}.csv: ${lines} 行"
-            else
-              echo "⚠️ book-${status}.csv: 不存在"
-            fi
-          done
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Sync books from Douban API
+        run: node scripts/sync-douban.js book
 
-      - name: Fix file permissions
-        run: |
-          sudo chown -R runner:docker ./data/raw/ || true
-
-      - name: Process CSV data
-        run: node scripts/process-csv-books.js
-
-      - name: Commit and push changes
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          message: '📚 更新豆瓣书籍数据'
+          message: '📚 同步豆瓣书籍数据'
           add: 'data/ images/books/*'

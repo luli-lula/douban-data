@@ -1,103 +1,28 @@
-name: Sync Douban Movies Data
+name: Sync Douban Movies
 
 on:
   schedule:
-    # 每周日UTC 16点 (北京时间周一0点) 同步
+    # 每周日 UTC 16:00 (北京时间周一 0:00)
     - cron: '0 16 * * 0'
   workflow_dispatch: # 手动触发
 
 jobs:
-  sync-and-process:
+  sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Create raw data directory
-        run: mkdir -p ./data/raw
-
-      - name: Sync Douban Movies - Done (已看)
-        uses: lizheming/doumark-action@master
-        with:
-          id: 59715677
-          type: movie
-          format: csv
-          status: done
-          dir: ./data/raw
-
-      - name: Rename done CSV
-        run: |
-          if [ -f "./data/raw/movie.csv" ]; then
-            cp ./data/raw/movie.csv ./data/raw/movie-done.csv
-            echo "✅ movie-done.csv created"
-          fi
-
-      - name: Sync Douban Movies - Doing (在看)
-        uses: lizheming/doumark-action@master
-        continue-on-error: true
-        with:
-          id: 59715677
-          type: movie
-          format: csv
-          status: doing
-          dir: ./data/raw
-
-      - name: Rename doing CSV
-        run: |
-          if [ -f "./data/raw/movie.csv" ]; then
-            cp ./data/raw/movie.csv ./data/raw/movie-doing.csv
-            echo "✅ movie-doing.csv created"
-          fi
-
-      - name: Sync Douban Movies - Mark (想看)
-        uses: lizheming/doumark-action@master
-        continue-on-error: true
-        with:
-          id: 59715677
-          type: movie
-          format: csv
-          status: mark
-          dir: ./data/raw
-
-      - name: Rename mark CSV
-        run: |
-          if [ -f "./data/raw/movie.csv" ]; then
-            cp ./data/raw/movie.csv ./data/raw/movie-mark.csv
-            echo "✅ movie-mark.csv created"
-          fi
-
-      - name: Check sync results
-        run: |
-          echo "=== 同步结果 ==="
-          for status in done doing mark; do
-            f="./data/raw/movie-${status}.csv"
-            if [ -f "$f" ]; then
-              lines=$(wc -l < "$f")
-              echo "✅ movie-${status}.csv: ${lines} 行"
-            else
-              echo "⚠️ movie-${status}.csv: 不存在"
-            fi
-          done
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Sync movies from Douban API
+        run: node scripts/sync-douban.js movie
 
-      - name: Fix file permissions
-        run: |
-          sudo chown -R runner:docker ./data/raw/ || true
-
-      - name: Process CSV data
-        run: node scripts/process-csv-movies.js
-
-      - name: Commit and push changes
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          message: '🎬 更新豆瓣电影数据'
+          message: '🎬 同步豆瓣电影数据'
           add: 'data/ images/movies/*'
