@@ -1,18 +1,18 @@
 {
-  "total": 1048,
-  "new_this_run": 0,
-  "last_update": "2026-03-22T18:50:58.925Z",
+  "total": 1051,
+  "new_this_run": 3,
+  "last_update": "2026-03-29T17:27:54.807Z",
   "user_id": "59715677",
   "rating_distribution": {
     "1": 10,
-    "2": 63,
-    "3": 266,
+    "2": 64,
+    "3": 267,
     "4": 148,
-    "5": 89,
+    "5": 90,
     "unrated": 472
   },
   "status_distribution": {
-    "done": 1023,
+    "done": 1026,
     "mark": 23,
     "doing": 2
   }

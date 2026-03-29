@@ -1,5 +1,57 @@
 [
   {
+    "title": "性别打结",
+    "id": "36971687",
+    "status": "done",
+    "rating": "5",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/./images/books/36971687.jpg",
+    "douban_url": "https://book.douban.com/subject/36971687/",
+    "mark_date": "2026-03-25",
+    "comment": "",
+    "tags": "",
+    "genres": [],
+    "year": "2024",
+    "author": [
+      "[美] 艾伦·约翰逊"
+    ],
+    "publisher": "中信出版社"
+  },
+  {
+    "title": "My Friends",
+    "id": "37106531",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img9.doubanio.com/view/subject/l/public/s35040695.jpg",
+    "douban_url": "https://book.douban.com/subject/37106531/",
+    "mark_date": "2026-03-25",
+    "comment": "睡前连续几次尝试看到了20%实在受不了了",
+    "tags": "",
+    "genres": [],
+    "year": "2025",
+    "author": [
+      "Fredrik Backman",
+      "[瑞典] 弗雷德里克·巴克曼"
+    ],
+    "publisher": "Atria Books"
+  },
+  {
+    "title": "有趣得让人睡不着的植物",
+    "id": "34434870",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/subject/l/public/s34035553.jpg",
+    "douban_url": "https://book.douban.com/subject/34434870/",
+    "mark_date": "2026-03-25",
+    "comment": "适合小学生吧",
+    "tags": "",
+    "genres": [],
+    "year": "2019",
+    "author": [
+      "[日] 稻垣荣洋"
+    ],
+    "publisher": "北京时代华文书局"
+  },
+  {
     "title": "怪女人和一座城",
     "id": "37021156",
     "status": "done",
