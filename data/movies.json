@@ -1,5 +1,25 @@
 [
   {
+    "title": "戴洛奇小镇 第二季",
+    "id": "36955778",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2930005452.jpg",
+    "douban_url": "https://movie.douban.com/subject/36955778/",
+    "mark_date": "2026-04-06",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "犯罪"
+    ],
+    "year": "2026",
+    "directors": [
+      "贝克·科尔",
+      "加茜·奥托"
+    ]
+  },
+  {
     "title": "呼啸山庄",
     "id": "36963690",
     "status": "done",
@@ -41,7 +61,7 @@
   {
     "title": "爱情抓马",
     "id": "36995126",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2929524191.jpg",
     "douban_url": "https://movie.douban.com/subject/36995126/",
@@ -136,7 +156,7 @@
   {
     "title": "难以置信",
     "id": "30122641",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2562989034.jpg",
     "douban_url": "https://movie.douban.com/subject/30122641/",
