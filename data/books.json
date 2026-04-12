@@ -1,5 +1,22 @@
 [
   {
+    "title": "黄色墙纸",
+    "id": "37138375",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/subject/l/public/s35049514.jpg",
+    "douban_url": "https://book.douban.com/subject/37138375/",
+    "mark_date": "2026-04-10",
+    "comment": "",
+    "tags": "",
+    "genres": [],
+    "year": "2025",
+    "author": [
+      "[美] 夏洛特·珀金斯·吉尔曼"
+    ],
+    "publisher": "北京联合出版公司"
+  },
+  {
     "title": "挽救计划",
     "id": "35494160",
     "status": "done",
