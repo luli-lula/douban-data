@@ -1,5 +1,79 @@
 [
   {
+    "title": "情感价值",
+    "id": "36413501",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2931602981.jpg",
+    "douban_url": "https://movie.douban.com/subject/36413501/",
+    "mark_date": "2026-04-18",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "约阿希姆·提尔"
+    ]
+  },
+  {
+    "title": "危险关系",
+    "id": "36866390",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2931068376.jpg",
+    "douban_url": "https://movie.douban.com/subject/36866390/",
+    "mark_date": "2026-04-17",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "directors": [
+      "薛晓路"
+    ]
+  },
+  {
+    "title": "告知信",
+    "id": "35740374",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2929220450.jpg",
+    "douban_url": "https://movie.douban.com/subject/35740374/",
+    "mark_date": "2026-04-17",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "directors": [
+      "伊尔凯尔·恰塔克"
+    ]
+  },
+  {
+    "title": "蜂蜜的针",
+    "id": "26022233",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2930744969.jpg",
+    "douban_url": "https://movie.douban.com/subject/26022233/",
+    "mark_date": "2026-04-14",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "爱情",
+      "悬疑",
+      "犯罪"
+    ],
+    "year": "2026",
+    "directors": [
+      "袁梅"
+    ]
+  },
+  {
     "title": "戴洛奇小镇 第二季",
     "id": "36955778",
     "status": "mark",
@@ -135,7 +209,7 @@
   {
     "title": "挽救计划",
     "id": "35010610",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2930195706.jpg",
     "douban_url": "https://movie.douban.com/subject/35010610/",
@@ -546,7 +620,7 @@
   {
     "title": "反人类暴行",
     "id": "37033221",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2928089704.jpg",
     "douban_url": "https://movie.douban.com/subject/37033221/",
@@ -621,7 +695,7 @@
   {
     "title": "匹兹堡医护前线 第二季",
     "id": "37239408",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2928140587.jpg",
     "douban_url": "https://movie.douban.com/subject/37239408/",
