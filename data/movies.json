@@ -1,5 +1,177 @@
 [
   {
+    "title": "怪异",
+    "id": "35524447",
+    "status": "done",
+    "rating": "1",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2870968360.jpg",
+    "douban_url": "https://movie.douban.com/subject/35524447/",
+    "mark_date": "2026-04-26",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "悬疑",
+      "惊悚",
+      "奇幻"
+    ],
+    "year": "2022",
+    "directors": [
+      "张建宰"
+    ]
+  },
+  {
+    "title": "努力克服自卑的我们",
+    "id": "37335468",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2931033503.jpg",
+    "douban_url": "https://movie.douban.com/subject/37335468/",
+    "mark_date": "2026-04-26",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "directors": [
+      "车荣勋"
+    ]
+  },
+  {
+    "title": "巅峰对决 第一季",
+    "id": "37202886",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2927264672.jpg",
+    "douban_url": "https://movie.douban.com/subject/37202886/",
+    "mark_date": "2026-04-26",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "同性"
+    ],
+    "year": "2025",
+    "directors": [
+      "雅各布·提尔尼"
+    ]
+  },
+  {
+    "title": "蒙特利尔，我的美人",
+    "id": "37019075",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2926397741.jpg",
+    "douban_url": "https://movie.douban.com/subject/37019075/",
+    "mark_date": "2026-04-25",
+    "comment": "剧情每次转折都有点突然，陈冲选的太好了",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "同性"
+    ],
+    "year": "2025",
+    "directors": [
+      "和晓丹"
+    ]
+  },
+  {
+    "title": "世界的主人",
+    "id": "37116612",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2924183583.jpg",
+    "douban_url": "https://movie.douban.com/subject/37116612/",
+    "mark_date": "2026-04-25",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "尹佳恩"
+    ]
+  },
+  {
+    "title": "寂静的朋友",
+    "id": "26967871",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2931581706.jpg",
+    "douban_url": "https://movie.douban.com/subject/26967871/",
+    "mark_date": "2026-04-25",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "科幻"
+    ],
+    "year": "2025",
+    "directors": [
+      "伊尔蒂科·茵叶蒂"
+    ]
+  },
+  {
+    "title": "真心园艺秀",
+    "id": "38385986",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2930844430.jpg",
+    "douban_url": "https://movie.douban.com/subject/38385986/",
+    "mark_date": "2026-04-25",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "Brook Linder"
+    ]
+  },
+  {
+    "title": "台风俱乐部",
+    "id": "1296798",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2217617033.jpg",
+    "douban_url": "https://movie.douban.com/subject/1296798/",
+    "mark_date": "2026-04-24",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "1985",
+    "directors": [
+      "相米慎二"
+    ]
+  },
+  {
+    "title": "柔美的细胞小将 第三季",
+    "id": "37298384",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2930974521.jpg",
+    "douban_url": "https://movie.douban.com/subject/37298384/",
+    "mark_date": "2026-04-22",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "year": "2026",
+    "directors": [
+      "李尚烨"
+    ]
+  },
+  {
     "title": "情感价值",
     "id": "36413501",
     "status": "mark",
