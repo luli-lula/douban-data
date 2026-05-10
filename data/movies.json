@@ -1,5 +1,84 @@
 [
   {
+    "title": "欧阳万成：终于回家了",
+    "id": "38363138",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2931140691.jpg",
+    "douban_url": "https://movie.douban.com/subject/38363138/",
+    "mark_date": "2026-05-08",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧"
+    ],
+    "year": "2026",
+    "directors": [
+      "欧阳万成"
+    ]
+  },
+  {
+    "title": "真相捕捉 第二季",
+    "id": "35088783",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2885213932.jpg",
+    "douban_url": "https://movie.douban.com/subject/35088783/",
+    "mark_date": "2026-05-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "悬疑",
+      "惊悚",
+      "犯罪"
+    ],
+    "year": "2022",
+    "directors": [
+      "詹姆斯·肯特",
+      "菲利帕·兰格戴尔"
+    ]
+  },
+  {
+    "title": "地狱占星师",
+    "id": "37134474",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2931001014.jpg",
+    "douban_url": "https://movie.douban.com/subject/37134474/",
+    "mark_date": "2026-05-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "传记"
+    ],
+    "year": "2026",
+    "directors": [
+      "泷本智行",
+      "大庭功睦"
+    ]
+  },
+  {
+    "title": "花样青春: 限量版",
+    "id": "36671905",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2931579029.jpg",
+    "douban_url": "https://movie.douban.com/subject/36671905/",
+    "mark_date": "2026-05-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "罗暎锡",
+      "申建俊",
+      "韩侑珍"
+    ]
+  },
+  {
     "title": "真相捕捉 第一季",
     "id": "30305530",
     "status": "done",
@@ -60,7 +139,7 @@
   {
     "title": "证言 第一季",
     "id": "34815019",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2930445903.jpg",
     "douban_url": "https://movie.douban.com/subject/34815019/",
@@ -273,7 +352,7 @@
   {
     "title": "柔美的细胞小将 第三季",
     "id": "37298384",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2930974521.jpg",
     "douban_url": "https://movie.douban.com/subject/37298384/",
@@ -347,7 +426,7 @@
   {
     "title": "蜂蜜的针",
     "id": "26022233",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2930744969.jpg",
     "douban_url": "https://movie.douban.com/subject/26022233/",
@@ -542,7 +621,7 @@
   {
     "title": "真相捕捉 第三季",
     "id": "37168326",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2930395708.jpg",
     "douban_url": "https://movie.douban.com/subject/37168326/",
