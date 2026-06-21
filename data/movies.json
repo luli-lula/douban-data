@@ -1,5 +1,42 @@
 [
   {
+    "title": "晚春",
+    "id": "1307265",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1994505696.jpg",
+    "douban_url": "https://movie.douban.com/subject/1307265/",
+    "mark_date": "2026-06-19",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "家庭"
+    ],
+    "year": "1949",
+    "directors": [
+      "小津安二郎"
+    ]
+  },
+  {
+    "title": "爆笑女子乐队 第一季",
+    "id": "35453468",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2647488816.jpg",
+    "douban_url": "https://movie.douban.com/subject/35453468/",
+    "mark_date": "2026-06-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧"
+    ],
+    "year": "2021",
+    "directors": [
+      "奈妲·曼佐尔"
+    ]
+  },
+  {
     "title": "我住在凡尔赛的日子",
     "id": "37381022",
     "status": "mark",
@@ -22,7 +59,7 @@
   {
     "title": "克拉克森的农场 第五季",
     "id": "37303191",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2933231160.jpg",
     "douban_url": "https://movie.douban.com/subject/37303191/",
@@ -269,7 +306,7 @@
   {
     "title": "花样青春: 限量版",
     "id": "36671905",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2931579029.jpg",
     "douban_url": "https://movie.douban.com/subject/36671905/",
