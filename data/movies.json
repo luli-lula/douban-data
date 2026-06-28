@@ -1,5 +1,45 @@
 [
   {
+    "title": "刘在锡的民宿法则！",
+    "id": "37480845",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2932354011.jpg",
+    "douban_url": "https://movie.douban.com/subject/37480845/",
+    "mark_date": "2026-06-23",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "郑孝敏",
+      "李素敏",
+      "黄允瑞"
+    ]
+  },
+  {
+    "title": "豆豆农场",
+    "id": "38433912",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2932866148.jpg",
+    "douban_url": "https://movie.douban.com/subject/38433912/",
+    "mark_date": "2026-06-23",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "罗暎锡",
+      "河武成",
+      "심은정"
+    ]
+  },
+  {
     "title": "晚春",
     "id": "1307265",
     "status": "done",
