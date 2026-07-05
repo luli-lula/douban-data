@@ -1,5 +1,97 @@
 [
   {
+    "title": "抓娃娃",
+    "id": "36653918",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2910105262.jpg",
+    "douban_url": "https://movie.douban.com/subject/36653918/",
+    "mark_date": "2026-07-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧"
+    ],
+    "year": "2024",
+    "directors": [
+      "闫非",
+      "彭大魔"
+    ]
+  },
+  {
+    "title": "气体人第一号",
+    "id": "36883877",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2933348908.jpg",
+    "douban_url": "https://movie.douban.com/subject/36883877/",
+    "mark_date": "2026-07-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "科幻",
+      "犯罪"
+    ],
+    "year": "2026",
+    "directors": [
+      "片山慎三"
+    ]
+  },
+  {
+    "title": "孤单又灿烂的神：鬼怪十周年特辑",
+    "id": "38397649",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2933174806.jpg",
+    "douban_url": "https://movie.douban.com/subject/38397649/",
+    "mark_date": "2026-07-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "李应福"
+    ]
+  },
+  {
+    "title": "生息之地",
+    "id": "34842493",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2918379379.jpg",
+    "douban_url": "https://movie.douban.com/subject/34842493/",
+    "mark_date": "2026-07-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "霍猛"
+    ]
+  },
+  {
+    "title": "地母",
+    "id": "37039108",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2925709618.jpg",
+    "douban_url": "https://movie.douban.com/subject/37039108/",
+    "mark_date": "2026-07-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "张吉安"
+    ]
+  },
+  {
     "title": "刘在锡的民宿法则！",
     "id": "37480845",
     "status": "done",
@@ -22,7 +114,7 @@
   {
     "title": "豆豆农场",
     "id": "38433912",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2932866148.jpg",
     "douban_url": "https://movie.douban.com/subject/38433912/",
@@ -79,7 +171,7 @@
   {
     "title": "我住在凡尔赛的日子",
     "id": "37381022",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2928037442.jpg",
     "douban_url": "https://movie.douban.com/subject/37381022/",
