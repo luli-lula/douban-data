@@ -1,5 +1,23 @@
 [
   {
+    "title": "大濛",
+    "id": "36680492",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2925804842.jpg",
+    "douban_url": "https://movie.douban.com/subject/36680492/",
+    "mark_date": "2026-07-11",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "陈玉勋"
+    ]
+  },
+  {
     "title": "抓娃娃",
     "id": "36653918",
     "status": "done",
@@ -58,7 +76,7 @@
   {
     "title": "生息之地",
     "id": "34842493",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2918379379.jpg",
     "douban_url": "https://movie.douban.com/subject/34842493/",
