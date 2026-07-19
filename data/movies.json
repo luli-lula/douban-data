@@ -1,5 +1,44 @@
 [
   {
+    "title": "穿普拉达的女王2",
+    "id": "36956594",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2930952195.jpg",
+    "douban_url": "https://movie.douban.com/subject/36956594/",
+    "mark_date": "2026-07-20",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "year": "2026",
+    "directors": [
+      "大卫·弗兰科尔"
+    ]
+  },
+  {
+    "title": "河狸变身计划",
+    "id": "36999793",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2929759261.jpg",
+    "douban_url": "https://movie.douban.com/subject/36999793/",
+    "mark_date": "2026-07-20",
+    "comment": "太无聊了",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "科幻",
+      "动画"
+    ],
+    "year": "2026",
+    "directors": [
+      "丹尼尔·钟"
+    ]
+  },
+  {
     "title": "大濛",
     "id": "36680492",
     "status": "done",
