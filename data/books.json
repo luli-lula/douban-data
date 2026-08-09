@@ -1,5 +1,22 @@
 [
   {
+    "title": "没有国家的人",
+    "id": "26693148",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/subject/l/public/s28825600.jpg",
+    "douban_url": "https://book.douban.com/subject/26693148/",
+    "mark_date": "2026-08-07",
+    "comment": "",
+    "tags": "",
+    "genres": [],
+    "year": "2016",
+    "author": [
+      "[美] 库尔特·冯内古特"
+    ],
+    "publisher": "河南大学出版社"
+  },
+  {
     "title": "抄写员巴托比",
     "id": "38392174",
     "status": "done",
@@ -511,7 +528,7 @@
   {
     "title": "进入空气稀薄地带",
     "id": "22513484",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/subject/l/public/s29945959.jpg",
     "douban_url": "https://book.douban.com/subject/22513484/",
