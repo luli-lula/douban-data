@@ -1,8 +1,531 @@
 [
   {
+    "title": "大撒把",
+    "id": "1309235",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2377197353.jpg",
+    "douban_url": "https://movie.douban.com/subject/1309235/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "year": "1992",
+    "directors": [
+      "夏钢"
+    ]
+  },
+  {
+    "title": "桃色公寓",
+    "id": "1394218",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2501319736.jpg",
+    "douban_url": "https://movie.douban.com/subject/1394218/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "year": "1960",
+    "directors": [
+      "比利·怀尔德"
+    ]
+  },
+  {
+    "title": "顽主",
+    "id": "1307690",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2568766819.jpg",
+    "douban_url": "https://movie.douban.com/subject/1307690/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "year": "1988",
+    "directors": [
+      "米家山"
+    ]
+  },
+  {
+    "title": "了不起的盖茨比",
+    "id": "1297239",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2081917343.jpg",
+    "douban_url": "https://movie.douban.com/subject/1297239/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "1974",
+    "directors": [
+      "杰克·克莱顿"
+    ]
+  },
+  {
+    "title": "小妇人",
+    "id": "1298522",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2445191695.jpg",
+    "douban_url": "https://movie.douban.com/subject/1298522/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "家庭"
+    ],
+    "year": "1994",
+    "directors": [
+      "吉莉安·阿姆斯特朗"
+    ]
+  },
+  {
+    "title": "坠入",
+    "id": "1890572",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2493007551.jpg",
+    "douban_url": "https://movie.douban.com/subject/1890572/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧",
+      "奇幻"
+    ],
+    "year": "2006",
+    "directors": [
+      "塔西姆·辛"
+    ]
+  },
+  {
+    "title": "1917",
+    "id": "30252495",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2587146023.jpg",
+    "douban_url": "https://movie.douban.com/subject/30252495/",
+    "mark_date": "2026-08-15",
+    "comment": "比想象中的好很多，没想到已经是7年前的电影了",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "战争"
+    ],
+    "year": "2019",
+    "directors": [
+      "萨姆·门德斯"
+    ]
+  },
+  {
+    "title": "秋日奏鸣曲",
+    "id": "1297268",
+    "status": "done",
+    "rating": "5",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/./images/movies/1297268.jpg",
+    "douban_url": "https://movie.douban.com/subject/1297268/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "家庭"
+    ],
+    "year": "1978",
+    "directors": [
+      "英格玛·伯格曼"
+    ]
+  },
+  {
+    "title": "诗",
+    "id": "3212965",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p694844104.jpg",
+    "douban_url": "https://movie.douban.com/subject/3212965/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2010",
+    "directors": [
+      "李沧东"
+    ]
+  },
+  {
+    "title": "伴你高飞",
+    "id": "1292642",
+    "status": "done",
+    "rating": "5",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/./images/movies/1292642.jpg",
+    "douban_url": "https://movie.douban.com/subject/1292642/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "家庭",
+      "冒险"
+    ],
+    "year": "1996",
+    "directors": [
+      "卡罗尔·巴拉德"
+    ]
+  },
+  {
+    "title": "无主之作",
+    "id": "26701196",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2540129266.jpg",
+    "douban_url": "https://movie.douban.com/subject/26701196/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2018",
+    "directors": [
+      "弗洛里安·亨克尔·冯·多纳斯马尔克"
+    ]
+  },
+  {
+    "title": "十二怒汉",
+    "id": "1293989",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2337734157.jpg",
+    "douban_url": "https://movie.douban.com/subject/1293989/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "犯罪"
+    ],
+    "year": "1997",
+    "directors": [
+      "威廉·弗莱德金"
+    ]
+  },
+  {
+    "title": "犬之岛",
+    "id": "26640371",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2499734013.jpg",
+    "douban_url": "https://movie.douban.com/subject/26640371/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "动画",
+      "冒险"
+    ],
+    "year": "2018",
+    "directors": [
+      "韦斯·安德森"
+    ]
+  },
+  {
+    "title": "国产凌凌漆",
+    "id": "1307739",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2585823759.jpg",
+    "douban_url": "https://movie.douban.com/subject/1307739/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "动作"
+    ],
+    "year": "1994",
+    "directors": [
+      "李力持",
+      "周星驰"
+    ]
+  },
+  {
+    "title": "美好的世界",
+    "id": "34863472",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2626901169.jpg",
+    "douban_url": "https://movie.douban.com/subject/34863472/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "犯罪"
+    ],
+    "year": "2020",
+    "directors": [
+      "西川美和"
+    ]
+  },
+  {
+    "title": "遇见世界",
+    "id": "36689647",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2923972376.jpg",
+    "douban_url": "https://movie.douban.com/subject/36689647/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "directors": [
+      "松居大悟"
+    ]
+  },
+  {
+    "title": "金玉满堂",
+    "id": "1295374",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2871150325.jpg",
+    "douban_url": "https://movie.douban.com/subject/1295374/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "year": "1995",
+    "directors": [
+      "徐克"
+    ]
+  },
+  {
+    "title": "金枝玉叶",
+    "id": "1303376",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2167118411.jpg",
+    "douban_url": "https://movie.douban.com/subject/1303376/",
+    "mark_date": "2026-08-15",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "爱情",
+      "同性"
+    ],
+    "year": "1994",
+    "directors": [
+      "陈可辛"
+    ]
+  },
+  {
+    "title": "69两头勾",
+    "id": "36507383",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2897784591.jpg",
+    "douban_url": "https://movie.douban.com/subject/36507383/",
+    "mark_date": "2026-08-14",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "惊悚"
+    ],
+    "year": "2023",
+    "directors": [
+      "彭力·云旦拿域安"
+    ]
+  },
+  {
+    "title": "孟买酒店",
+    "id": "26794701",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2545020183.jpg",
+    "douban_url": "https://movie.douban.com/subject/26794701/",
+    "mark_date": "2026-08-14",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "惊悚",
+      "历史"
+    ],
+    "year": "2018",
+    "directors": [
+      "安东尼·马拉斯"
+    ]
+  },
+  {
+    "title": "孙子从美国来",
+    "id": "10467774",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2157878128.jpg",
+    "douban_url": "https://movie.douban.com/subject/10467774/",
+    "mark_date": "2026-08-14",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "家庭",
+      "儿童"
+    ],
+    "year": "2012",
+    "directors": [
+      "曲江涛"
+    ]
+  },
+  {
+    "title": "鬼妈妈",
+    "id": "1919245",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1731353563.jpg",
+    "douban_url": "https://movie.douban.com/subject/1919245/",
+    "mark_date": "2026-08-14",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "动画",
+      "家庭"
+    ],
+    "year": "2009",
+    "directors": [
+      "亨利·塞利克"
+    ]
+  },
+  {
+    "title": "梦之歌",
+    "id": "36088979",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2899331823.jpg",
+    "douban_url": "https://movie.douban.com/subject/36088979/",
+    "mark_date": "2026-08-13",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2022",
+    "directors": [
+      "赵贤哲"
+    ]
+  },
+  {
+    "title": "艳子",
+    "id": "6797150",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p1932628159.jpg",
+    "douban_url": "https://movie.douban.com/subject/6797150/",
+    "mark_date": "2026-08-13",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "短片"
+    ],
+    "year": "2011",
+    "directors": [
+      "宫崎光代"
+    ]
+  },
+  {
+    "title": "吻我",
+    "id": "6307506",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p1526654971.jpg",
+    "douban_url": "https://movie.douban.com/subject/6307506/",
+    "mark_date": "2026-08-13",
+    "comment": "太套路了太理想化了",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "同性"
+    ],
+    "year": "2011",
+    "directors": [
+      "亚历桑德拉-泰雷斯·肯宁"
+    ]
+  },
+  {
+    "title": "假日",
+    "id": "26902642",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2639079358.jpg",
+    "douban_url": "https://movie.douban.com/subject/26902642/",
+    "mark_date": "2026-08-13",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "短片",
+      "同性"
+    ],
+    "year": "2014",
+    "directors": [
+      "李贤珠"
+    ]
+  },
+  {
+    "title": "特写",
+    "id": "1303521",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2350715785.jpg",
+    "douban_url": "https://movie.douban.com/subject/1303521/",
+    "mark_date": "2026-08-13",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "犯罪"
+    ],
+    "year": "1990",
+    "directors": [
+      "阿巴斯·基亚罗斯塔米"
+    ]
+  },
+  {
     "title": "亡命闺蜜",
     "id": "36680293",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2934125683.jpg",
     "douban_url": "https://movie.douban.com/subject/36680293/",
@@ -248,7 +771,7 @@
   {
     "title": "激情邀约",
     "id": "35801126",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2932993239.jpg",
     "douban_url": "https://movie.douban.com/subject/35801126/",
