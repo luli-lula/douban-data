@@ -1,5 +1,99 @@
 [
   {
+    "title": "第六感生死缘",
+    "id": "1299769",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p511183278.jpg",
+    "douban_url": "https://movie.douban.com/subject/1299769/",
+    "mark_date": "2026-08-24",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "爱情",
+      "奇幻"
+    ],
+    "year": "1998",
+    "directors": [
+      "马丁·布莱斯特"
+    ]
+  },
+  {
+    "title": "因果报应",
+    "id": "36934908",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2915350868.jpg",
+    "douban_url": "https://movie.douban.com/subject/36934908/",
+    "mark_date": "2026-08-22",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "动作",
+      "悬疑",
+      "犯罪"
+    ],
+    "year": "2024",
+    "directors": [
+      "尼蒂兰·萨米纳坦"
+    ]
+  },
+  {
+    "title": "天狗",
+    "id": "1947270",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1379497824.jpg",
+    "douban_url": "https://movie.douban.com/subject/1947270/",
+    "mark_date": "2026-08-22",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2006",
+    "directors": [
+      "戚健"
+    ]
+  },
+  {
+    "title": "金枝玉叶2",
+    "id": "1302054",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p939948826.jpg",
+    "douban_url": "https://movie.douban.com/subject/1302054/",
+    "mark_date": "2026-08-22",
+    "comment": "续篇也挺有意思",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "同性"
+    ],
+    "year": "1996",
+    "directors": [
+      "陈可辛"
+    ]
+  },
+  {
+    "title": "捡来的孩子",
+    "id": "30488819",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2571850003.jpg",
+    "douban_url": "https://movie.douban.com/subject/30488819/",
+    "mark_date": "2026-08-21",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2019",
+    "directors": [
+      "罗根·马歇尔-格林"
+    ]
+  },
+  {
     "title": "大撒把",
     "id": "1309235",
     "status": "done",
@@ -329,7 +423,7 @@
   {
     "title": "金枝玉叶",
     "id": "1303376",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2167118411.jpg",
     "douban_url": "https://movie.douban.com/subject/1303376/",
@@ -506,7 +600,7 @@
   {
     "title": "特写",
     "id": "1303521",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2350715785.jpg",
     "douban_url": "https://movie.douban.com/subject/1303521/",
