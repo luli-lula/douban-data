@@ -1,5 +1,101 @@
 [
   {
+    "title": "祝你幸福！",
+    "id": "36165364",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2912611018.jpg",
+    "douban_url": "https://movie.douban.com/subject/36165364/",
+    "mark_date": "2026-09-13",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2024",
+    "directors": [
+      "康博"
+    ]
+  },
+  {
+    "title": "直到T恤干透",
+    "id": "38462800",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2933773245.jpg",
+    "douban_url": "https://movie.douban.com/subject/38462800/",
+    "mark_date": "2026-09-12",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "悬疑"
+    ],
+    "year": "2026",
+    "directors": [
+      "土井裕泰"
+    ]
+  },
+  {
+    "title": "罗斯",
+    "id": "35322132",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935294362.jpg",
+    "douban_url": "https://movie.douban.com/subject/35322132/",
+    "mark_date": "2026-09-12",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "directors": [
+      "马库斯·施莱泽"
+    ]
+  },
+  {
+    "title": "水饺皇后",
+    "id": "33414470",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2919557624.jpg",
+    "douban_url": "https://movie.douban.com/subject/33414470/",
+    "mark_date": "2026-09-11",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "传记"
+    ],
+    "year": "2025",
+    "directors": [
+      "刘伟强"
+    ]
+  },
+  {
+    "title": "消失的孩子",
+    "id": "35235616",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2879022893.jpg",
+    "douban_url": "https://movie.douban.com/subject/35235616/",
+    "mark_date": "2026-09-08",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "悬疑",
+      "家庭"
+    ],
+    "year": "2022",
+    "directors": [
+      "赵小鸥",
+      "赵小溪"
+    ]
+  },
+  {
     "title": "给阿嬷的情书",
     "id": "37116446",
     "status": "done",
@@ -286,7 +382,7 @@
   {
     "title": "谜探路德维希 第二季",
     "id": "37100781",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2935133680.jpg",
     "douban_url": "https://movie.douban.com/subject/37100781/",
@@ -1097,7 +1193,7 @@
   {
     "title": "百年孤独 第二季",
     "id": "37185797",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2934714935.jpg",
     "douban_url": "https://movie.douban.com/subject/37185797/",
