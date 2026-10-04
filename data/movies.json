@@ -1,5 +1,213 @@
 [
   {
+    "title": "押注事实",
+    "id": "38372958",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2930576760.jpg",
+    "douban_url": "https://movie.douban.com/subject/38372958/",
+    "mark_date": "2026-10-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": []
+  },
+  {
+    "title": "逃出绝命街",
+    "id": "36318703",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2934546481.jpg",
+    "douban_url": "https://movie.douban.com/subject/36318703/",
+    "mark_date": "2026-10-04",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "动作",
+      "科幻",
+      "惊悚"
+    ],
+    "year": "2026",
+    "directors": [
+      "大卫·罗伯特·米切尔"
+    ]
+  },
+  {
+    "title": "为什么是他？",
+    "id": "26599156",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2363682612.jpg",
+    "douban_url": "https://movie.douban.com/subject/26599156/",
+    "mark_date": "2026-10-04",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "year": "2016",
+    "directors": [
+      "约翰·汉博格"
+    ]
+  },
+  {
+    "title": "狂人皮埃罗",
+    "id": "1292533",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1283677964.jpg",
+    "douban_url": "https://movie.douban.com/subject/1292533/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情",
+      "犯罪"
+    ],
+    "year": "1965",
+    "directors": [
+      "让-吕克·戈达尔"
+    ]
+  },
+  {
+    "title": "人生七年10",
+    "id": "38456015",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2935608151.jpg",
+    "douban_url": "https://movie.douban.com/subject/38456015/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "纪录片"
+    ],
+    "year": "2026",
+    "directors": [
+      "阿斯弗·卡帕迪尔 Asif Kapadia"
+    ]
+  },
+  {
+    "title": "人生七年9",
+    "id": "30322776",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2573211367.jpg",
+    "douban_url": "https://movie.douban.com/subject/30322776/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "纪录片"
+    ],
+    "year": "2019",
+    "directors": [
+      "迈克尔·艾普特"
+    ]
+  },
+  {
+    "title": "大奥2016特别篇",
+    "id": "26678818",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2292701018.jpg",
+    "douban_url": "https://movie.douban.com/subject/26678818/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "历史"
+    ],
+    "year": "2016",
+    "directors": [
+      "林彻"
+    ]
+  },
+  {
+    "title": "奇案84的奇趣民宿 第二季",
+    "id": "37480823",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935281298.jpg",
+    "douban_url": "https://movie.douban.com/subject/37480823/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "真人秀"
+    ],
+    "year": "2026",
+    "directors": [
+      "이소민",
+      "황윤서"
+    ]
+  },
+  {
+    "title": "翠鸟谋杀案",
+    "id": "37218278",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935049923.jpg",
+    "douban_url": "https://movie.douban.com/subject/37218278/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "悬疑",
+      "犯罪"
+    ],
+    "year": "2026",
+    "directors": [
+      "丽贝卡·加特沃德"
+    ]
+  },
+  {
+    "title": "流人 第六季",
+    "id": "36689816",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935061677.jpg",
+    "douban_url": "https://movie.douban.com/subject/36689816/",
+    "mark_date": "2026-10-03",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "惊悚"
+    ],
+    "year": "2026",
+    "directors": [
+      "亚当·兰道"
+    ]
+  },
+  {
+    "title": "消失的裂痕",
+    "id": "37210479",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2935261564.jpg",
+    "douban_url": "https://movie.douban.com/subject/37210479/",
+    "mark_date": "2026-10-02",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "悬疑",
+      "惊悚"
+    ],
+    "year": "2026",
+    "directors": [
+      "张亨如"
+    ]
+  },
+  {
     "title": "大学炸弹客",
     "id": "38184963",
     "status": "done",
@@ -329,7 +537,7 @@
   {
     "title": "宇宙年糕店",
     "id": "38461158",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2934695257.jpg",
     "douban_url": "https://movie.douban.com/subject/38461158/",
