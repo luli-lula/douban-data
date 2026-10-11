@@ -1,8 +1,140 @@
 [
   {
+    "title": "杀手妈咪",
+    "id": "37401968",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2933966186.jpg",
+    "douban_url": "https://movie.douban.com/subject/37401968/",
+    "mark_date": "2026-10-10",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "惊悚"
+    ],
+    "year": "2026",
+    "directors": [
+      "尹钟浩",
+      "金志勋"
+    ]
+  },
+  {
+    "title": "不是你的恋爱",
+    "id": "37862873",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2934880749.jpg",
+    "douban_url": "https://movie.douban.com/subject/37862873/",
+    "mark_date": "2026-10-10",
+    "comment": "一集弃",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "2026",
+    "directors": [
+      "黄昇基"
+    ]
+  },
+  {
+    "title": "恋爱博士",
+    "id": "37746098",
+    "status": "doing",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935882477.jpg",
+    "douban_url": "https://movie.douban.com/subject/37746098/",
+    "mark_date": "2026-10-09",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "2026",
+    "directors": [
+      "安畔锡"
+    ]
+  },
+  {
+    "title": "中头奖还是要上班",
+    "id": "37214286",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935403473.jpg",
+    "douban_url": "https://movie.douban.com/subject/37214286/",
+    "mark_date": "2026-10-08",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "year": "2026",
+    "directors": [
+      "尹英彬"
+    ]
+  },
+  {
+    "title": "怪物：丽兹·波顿的故事",
+    "id": "37413245",
+    "status": "done",
+    "rating": "unrated",
+    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2935880473.jpg",
+    "douban_url": "https://movie.douban.com/subject/37413245/",
+    "mark_date": "2026-10-06",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "惊悚",
+      "传记"
+    ],
+    "year": "2026",
+    "directors": [
+      "麦克思·温克勒"
+    ]
+  },
+  {
+    "title": "爱情呼叫转移",
+    "id": "1927686",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1103600864.jpg",
+    "douban_url": "https://movie.douban.com/subject/1927686/",
+    "mark_date": "2026-10-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "year": "2007",
+    "directors": [
+      "张建亚"
+    ]
+  },
+  {
+    "title": "清洁女工手记",
+    "id": "34966171",
+    "status": "mark",
+    "rating": "unrated",
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2601703914.jpg",
+    "douban_url": "https://movie.douban.com/subject/34966171/",
+    "mark_date": "2026-10-05",
+    "comment": "",
+    "tags": "",
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "directors": []
+  },
+  {
     "title": "押注事实",
     "id": "38372958",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2930576760.jpg",
     "douban_url": "https://movie.douban.com/subject/38372958/",
@@ -482,7 +614,7 @@
   {
     "title": "思想验证区域 第二季",
     "id": "37926820",
-    "status": "doing",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2935462419.jpg",
     "douban_url": "https://movie.douban.com/subject/37926820/",
