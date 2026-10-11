@@ -1,5 +1,56 @@
 [
   {
+    "title": "Light and Thread",
+    "id": "37868908",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img3.doubanio.com/view/subject/l/public/s35319490.jpg",
+    "douban_url": "https://book.douban.com/subject/37868908/",
+    "mark_date": "2026-10-08",
+    "comment": "",
+    "tags": "",
+    "genres": [],
+    "year": "2026",
+    "author": [
+      "Han Kang"
+    ],
+    "publisher": "Hogarth"
+  },
+  {
+    "title": "天色已晚",
+    "id": "37890167",
+    "status": "done",
+    "rating": "3",
+    "poster_url": "https://img3.doubanio.com/view/subject/l/public/s35354128.jpg",
+    "douban_url": "https://book.douban.com/subject/37890167/",
+    "mark_date": "2026-10-08",
+    "comment": "有点意思",
+    "tags": "",
+    "genres": [],
+    "year": "2026",
+    "author": [
+      "[爱尔兰]克莱尔·吉根"
+    ],
+    "publisher": "太白文艺出版社"
+  },
+  {
+    "title": "刚刚离开的世界",
+    "id": "37447242",
+    "status": "done",
+    "rating": "2",
+    "poster_url": "https://img9.doubanio.com/view/subject/l/public/s35411484.jpg",
+    "douban_url": "https://book.douban.com/subject/37447242/",
+    "mark_date": "2026-10-06",
+    "comment": "",
+    "tags": "",
+    "genres": [],
+    "year": "2026",
+    "author": [
+      "[韩] 金草叶"
+    ],
+    "publisher": "国文出版社"
+  },
+  {
     "title": "房客",
     "id": "30218856",
     "status": "done",
@@ -19,7 +70,7 @@
   {
     "title": "清洁女工手册",
     "id": "35519947",
-    "status": "mark",
+    "status": "done",
     "rating": "unrated",
     "poster_url": "https://img9.doubanio.com/view/subject/l/public/s33971645.jpg",
     "douban_url": "https://book.douban.com/subject/35519947/",
