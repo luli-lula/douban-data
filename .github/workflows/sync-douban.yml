@@ -1,0 +1,71 @@
+name: Sync Douban
+
+# 目前没有配置 DOUBAN_COOKIE，数据靠「每月浏览器对账」routine 维护（见 CLAUDE.md）。
+# 配好 secret DOUBAN_COOKIE 后，取消下面 schedule 的注释即可恢复每周自动同步。
+on:
+  # schedule:
+  #   # 每周日 UTC 16:00（北京时间周一 0:00）
+  #   - cron: '0 16 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: sync-douban
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # 同步失败不立刻终止：已成功写入的数据（例如电影）仍然要提交
+      - name: Sync from Douban
+        id: sync
+        continue-on-error: true
+        env:
+          DOUBAN_COOKIE: ${{ secrets.DOUBAN_COOKIE }}
+        run: node scripts/sync-douban.js all
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ images/ README.md
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "🔄 同步豆瓣数据"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Notify Bark on failure
+        if: always() && (steps.sync.outcome == 'failure' || steps.commit.outcome == 'failure')
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SYNC_OUTCOME: ${{ steps.sync.outcome }}
+          COMMIT_OUTCOME: ${{ steps.commit.outcome }}
+        run: |
+          REASON=$(head -c 300 .sync-error 2>/dev/null | tr '\n' ' ')
+          [ -z "$REASON" ] && REASON="同步=$SYNC_OUTCOME 提交=$COMMIT_OUTCOME"
+          if [ -z "$BARK_KEY" ]; then
+            echo "::warning::BARK_KEY 未配置，无法发送 Bark 提醒"
+          else
+            jq -n --arg url "$RUN_URL" --arg body "$REASON" \
+              '{title:"豆瓣同步失败", body:$body, group:"douban-data", url:$url, sound:"none"}' \
+              | curl -fsS -X POST "https://api.day.app/$BARK_KEY" -H 'Content-Type: application/json' -d @-
+          fi
+          exit 1
