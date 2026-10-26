@@ -1,15 +1,15 @@
 {
   "total": 2801,
   "new_this_run": 0,
-  "last_update": "2026-10-26T14:44:43.605Z",
+  "last_update": "2026-10-26T19:08:41.233Z",
   "user_id": "59715677",
   "rating_distribution": {
     "1": 39,
     "2": 247,
-    "3": 797,
+    "3": 795,
     "4": 554,
-    "5": 312,
-    "unrated": 852
+    "5": 309,
+    "unrated": 857
   },
   "status_distribution": {
     "done": 2792,
