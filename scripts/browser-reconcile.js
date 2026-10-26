@@ -16,7 +16,7 @@
   if (!type) { state.error = '请在 movie.douban.com 或 book.douban.com 页面运行'; state.done = true; return; }
 
   const LISTS = { collect: 'done', do: 'doing', wish: 'mark' };
-  const TITLE_RE = type === 'movie' ? /我(?:看过|在看|想看)的影视\((\d+)\)/ : /我(?:读过|在读|想读)的书\((\d+)\)/;
+  const TITLE_RE = type === 'movie' ? /我(?:看过|在看|想看)的[^(（]+[(（](\d+)[)）]/ : /我(?:读过|在读|想读)的[^(（]+[(（](\d+)[)）]/;
   const sleep = ms => new Promise(r => setTimeout(r, ms));
   const clean = s => (s || '').replace(/\s+/g, ' ').trim();
   // 列表页短评末尾会带点赞数，例如「(57 有用)」
