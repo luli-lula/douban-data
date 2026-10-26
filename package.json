@@ -1,13 +1,14 @@
 {
   "name": "douban-data",
   "version": "1.0.0",
-  "description": "Personal Douban movies/books data sync and processing",
+  "description": "Personal Douban movies/books sync (logged-in web lists -> JSON + local posters)",
   "scripts": {
-    "process:movies": "node scripts/process-csv-movies.js",
-    "process:books": "node scripts/process-csv-books.js"
+    "sync": "node scripts/sync-douban.js all",
+    "sync:dry": "DRY_RUN=1 node scripts/sync-douban.js all"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/luli-lula/douban-data.git"

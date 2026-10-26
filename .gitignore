@@ -17,3 +17,5 @@ Thumbs.db
 
 # Logs
 *.log
+# 同步失败原因（workflow 用来发 Bark）
+.sync-error
