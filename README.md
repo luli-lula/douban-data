@@ -80,16 +80,16 @@
 - **完整性校验**: 解析出的条数必须等于页面标题里的总数，否则整次同步失败，不写任何文件
 - **只增不删**: 已看/已读的本地记录永不删除；想看/在看如果网页上取消了标记则移除；评分、短评、标签以网页为准
 - **海报**: 评分 ≥ 3 星的保存为 `images/{movies,books}/{id}.jpg`，经 jsDelivr 提供（jsDelivr 对 GitHub 仓库有约 50MB 的体积限制，当前约 35MB）
-- **失败提醒**: 同步失败（cookie 过期、被拦截、数量不完整）时通过 Bark 通知
-- **同步频率**: 每周日北京时间 0:00
+- **运行方式**: 在 Lula 的 Mac 上用 launchd 跑 `scripts/weekly-sync.sh`（`top.ailula.douban-sync`），每周四 20:00（美东）。用家里的网络，不用 GitHub Actions
+- **失败提醒**: 同步失败（登录过期、被拦截、数量不完整、推送失败）时 Bark 响铃通知。日志只保留最近一次：`~/Library/Logs/douban-sync.log`
 
 ## Cookie
 
 脚本需要豆瓣登录 cookie（`dbcl2` 和 `bid`，形如 `dbcl2="..."; bid=...`）：
 
-- GitHub Actions: 仓库 secret `DOUBAN_COOKIE`；Bark 提醒用 secret `BARK_KEY`
-- 本地: `~/.config/douban/cookie`（`chmod 600`）
-- cookie 失效时 Bark 会提示“cookie 已失效”，重新复制一次即可
+- 每次同步前，`scripts/cookie-from-chrome.py` 从 Chrome（Default 资料）读出豆瓣登录 cookie，写到 `~/.config/douban/cookie`（`chmod 600`）。不用手动复制
+- 第一次运行时 macOS 会询问钥匙串「Chrome Safe Storage」的权限，点「始终允许」
+- Chrome 里的豆瓣登录过期时会收到提醒：在 Chrome 打开 douban.com 登录一下即可
 
 ## 数据引用
 
@@ -100,9 +100,9 @@ https://raw.githubusercontent.com/luli-lula/douban-data/main/data/books.json
 
 ## 手动触发
 
-Actions → "Sync Douban" → Run workflow
+`launchctl kickstart gui/$(id -u)/top.ailula.douban-sync`（跑一次完整的每周流程）
 
-本地: `pnpm sync`（完整同步）、`pnpm sync:dry`（只看差异）；`POSTERS_ONLY=1 node scripts/sync-douban.js all` 只补海报
+单独同步: `pnpm sync`（完整同步）、`pnpm sync:dry`（只看差异）；`POSTERS_ONLY=1 node scripts/sync-douban.js all` 只补海报
 
 ## 数据结构
 

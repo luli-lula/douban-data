@@ -16,7 +16,7 @@ const sharp = require('sharp');
  *  - 永不删除本地「已看/已读」记录（豆瓣会下架条目，但标记过就是标记过）
  *  - 想看/在看的记录如果网页上已经没有标记，从本地移除（这是你取消了标记）
  *  - 3-5 星条目的海报保存到 images/，缩成统一宽度，poster_url 指向 jsDelivr
- *  - 失败原因写入 .sync-error（workflow 用它发 Bark）
+ *  - 失败原因写入 .sync-error（weekly-sync.sh 用它发 Bark）
  *
  * Cookie：环境变量 DOUBAN_COOKIE，或文件 ~/.config/douban/cookie（形如 `dbcl2="..."; bid=...`）
  *
