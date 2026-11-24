@@ -257,7 +257,7 @@ async function fetchList(type, list) {
 
 function parseList(html) {
   const items = [];
-  const chunks = html.split(/<li id="list(?=\d+" class="item")/).slice(1);
+  const chunks = html.split(/<li id="list(?=\d+" class="item[ "])/).slice(1);
   for (const chunk of chunks) {
     const id = (chunk.match(/^(\d+)"/) || [])[1];
     const titleMatch = chunk.match(/<div class="title">\s*<a [^>]*>([\s\S]*?)<\/a>/);
