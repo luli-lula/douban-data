@@ -1,5 +1,82 @@
 [
   {
+    "title": "库比蒂诺",
+    "year": "2026",
+    "rating": "unrated",
+    "status": "mark",
+    "directors": [
+      "罗伯特·金",
+      "萨姆·霍夫曼"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2935646664.jpg",
+    "douban_url": "https://movie.douban.com/subject/37017952/",
+    "mark_date": "2026-11-09",
+    "comment": "",
+    "tags": "",
+    "id": "37017952"
+  },
+  {
+    "title": "可能的爱情",
+    "id": "36847425",
+    "status": "done",
+    "rating": "4",
+    "poster_url": "https://cdn.jsdelivr.net/gh/luli-lula/douban-data@main/images/movies/36847425.jpg",
+    "douban_url": "https://movie.douban.com/subject/36847425/",
+    "mark_date": "2026-11-08",
+    "comment": "没有那么喜欢，也没之前传的那么神。感觉和燃烧一脉相承，讽刺意味也挺满的，就是实在是太长了",
+    "tags": "",
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "2026",
+    "directors": [
+      "李沧东"
+    ]
+  },
+  {
+    "title": "狂唱下半场",
+    "year": "2026",
+    "rating": "unrated",
+    "status": "done",
+    "directors": [
+      "孙在坤"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧"
+    ],
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2932318966.jpg",
+    "douban_url": "https://movie.douban.com/subject/37151885/",
+    "mark_date": "2026-11-03",
+    "comment": "",
+    "tags": "",
+    "id": "37151885"
+  },
+  {
+    "title": "末路兼职",
+    "year": "2026",
+    "rating": "unrated",
+    "status": "done",
+    "directors": [
+      "金多珉"
+    ],
+    "genres": [
+      "喜剧",
+      "恐怖",
+      "奇幻"
+    ],
+    "poster_url": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2936279046.jpg",
+    "douban_url": "https://movie.douban.com/subject/37210712/",
+    "mark_date": "2026-11-02",
+    "comment": "",
+    "tags": "",
+    "id": "37210712"
+  },
+  {
     "title": "害群之马",
     "id": "36623663",
     "status": "done",
@@ -607,25 +684,6 @@
     "year": "2026",
     "directors": [
       "郑址宇"
-    ]
-  },
-  {
-    "title": "可能的爱情",
-    "id": "36847425",
-    "status": "mark",
-    "rating": "unrated",
-    "poster_url": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2934459377.jpg",
-    "douban_url": "https://movie.douban.com/subject/36847425/",
-    "mark_date": "2026-09-20",
-    "comment": "",
-    "tags": "",
-    "genres": [
-      "剧情",
-      "爱情"
-    ],
-    "year": "2026",
-    "directors": [
-      "李沧东"
     ]
   },
   {
