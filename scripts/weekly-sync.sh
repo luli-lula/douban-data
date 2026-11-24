@@ -24,10 +24,18 @@ case $? in
   *) fail "读不到 Chrome 的 cookie（钥匙串权限？）" ;;
 esac
 
-node scripts/sync-douban.js all || fail "$(head -c 200 .sync-error 2>/dev/null || echo 'sync-douban.js 出错')"
+node scripts/sync-douban.js all
+sync_rc=$?
 
+# sync-douban.js only writes the types that passed its checks, so commit those even if one type failed.
 git add data/ images/ README.md
-if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-git commit -q -m "🔄 同步豆瓣数据 $(date +%F)" || fail "git commit 失败"
-git push -q origin main || fail "git push 失败"
-echo "pushed"
+if ! git diff --cached --quiet; then
+  git commit -q -m "🔄 同步豆瓣数据 $(date +%F)" || fail "git commit 失败"
+  git push -q origin main || fail "git push 失败"
+  echo "pushed"
+else
+  echo "no changes"
+fi
+[ $sync_rc -eq 0 ] || fail "$(head -c 200 .sync-error 2>/dev/null || echo 'sync-douban.js 出错')"
+git status --porcelain | grep -q . && fail "同步后工作区还有未提交的文件"
+exit 0

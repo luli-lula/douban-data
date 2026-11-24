@@ -52,7 +52,7 @@ const TYPES = {
     images: 'images/movies',
     // 列表页路径 → 本地 status；标题里的文字用来确认拿到的是正确的页面
     lists: { collect: 'done', do: 'doing', wish: 'mark' },
-    titleRe: /我(?:看过|在看|想看)的影视\((\d+)\)/,
+    titleRe: /我(?:看过|在看|想看)的[^(（]+\((\d+)\)/,
   },
   book: {
     host: 'book.douban.com',
